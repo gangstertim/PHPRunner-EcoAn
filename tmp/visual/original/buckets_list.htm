@@ -43,9 +43,9 @@
 <td class="runner-cc">
 <table border="0" cellpadding="0" class="runner-hc">
 <tr>
-<td class="runner-cc filler"></td>
+
 {BEGIN prints_block}
-<td  class="runner-cc runner-br runner-b-toplinks_print" {$brickclass_toplinks_print}><span>{BEGIN print_link}
+<td  class="runner-cc runner-bl runner-b-toplinks_print" {$brickclass_toplinks_print}><span>{BEGIN print_link}
 	<span class="runner-btnframe">
 	<span class="runner-btnleft"></span>
 	<span class="runner-btnright"></span>
@@ -69,7 +69,7 @@
 
 
 {BEGIN asearch_link}
-<td  class="runner-cc runner-br runner-b-toplinks_advsearch" {$brickclass_toplinks_advsearch}><span>	<span class="runner-btnframe">
+<td  class="runner-cc runner-bl runner-b-toplinks_advsearch" {$brickclass_toplinks_advsearch}><span>	<span class="runner-btnframe">
 	<span class="runner-btnleft"></span>
 	<span class="runner-btnright"></span>
 	<a href="#" class="runner-button" {$advsearchlink_attrs}>Advanced search</a>
@@ -79,7 +79,7 @@
 
 
 {BEGIN import_link}
-<td  class="runner-cc runner-br runner-b-toplinks_import" {$brickclass_toplinks_import}><span>	<span class="runner-btnframe">
+<td  class="runner-cc runner-bl runner-b-toplinks_import" {$brickclass_toplinks_import}><span>	<span class="runner-btnframe">
 	<span class="runner-btnleft"></span>
 	<span class="runner-btnright"></span>
 	<a href="buckets_import.php?{$crosstable_attrs}" class="runner-button" {$importlink_attrs}>Import</a>
@@ -89,7 +89,7 @@
 
 
 {BEGIN export_link}
-<td  class="runner-cc runner-br runner-b-toplinks_export" {$brickclass_toplinks_export}><span>	<span class="runner-btnframe">
+<td  class="runner-cc runner-bl runner-b-toplinks_export" {$brickclass_toplinks_export}><span>	<span class="runner-btnframe">
 	<span class="runner-btnleft"></span>
 	<span class="runner-btnright"></span>
 	<a target="_blank" href="buckets_export.php" class="runner-button" {$exportlink_attrs}>Export results</a>
@@ -97,6 +97,8 @@
 </span></td>
 {END export_link}
 
+
+<td class="runner-cc filler"></td>
 
 
 </tr>
@@ -113,9 +115,9 @@
 
 
 
-{BEGIN container_search}
-<table class="runner-c runner-c-search" cellpadding="0" >
-<tr class="{$cheaderclass_search}">
+{BEGIN container_hmenu}
+<table class="runner-c runner-c-hmenu" cellpadding="0" >
+<tr class="{$cheaderclass_hmenu}">
 <td class="runner-cl"><img src="images/spacer.gif"></td>
 <td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
 </tr>
@@ -125,133 +127,25 @@
 <table border="0" cellpadding="0" class="runner-hc">
 <tr>
 
-{BEGIN searchform_block}
-<td  class="runner-cc runner-bl runner-b-search" {$brickclass_search}><span>	<span>
-		{BEGIN searchform_text}
-		<input type="text" {$searchfor_attrs} size="25">
-		{END searchform_text}
-		&nbsp;
-		{BEGIN searchform_search}
-		<span class="runner-btnframe">
-			<span class="runner-btnleft"></span>
-			<span class="runner-btnright"></span>
-			<a href="#" class="runner-button-img" {$searchbutton_attrs}><img src="images/search/search.gif"></a>
-		</span>
-		{END searchform_search}
-		&nbsp;
-		{BEGIN searchform_showall}
-		
-		<span class="runner-btnframe" {$showAllCont_attrs}>
-			<span class="runner-btnleft"></span>
-			<span class="runner-btnright"></span>
-			<a href="#" class="runner-button" {$showallbutton_attrs}>Show all</a>
-		</span>
-		{END searchform_showall}
-	</span>
+{BEGIN menu_block}
+<td  class="runner-cc runner-bl runner-b-hmenu" {$brickclass_hmenu}><span>{$mainmenu horizontal}
 </span></td>
-{END searchform_block}
-
-
-{BEGIN searchformbuttons_block}
-<td  class="runner-cc runner-bl runner-b-search_buttons" {$brickclass_search_buttons}><span>	{BEGIN searchPanelTopButtons}
-	<span>
-		&nbsp;
-		<span class="runner-btnframe">
-		<span class="runner-btnleft"></span>
-		<span class="runner-btnright"></span>
-		<a href="#" class="runner-button-img" id="showSrchWin{$id}" {$showHideSearchWin_attrs}><img src="images/search/showWindowPin.gif"></a>
-		</span>
-		&nbsp;		
-		<span class="runner-btnframe">
-		<span class="runner-btnleft"></span>
-		<span class="runner-btnright"></span>
-		<a href="#" class="runner-button-img" id="showOptPanel{$id}" {$showHideSearchPanel_attrs}><img src="images/search/showOptions.gif"></a>
-		</span>
-	</span>
-	{END searchPanelTopButtons}
-</span></td>
-{END searchformbuttons_block}
+{END menu_block}
 
 <td class="runner-cc filler"></td>
-{BEGIN details_block}
-<td  class="runner-cc runner-br runner-b-details_found" {$brickclass_details_found}><span>	<span {$details_attrs}>
-		Details found: <b><span class="runner-details_found_count">{$records_found}</span></b>
-	</span>
-</span></td>
-{END details_block}
-
-
-{BEGIN pages_block}
-<td  class="runner-cc runner-br runner-b-page_of" {$brickclass_page_of}><span>	<span {$pages_attrs}>
-		Page <b>{$page}</b> of <b>{$maxpages}</b>
-	</span>
-
-</span></td>
-{END pages_block}
-
-
-{BEGIN recordspp_block}
-<td  class="runner-cc runner-br runner-b-recsperpage" {$brickclass_recsperpage}><span>	<span id="recordspp_block{$id}" name="recordspp_block{$id}">
-			Records Per Page:&nbsp;{$recsPerPage}
-	</span>	
-</span></td>
-{END recordspp_block}
-
-
 </tr>
 </table></td>
 <td class="runner-cr"></td>
 </tr>
 
-<tr class="{$cfooterclass_search}">
+<tr class="{$cfooterclass_hmenu}">
 <td class="runner-cl"><img src="images/spacer.gif"></td>
 <td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
 </tr>
 </table>
-{END container_search}
+{END container_hmenu}
 
 
-				</td>
-			</tr>
-			<tr class="runner-body">
-				
-				<td class="runner-left {$blockclass_left}" >
-					
-
-
-
-
-
-{BEGIN container_left}
-<table class="runner-c runner-c-left" cellpadding="0" >
-<tr class="{$cheaderclass_left}">
-<td class="runner-cl"><img src="images/spacer.gif"></td>
-<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
-</tr>
-
-{BEGIN searchPanel}
-<tr  class="runner-row style1 runner-b-searchpanel {$brickclass_searchpanel}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" ><div class="searchPanelContainer">
-{$adv_search_panel}
-</div></td><td class="runner-cr"></td></tr>{END searchPanel}
-
-
-{BEGIN menu_block}
-{$mainmenu}
-{END menu_block}
-
-
-<tr class="{$cfooterclass_left}">
-<td class="runner-cl"><img src="images/spacer.gif"></td>
-<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
-</tr>
-</table>
-{END container_left}
-
-
-				</td>	
-				
-				<td class="runner-center {$blockclass_center}">
-					
 
 {BEGIN container_recordcontrols}
 <table class="runner-c runner-c-recordcontrols" cellpadding="0" >
@@ -345,6 +239,103 @@
 {END container_recordcontrols}
 
 
+				</td>
+			</tr>
+			<tr class="runner-body">
+				
+				<td class="runner-left {$blockclass_left}" >
+					
+
+{BEGIN container_left}
+<table class="runner-c runner-c-left" cellpadding="0" >
+<tr class="{$cheaderclass_left}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+
+{BEGIN searchform_block}
+<tr  class="runner-row style2 runner-b-vsearch1 {$brickclass_vsearch1}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" >	Search for:
+	{BEGIN searchPanelTopButtons}	
+	<span>
+	<span class="runner-btnframe">
+	<span class="runner-btnleft"></span>
+	<span class="runner-btnright"></span>
+	<a href="#" class="runner-button-img" id="showSrchWin{$id}" {$showHideSearchWin_attrs}><img src="images/search/showWindowPin.gif"></a>
+	</span>
+	&nbsp;		
+	<span class="runner-btnframe">
+	<span class="runner-btnleft"></span>
+	<span class="runner-btnright"></span>
+	<a href="#" class="runner-button-img" id="showOptPanel{$id}" {$showHideSearchPanel_attrs}><img src="images/search/showOptions.gif"></a>
+	</span>
+	</span>
+	{END searchPanelTopButtons}
+</td><td class="runner-cr"></td></tr>{END searchform_block}
+
+
+{BEGIN searchform_block}
+<tr  class="runner-row style1 runner-b-vsearch2 {$brickclass_vsearch2}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" ><div>
+	<span>
+		{BEGIN searchform_text}
+		<input type="text" {$searchfor_attrs} size="25">
+		{END searchform_text}
+		&nbsp;
+		{BEGIN searchform_search}
+		<span class="runner-btnframe">
+			<span class="runner-btnleft"></span>
+			<span class="runner-btnright"></span>
+			<a href="#" class="runner-button-img" {$searchbutton_attrs}><img src="images/search/search.gif"></a>
+		</span>
+		{END searchform_search}
+		&nbsp;
+		{BEGIN searchform_showall}
+		<span class="runner-btnframe" {$showAllCont_attrs}>
+			<span class="runner-btnleft"></span>
+			<span class="runner-btnright"></span>
+			<a class="runner-button" href="#" {$showallbutton_attrs}>Show all</a>
+		</span>
+		{END searchform_showall}
+	</span>	
+</div></td><td class="runner-cr"></td></tr>{END searchform_block}
+
+
+{BEGIN searchPanel}
+<tr  class="runner-row style1 runner-b-searchpanel {$brickclass_searchpanel}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" ><div class="searchPanelContainer">
+{$adv_search_panel}
+</div></td><td class="runner-cr"></td></tr>{END searchPanel}
+
+
+{BEGIN details_block}
+<tr  class="runner-row style2 runner-b-vdetails_found {$brickclass_vdetails_found}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" ><span  {$details_attrs}>Details found: <span class="runner-details_found_count">{$records_found}</span></span>
+</td><td class="runner-cr"></td></tr>{END details_block}
+
+
+{BEGIN pages_block}
+<tr  class="runner-row style1 runner-b-vpage_of {$brickclass_vpage_of}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" ><span id="pages_block{$id}">
+	<span {$pages_attrs}>Page {$page} of {$maxpages}</span>
+</span>
+</td><td class="runner-cr"></td></tr>{END pages_block}
+
+
+{BEGIN recordspp_block}
+<tr  class="runner-row style1 runner-b-vrecsperpage {$brickclass_vrecsperpage}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" ><span id="recordspp_block{$id}" name="recordspp_block{$id}">
+	Records Per Page:&nbsp;{$recsPerPage}
+</span>
+</td><td class="runner-cr"></td></tr>{END recordspp_block}
+
+
+<tr class="{$cfooterclass_left}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+</table>
+{END container_left}
+
+
+				</td>	
+				
+				<td class="runner-center {$blockclass_center}">
+					
 
 {BEGIN container_message}
 <table class="runner-c runner-c-message" cellpadding="0" >

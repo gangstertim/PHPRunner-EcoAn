@@ -30,11 +30,13 @@
 				<td class="runner-top" colspan=3>
 					
 
-{BEGIN container_add}
-<table class="runner-c runner-c-add" cellpadding="0" align=center>
+{BEGIN container_edit}
+<table class="runner-c runner-c-edit" cellpadding="0" align=center>
 
 
-<tr class="runner-toprow style2 header"><td class="runner-cl"><img src="images/spacer.gif"></td><td class="runner-cc" ><div  class="runner-b-addheader {$brickclass_addheader}">Buckets, Add new record</div></td><td class="runner-cr"><img src="images/spacer.gif"></td></tr>
+<tr class="runner-toprow style2 header"><td class="runner-cl"><img src="images/spacer.gif"></td><td class="runner-cc" ><div  class="runner-b-editheader {$brickclass_editheader}">Buckets, Edit record [
+Bucket No: {$show_key1}
+]</div></td><td class="runner-cr"><img src="images/spacer.gif"></td></tr>
 
 
 {BEGIN message_block}
@@ -46,66 +48,62 @@
 
 {BEGIN container_fields}
 <table class="runner-c runner-c-fields" cellpadding="0" >
-<tr class="{$cheaderclass_fields}">
-<td class="runner-cl"><img src="images/spacer.gif"></td>
-<td class="runner-cc"></td><td class="runner-cc alt"></td><td class="runner-cr alt"><img src="images/spacer.gif"></td>
-</tr>
 
 
 	{BEGIN BucketNo_fieldblock}
-	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
-	<td class="runner-cc runner-cc1">
-		<div class="fieldlabel_BucketNo {$fielddispclass_BucketNo}">
-			{BEGIN BucketNo_label}Bucket No{END BucketNo_label}
-		</div>
-	</td>
-	<td class="runner-cc alt runner-fixedcell">
-		<div class="fieldcontrol_BucketNo {$fielddispclass_BucketNo}">
-			{$BucketNo_editcontrol}&nbsp;
-		</div>
-	</td>
-	<td class="runner-cr alt"></td></tr>
+	<tr class="runner-toprow header style1 runner-b-editfields"><td class="runner-cl"><img src="images/spacer.gif"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_BucketNo {$fielddispclass_BucketNo}">
+				{BEGIN BucketNo_label}Bucket No{END BucketNo_label}
+			</div>
+		</td>
+		<td class="runner-cc alt runner-fixedcell">
+			<div class="fieldcontrol_BucketNo {$fielddispclass_BucketNo}">
+				{$BucketNo_editcontrol}&nbsp;
+			</div>
+		</td>
+	<td class="runner-cr alt"><img src="images/spacer.gif"></td></tr>
 {END BucketNo_fieldblock}
 	{BEGIN UnitEng_fieldblock}
-	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
-	<td class="runner-cc runner-cc1">
-		<div class="fieldlabel_UnitEng {$fielddispclass_UnitEng}">
-			{BEGIN UnitEng_label}Unit Eng{END UnitEng_label}
-		</div>
-	</td>
-	<td class="runner-cc alt runner-fixedcell">
-		<div class="fieldcontrol_UnitEng {$fielddispclass_UnitEng}">
-			{$UnitEng_editcontrol}&nbsp;
-		</div>
-	</td>
+	<tr class="runner-row style1 runner-b-editfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_UnitEng {$fielddispclass_UnitEng}">
+				{BEGIN UnitEng_label}Unit Eng{END UnitEng_label}
+			</div>
+		</td>
+		<td class="runner-cc alt runner-fixedcell">
+			<div class="fieldcontrol_UnitEng {$fielddispclass_UnitEng}">
+				{$UnitEng_editcontrol}&nbsp;
+			</div>
+		</td>
 	<td class="runner-cr alt"></td></tr>
 {END UnitEng_fieldblock}
 	{BEGIN Volume_fieldblock}
-	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
-	<td class="runner-cc runner-cc1">
-		<div class="fieldlabel_Volume {$fielddispclass_Volume}">
-			{BEGIN Volume_label}Volume{END Volume_label}
-		</div>
-	</td>
-	<td class="runner-cc alt runner-fixedcell">
-		<div class="fieldcontrol_Volume {$fielddispclass_Volume}">
-			{$Volume_editcontrol}&nbsp;
-		</div>
-	</td>
+	<tr class="runner-row style1 runner-b-editfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_Volume {$fielddispclass_Volume}">
+				{BEGIN Volume_label}Volume{END Volume_label}
+			</div>
+		</td>
+		<td class="runner-cc alt runner-fixedcell">
+			<div class="fieldcontrol_Volume {$fielddispclass_Volume}">
+				{$Volume_editcontrol}&nbsp;
+			</div>
+		</td>
 	<td class="runner-cr alt"></td></tr>
 {END Volume_fieldblock}
 	{BEGIN DryWeight_fieldblock}
-	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
-	<td class="runner-cc runner-cc1">
-		<div class="fieldlabel_DryWeight {$fielddispclass_DryWeight}">
-			{BEGIN DryWeight_label}Dry Weight{END DryWeight_label}
-		</div>
-	</td>
-	<td class="runner-cc alt runner-fixedcell">
-		<div class="fieldcontrol_DryWeight {$fielddispclass_DryWeight}">
-			{$DryWeight_editcontrol}&nbsp;
-		</div>
-	</td>
+	<tr class="runner-row style1 runner-b-editfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_DryWeight {$fielddispclass_DryWeight}">
+				{BEGIN DryWeight_label}Dry Weight{END DryWeight_label}
+			</div>
+		</td>
+		<td class="runner-cc alt runner-fixedcell">
+			<div class="fieldcontrol_DryWeight {$fielddispclass_DryWeight}">
+				{$DryWeight_editcontrol}&nbsp;
+			</div>
+		</td>
 	<td class="runner-cr alt"></td></tr>
 {END DryWeight_fieldblock}
 
@@ -119,20 +117,27 @@
 
 
 
-<tr  class="runner-row style2 runner-b-addbuttons {$brickclass_addbuttons}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" colspan=2>{BEGIN save_button}
+<tr  class="runner-row style2 runner-b-editbuttons {$brickclass_editbuttons}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" colspan=2>{BEGIN save_button}
 <span class="runner-btnframe">
 <span class="runner-btnleft"></span>
 <span class="runner-btnright"></span>
 <a href="#" class="runner-button" {$savebutton_attrs}>Save</a>
 </span>
 {END save_button}
-{BEGIN cancel_button}
+{BEGIN reset_button}
 <span class="runner-btnframe">
 <span class="runner-btnleft"></span>
 <span class="runner-btnright"></span>
-<a href="#" class="runner-button" {$cancelbutton_attrs}>Cancel</a>
+<a href="#" class="runner-button" {$resetbutton_attrs}>Reset</a>
 </span>
-{END cancel_button}
+{END reset_button}
+{BEGIN prev_button}
+<span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#" class="runner-button" {$prevbutton_attrs}>&nbsp;<<<&nbsp;</a>
+</span>
+{END prev_button}
 {BEGIN back_button}
 <span class="runner-btnframe">
 <span class="runner-btnleft"></span>
@@ -140,13 +145,14 @@
 <a href="#" class="runner-button" {$backbutton_attrs}>Back to list</a>
 </span>
 {END back_button}
-{BEGIN backToMenu_button}
+{BEGIN next_button}
 <span class="runner-btnframe">
 <span class="runner-btnleft"></span>
 <span class="runner-btnright"></span>
-<a href="#" class="runner-button" {$backToMenubutton_attrs}>Back to menu</a>
+<a href="#" class="runner-button" {$nextbutton_attrs}>&nbsp;>>>&nbsp;</a>
 </span>
-{END backToMenu_button}</td><td class="runner-cr"></td></tr>
+{END next_button}
+</td><td class="runner-cr"></td></tr>
 
 
 <tr class="{$cfooterclass_fields}">
@@ -159,12 +165,12 @@
 </td><td class="runner-cr"></td></tr>
 
 
-<tr class="{$cfooterclass_add}">
+<tr class="{$cfooterclass_edit}">
 <td class="runner-cl"><img src="images/spacer.gif"></td>
 <td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
 </tr>
 </table>
-{END container_add}
+{END container_edit}
 
 
 
