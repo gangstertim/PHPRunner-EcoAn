@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<HTML {$html_attrs}><HEAD><TITLE>{$pagetitle}</TITLE>
+<META content=IE=7 http-equiv=X-UA-Compatible>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK rel=stylesheet type=text/css href="styles/default.css">{BEGIN rtlCSS}<LINK rel=stylesheet type=text/css href="styles/defaultRTL.css">{END rtlCSS}{BEGIN styleCSSFiles}<LINK rel=stylesheet type=text/css href="{$stylepath}">{END styleCSSFiles}{BEGIN pageCSSFiles}<LINK rel=stylesheet type=text/css href="{$pagestylepath}">{END pageCSSFiles}<!--[if IE]><LINK rel=stylesheet type=text/css href="styles/defaultIE.css">{BEGIN IEcssFiles}<LINK rel=stylesheet type=text/css href="{$stylepathIE}">{END IEcssFiles}<![endif]-->
+<META name=GENERATOR content="MSHTML 9.00.8112.16457"></HEAD>
+<BODY class="{$stylename}" {$bodyattrs}>{BEGIN body}{$header} 
+<TABLE class=runner-toptable cellPadding=0><TR class=runner-header><TD class=runner-top colSpan=3>{BEGIN container_toplinks}<TABLE class="runner-c runner-c-toplinks" cellPadding=0><TR class="{$cheaderclass_toplinks}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+        <TR class="runner-row style1"><TD class=runner-cl></TD>
+          <TD class=runner-cc><TABLE class=runner-hc border=0 cellPadding=0><TR><TD class="runner-cc filler"></TD>
+                {BEGIN prints_block}<TD class="runner-cc runner-br runner-b-toplinks_print" {$brickclass_toplinks_print}><SPAN>{BEGIN print_link}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$printlink_attrs}>Printer-friendly version</A> </SPAN>{END print_link}{BEGIN printall_link}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$printalllink_attrs}>Print 
+                  whole report</A> </SPAN>{END printall_link}</SPAN></TD>
+                {END prints_block}{BEGIN asearch_link}<TD class="runner-cc runner-br runner-b-toplinks_advsearch" {$brickclass_toplinks_advsearch}><SPAN><SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$advsearchlink_attrs}>Advanced 
+                  search</A> </SPAN></SPAN></TD>
+                {END asearch_link}{BEGIN export_link}<TD class="runner-cc runner-br runner-b-toplinks_export_links" {$brickclass_toplinks_export_links}><SPAN><SPAN id=export_links{$id}><A href="#" 
+                  {$excellink_attrs}><IMG border=0 alt="Export to Excel" src="images/excel.gif"></A> <A href="#" {$wordlink_attrs}><IMG border=0 alt="Export to Word" src="images/word.gif"></A> </SPAN></SPAN></TD>{END export_link}</TR></TABLE></TD>
+          <TD class=runner-cr></TD></TR>
+        <TR class="{$cfooterclass_toplinks}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TABLE>{END container_toplinks}
+      {BEGIN container_search}<TABLE class="runner-c runner-c-search" cellPadding=0><TR class="{$cheaderclass_search}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+        <TR class="runner-row style1"><TD class=runner-cl></TD>
+          <TD class=runner-cc><TABLE class=runner-hc border=0 cellPadding=0><TR>{BEGIN searchform_block}<TD class="runner-cc runner-bl runner-b-search" {$brickclass_search}><SPAN><SPAN>{BEGIN searchform_text}<INPUT size=25 {$searchfor_attrs}>{END searchform_text} &nbsp; {BEGIN searchform_search}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button-img href="#" {$searchbutton_attrs}><IMG src="images/search/search.gif"></A> </SPAN>{END searchform_search}&nbsp; {BEGIN searchform_showall}<SPAN class=runner-btnframe {$showAllCont_attrs}><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$showallbutton_attrs}>Show 
+                  all</A> </SPAN>{END searchform_showall}</SPAN></SPAN></TD>
+                {END searchform_block}{BEGIN searchformbuttons_block}<TD class="runner-cc runner-bl runner-b-search_buttons" {$brickclass_search_buttons}><SPAN>{BEGIN searchPanelTopButtons}<SPAN>&nbsp; <SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A id=showSrchWin{$id} class=runner-button-img href="#" {$showHideSearchWin_attrs}><IMG src="images/search/showWindowPin.gif"></A> </SPAN>&nbsp; <SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A id=showOptPanel{$id} class=runner-button-img href="#" {$showHideSearchPanel_attrs}><IMG src="images/search/showOptions.gif"></A> </SPAN></SPAN>{END searchPanelTopButtons}</SPAN></TD>
+                {END searchformbuttons_block}<TD class="runner-cc filler"></TD>
+                {BEGIN details_block}<TD class="runner-cc runner-br runner-b-details_found" {$brickclass_details_found}><SPAN><SPAN 
+                  {$details_attrs}>Details found: <B><SPAN 
+                  class=runner-details_found_count>{$records_found}</SPAN></B> 
+                  </SPAN></SPAN></TD>
+                {END details_block}{BEGIN pages_block}<TD class="runner-cc runner-br runner-b-page_of" {$brickclass_page_of}><SPAN><SPAN 
+                  {$pages_attrs}>Page <B>{$page}</B> of 
+                  <B>{$maxpages}</B> 
+                  </SPAN></SPAN></TD>
+                {END pages_block}{BEGIN recordspp_block}<TD class="runner-cc runner-br runner-b-recsperpage" {$brickclass_recsperpage}><SPAN><SPAN id=recordspp_block{$id} name="recordspp_block{$id}">Groups per page:&nbsp;{$grpsPerPage} 
+                  </SPAN></SPAN></TD>{END recordspp_block}</TR></TABLE></TD>
+          <TD class=runner-cr></TD></TR>
+        <TR class="{$cfooterclass_search}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TABLE>{END container_search}</TD></TR>
+  <TR class=runner-body><TD class="runner-left {$blockclass_left}">{BEGIN container_left}<TABLE class="runner-c runner-c-left" cellPadding=0><TR class="{$cheaderclass_left}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+        {BEGIN menu_block}{$mainmenu}{END menu_block}{BEGIN searchPanel}<TR class="runner-row style1 runner-b-searchpanel {$brickclass_searchpanel}"><TD class=runner-cl></TD>
+          <TD class="runner-cc runner-brickcontents"><DIV class=searchPanelContainer>{$adv_search_panel} 
+            </DIV></TD>
+          <TD class=runner-cr></TD></TR>
+        {END searchPanel}<TR class="{$cfooterclass_left}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TABLE>{END container_left}</TD>
+    <TD class="runner-center {$blockclass_center}">{BEGIN container_message}<TABLE class="runner-c runner-c-message" cellPadding=0><TR class="{$cheaderclass_message}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+        <TR class="runner-row style1"><TD class=runner-cl></TD>
+          <TD class=runner-cc><TABLE class=runner-hc border=0 cellPadding=0><TR>{BEGIN message_block}<TD class="runner-cc runner-bc runner-b-message" {$brickclass_message}><SPAN><DIV class=runner-message>{$message}</DIV></SPAN></TD>{END message_block}</TR></TABLE></TD>
+          <TD class=runner-cr></TD></TR>
+        <TR class="{$cfooterclass_message}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TABLE>{END container_message}
+      {BEGIN container_grid}<STYLE>
+table.report {border-collapse: collapse} 
+table.report td {padding: 2px;border-width: 1px; border-style: solid; border-color: #cccccc;}
+div.page_block{clear:left;}
+td.noborder{padding-right:8px}
+td.data{padding-right:8px}
+td.group_1{background-color: #90EE90;padding-right:8px}
+td.group_2{background-color: #FFB6C1;padding-right:8px}
+td.group_3{background-color: #ADD8E6;padding-right:8px}
+td.group_4{background-color: #FFFACD;padding-right:8px}
+td.group_5{background-color: #7FFFD4;padding-right:8px}
+td.group_6{background-color: #B0E0E6;padding-right:8px}
+td.group_7{background-color: #FA8072;padding-right:8px}
+td.group_8{background-color: #FFF8DC;padding-right:8px}
+td.group_9{background-color: #ADFF2F;padding-right:8px}
+td.group_10{background-color: #E0FFFF;padding-right:8px}
+td.group_11{background-color: #FFA07A;padding-right:8px}
+td.group_12{background-color: #FFDEAD;padding-right:8px}
+td.group_13{background-color: #FF0000;padding-right:8px}
+td.nbgroup_1{background-color: #90EE90;border-style:none;padding-right:8px}
+td.nbgroup_2{background-color: #FFB6C1;border-style:none;padding-right:8px}
+td.nbgroup_3{background-color: #ADD8E6;border-style:none;padding-right:8px}
+td.nbgroup_4{background-color: #FFFACD;border-style:none;padding-right:8px}
+td.nbgroup_5{background-color: #7FFFD4;border-style:none;padding-right:8px}
+td.nbgroup_6{background-color: #B0E0E6;border-style:none;padding-right:8px}
+td.nbgroup_7{background-color: #FA8072;border-style:none;padding-right:8px}
+td.nbgroup_8{background-color: #FFF8DC;border-style:none;padding-right:8px}
+td.nbgroup_9{background-color: #ADFF2F;border-style:none;padding-right:8px}
+td.nbgroup_10{background-color: #E0FFFF;border-style:none;padding-right:8px}
+td.nbgroup_11{background-color: #FFA07A;border-style:none;padding-right:8px}
+td.nbgroup_12{background-color: #FFDEAD;border-style:none;padding-right:8px}
+td.nbgroup_13{background-color: #FF0000;border-style:none;padding-right:8px}
+td.header_1{background-color: #7ACA7A;padding-right:8px}
+td.header_2{background-color: #D89AA4;padding-right:8px}
+td.header_3{background-color: #93B7C3;padding-right:8px}
+td.header_4{background-color: #D8D4AE;padding-right:8px}
+td.header_5{background-color: #6BD8B4;padding-right:8px}
+td.header_6{background-color: #95BEC3;padding-right:8px}
+td.header_7{background-color: #D46C60;padding-right:8px}
+td.header_8{background-color: #D8D2BB;padding-right:8px}
+td.header_9{background-color: #93D827;padding-right:8px}
+td.header_10{background-color: #BED8D8;padding-right:8px}
+td.header_11{background-color: #D88867;padding-right:8px}
+td.header_12{background-color: #D8BC93;padding-right:8px}
+td.header_13{background-color: #D80000;padding-right:8px}
+td.pagesummary{background-color:#ffffbb;padding-right:8px}
+td.globalsummary{background-color:#ffe0b0;padding-right:8px}
+</STYLE>
+
+      <TABLE style="WIDTH: auto; HEIGHT: 379px" class=runner-b-report border=0 
+      cellSpacing=0 cellPadding=5><TR class="runner-toprow style1"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+        <TR class="runner-row style1"><TD class=runner-cl></TD>
+          <TD class=runner-cc><TABLE 
+            style="PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; WIDTH: 951px; PADDING-RIGHT: 2px; PADDING-TOP: 2px" 
+            border=0 cellSpacing=0 cellPadding=0><!-------------------------------------  group headers ----------------------------------------->
+              {BEGIN grid_row}{BEGIN ProdEngName_newgroup}<TR><TD class="header_1 runner-cc"></TD>
+                <TD class="header_1 runner-cc" colSpan=8><P align=center><FONT 
+                  style="FONT-WEIGHT: 900">&nbsp;</P></FONT>
+                  <P align=center><FONT size=4>{$ProdEngName_grval}</FONT></P></TD>
+                <TD class="header_1 runner-cc"></TD></TR>
+              {END ProdEngName_newgroup}{BEGIN ProdThaiName_newgroup}<TR><TD class="header_2 runner-cc"></TD>
+                <TD class="header_2 runner-cc" colSpan=8><P align=center><FONT 
+                  style="FONT-WEIGHT: 900">&nbsp;</P></FONT>
+                  <P align=center><FONT size=3>{$ProdThaiName_grval}</FONT></P></TD>
+                <TD class="header_2 runner-cc"></TD></TR>
+              {END ProdThaiName_newgroup}{BEGIN ProdNo_newgroup}<TR><TD class="header_3 runner-cc"></TD>
+                <TD class="header_3 runner-cc" colSpan=8><P align=center><FONT 
+                  style="FONT-WEIGHT: 900">&nbsp;</P></FONT>
+                  <P align=center><FONT size=3>{$ProdNo_grval}</FONT></P></TD>
+                <TD class="header_3 runner-cc"></TD></TR>
+              <TR><TD class="header_3 runner-cc">Cost Component</TD>
+                <TD class="header_3 runner-cc"></TD>
+                <TD class=header_3>Cost Type</TD>
+                <TD class="header_3 runner-cc">Quantity</TD>
+                <TD class="header_3 runner-cc">Unit</TD>
+                <TD class="header_3 runner-cc">Cost</TD>
+                <TD class="header_3 runner-cc">Cost/Yr</TD>
+                <TD class="header_3 runner-cc">Cost/Mo</TD>
+                <TD class="header_3 runner-cc">Cost/Pc</TD>
+                <TD class="header_3 runner-cc">%Cost</TD></TR>
+              {END ProdNo_newgroup}{BEGIN EngName_newgroup}<TR><TD class="header_4 runner-cc">{$EngName_grval}</TD>
+                <TD class="header_4 runner-cc">{$ThaiName_grval}</TD>
+                <TD style="WIDTH: 944px" 
+                  class=header_4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                  <FONT style="FONT-WEIGHT: 900">{$CostType_grval}</FONT></TD>
+                <TD 
+                  class="header_4 runner-cc">{$Qtty_grval}</TD>
+                <TD class="header_4 runner-cc">{$UnitEngRpt_grval}</TD>
+                <TD class="header_4 runner-cc">{$Cost_grval}</TD>
+                <TD class="header_4 runner-cc">{$CostYear_grval}</TD>
+                <TD class="header_4 runner-cc">{$CostMonth_grval}</TD>
+                <TD class="header_4 runner-cc">{$PieceCost_grval}</TD>
+                <TD class="header_4 runner-cc">{$PercentCost_grval}</TD></TR>
+              <TR><TD class="header_4 runner-cc"></TD>
+                <TD class="header_4 runner-cc"></TD>
+                <TD class=header_4></TD>
+                <TD class="header_4 runner-cc"></TD>
+                <TD class="header_4 runner-cc"></TD>
+                <TD class="header_4 runner-cc"></TD>
+                <TD class="header_4 runner-cc"></TD>
+                <TD class="header_4 runner-cc"></TD>
+                <TD class="header_4 runner-cc"></TD>
+                <TD class="header_4 runner-cc"></TD></TR><!-------------------------------------  data -----------------------------------------><!-------------------------------------  group summary ----------------------------------------->{END EngName_newgroup}{END grid_row}</TABLE></TD>
+          <TD class=runner-cr></TD></TR>
+        <TR class="runner-row style1"><TD class=runner-cl></TD>
+          <TD class=runner-cc><TABLE border=0 cellSpacing=0 cellPadding=0><TR></TR><!--------------------------------------page summary-------------------------------------------->
+              <TR><TD class=pagesummary>Page summary {$page_total_cnt} - 
+                  records total</TD></TR><!--  Sum -->
+				<tr></tr>	
+								<!--  Avg -->
+				<tr></tr>	
+								<!--  Min -->
+				<tr></tr>	
+								<!--  Max -->
+				<tr></tr>	
+								</TABLE></TD>
+          <TD class=runner-cr></TD></TR>
+        <TR class="runner-bottomrow style1"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TABLE>{END container_grid}
+      {BEGIN container_pagination}<TABLE class="runner-c runner-c-pagination" cellPadding=0><TR class="{$cheaderclass_pagination}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+        <TR class="runner-row style1"><TD class=runner-cl></TD>
+          <TD class=runner-cc><TABLE class=runner-hc border=0 cellPadding=0><TR>{BEGIN pagination_block}<TD class="runner-cc runner-bc runner-b-pagination" {$brickclass_pagination}><SPAN>{$pagination}</SPAN></TD>{END pagination_block}</TR></TABLE></TD>
+          <TD class=runner-cr></TD></TR>
+        <TR class="{$cfooterclass_pagination}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TABLE>{END container_pagination}
+      {BEGIN container_form}<TABLE class="runner-c runner-c-form" cellPadding=0><TR class="{$cheaderclass_form}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+        <TR class="runner-row style1"><TD class=runner-cl></TD>
+          <TD class=runner-cc><TABLE class=runner-hc border=0 cellPadding=0><TR><TD class="runner-cc runner-bl runner-b-reportvariable" 
+                {$brickclass_reportvariable}><SPAN>{$report_filename}</SPAN></TD>
+                <TD class="runner-cc filler"></TD></TR></TABLE></TD>
+          <TD class=runner-cr></TD></TR>
+        <TR class="{$cfooterclass_form}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TABLE>{END container_form}</TD>
+    <TD class="runner-right {$blockclass_right}"></TD></TR>
+  <TR class=runner-footer><TD class=runner-bottom 
+colSpan=3><!--%%bottom%%--></TD></TR></TABLE>{$footer}{END body} </BODY></HTML>

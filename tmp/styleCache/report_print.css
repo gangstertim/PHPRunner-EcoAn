@@ -1,0 +1,58 @@
+.page-preview,
+  .runner-pagewrapper .page-preview,
+  .runner-pagewrapper .runner-pagewrapper .page-preview
+{
+padding-top:10px; padding-left:10px;
+}
+.page-preview .runner-c-pdf,
+  .runner-pagewrapper .page-preview .runner-c-pdf,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-c-pdf
+{
+margin-bottom:5px;
+}
+.page-preview .runner-b-printpdf, .page-preview .runner-b-printpdf,
+.page-preview .runner-b-printpdf, .page-preview .runner-b-printpdf > *,
+  .runner-pagewrapper .page-preview .runner-b-printpdf, .page-preview .runner-b-printpdf,
+  .runner-pagewrapper .page-preview .runner-b-printpdf, .page-preview .runner-b-printpdf > *,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-printpdf, .page-preview .runner-b-printpdf,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-printpdf, .page-preview .runner-b-printpdf > *
+{
+white-space: nowrap;
+}
+.page-preview .runner-b-printpdf, .page-preview .runner-b-printpdf,
+.page-preview .runner-b-printpdf, .page-preview .runner-b-printpdf > *,
+  .runner-pagewrapper .page-preview .runner-b-printpdf, .page-preview .runner-b-printpdf,
+  .runner-pagewrapper .page-preview .runner-b-printpdf, .page-preview .runner-b-printpdf > *,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-printpdf, .page-preview .runner-b-printpdf,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-printpdf, .page-preview .runner-b-printpdf > *
+{
+text-align: left;
+}
+.page-preview .runner-c-grid,
+  .runner-pagewrapper .page-preview .runner-c-grid,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-c-grid
+{
+margin-bottom:5px;
+}
+.page-preview .runner-b-report_print, .page-preview .runner-b-report_print,
+.page-preview .runner-b-report_print, .page-preview .runner-b-report_print > *,
+  .runner-pagewrapper .page-preview .runner-b-report_print, .page-preview .runner-b-report_print,
+  .runner-pagewrapper .page-preview .runner-b-report_print, .page-preview .runner-b-report_print > *,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-report_print, .page-preview .runner-b-report_print,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-report_print, .page-preview .runner-b-report_print > *
+{
+white-space: nowrap;
+}
+.page-preview .runner-b-report_print, .page-preview .runner-b-report_print,
+.page-preview .runner-b-report_print, .page-preview .runner-b-report_print > *,
+  .runner-pagewrapper .page-preview .runner-b-report_print, .page-preview .runner-b-report_print,
+  .runner-pagewrapper .page-preview .runner-b-report_print, .page-preview .runner-b-report_print > *,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-report_print, .page-preview .runner-b-report_print,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-report_print, .page-preview .runner-b-report_print > *
+{
+text-align: left;
+}
+body.page-preview .runner-top
+{
+padding-right: 5px;
+}

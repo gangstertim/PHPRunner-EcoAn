@@ -1,0 +1,78 @@
+.preview .runner-s-fields > * > * > .runner-toprow.style1 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-fields > * > * > .runner-toprow.style1 > *.runner-cc a
+{
+color: #333381
+}
+.preview .runner-s-fields > * > * > .runner-row.style1 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-fields > * > * > .runner-row.style1 > *.runner-cc a
+{
+color: #333381
+}
+.preview .runner-s-fields > * > * > .runner-toprow.style2 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-fields > * > * > .runner-toprow.style2 > *.runner-cc a
+{
+color: #FFFFFF
+}
+.preview .runner-s-fields > * > * > .runner-row.style2 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-fields > * > * > .runner-row.style2 > *.runner-cc a
+{
+color: #FFFFFF
+}
+.preview .runner-s-fields > * > * > .runner-toprow.style3 > *.runner-cc a,
+.preview .runner-s-fields > * > * > .runner-toprow > *.runner-cc a.alt,
+.preview  .runner-wrapper .runner-s-fields > * > * > .runner-toprow.style3 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-fields > * > * > .runner-toprow > *.runner-cc a.alt
+{
+color: #696969
+}
+.preview .runner-s-fields > * > * > .runner-row.style3 > *.runner-cc a,
+.preview .runner-s-fields > * > * > .runner-row > *.runner-cc a.alt,
+.preview  .runner-wrapper .runner-s-fields > * > * > .runner-row.style3 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-fields > * > * > .runner-row > *.runner-cc a.alt
+{
+color: #696969
+}
+.preview .runner-s-fields  .runner-btnright,
+.preview  .runner-wrapper .runner-s-fields  .runner-btnright
+{
+clip:rect(auto auto auto 496px);
+}
+.preview .runner-s-disabled-fields > * > * > .runner-toprow.style1 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-disabled-fields > * > * > .runner-toprow.style1 > *.runner-cc a
+{
+color: #BABABA
+}
+.preview .runner-s-disabled-fields > * > * > .runner-row.style1 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-disabled-fields > * > * > .runner-row.style1 > *.runner-cc a
+{
+color: #BABABA
+}
+.preview .runner-s-disabled-fields > * > * > .runner-toprow.style2 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-disabled-fields > * > * > .runner-toprow.style2 > *.runner-cc a
+{
+color: #F1F1F1
+}
+.preview .runner-s-disabled-fields > * > * > .runner-row.style2 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-disabled-fields > * > * > .runner-row.style2 > *.runner-cc a
+{
+color: #F1F1F1
+}
+.preview .runner-s-disabled-fields > * > * > .runner-toprow.style3 > *.runner-cc a,
+.preview .runner-s-disabled-fields > * > * > .runner-toprow > *.runner-cc a.alt,
+.preview  .runner-wrapper .runner-s-disabled-fields > * > * > .runner-toprow.style3 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-disabled-fields > * > * > .runner-toprow > *.runner-cc a.alt
+{
+color: #C3C3C3
+}
+.preview .runner-s-disabled-fields > * > * > .runner-row.style3 > *.runner-cc a,
+.preview .runner-s-disabled-fields > * > * > .runner-row > *.runner-cc a.alt,
+.preview  .runner-wrapper .runner-s-disabled-fields > * > * > .runner-row.style3 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-disabled-fields > * > * > .runner-row > *.runner-cc a.alt
+{
+color: #C3C3C3
+}
+.preview .runner-s-disabled-fields  .runner-btnright,
+.preview  .runner-wrapper .runner-s-disabled-fields  .runner-btnright
+{
+clip:rect(auto auto auto 496px);
+}

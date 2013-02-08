@@ -1,0 +1,187 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=7">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<table   cellpadding="0" class="runner-toptable">
+			<tr class="runner-header">
+				<td class="runner-top" colspan=3>
+					
+
+
+
+
+				</td>
+			</tr>
+			<tr class="runner-body">
+				
+				<td class="runner-left {$blockclass_left}" >
+					
+				</td>	
+				
+				<td class="runner-center {$blockclass_center}">
+					
+
+{BEGIN container_grid}
+
+
+{BEGIN grid_block}
+{BEGIN page}
+<h1>Mix</h1>
+<span>
+{BEGIN page_number}
+Page {$pageno} of {$maxpages} 
+{END page_number}
+</span>
+
+	<div class="runner-s-grid">	
+	<table class="runner-c runner-c-grid" cellpadding="0">
+		<thead>
+		{BEGIN grid_header}
+		<tr class="runner-toprow style1">
+			<td class="runner-cl"><img src="images/spacer.gif"></td>
+			{BEGIN record_header}
+					{BEGIN MixNo_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN MixNo_fieldheader}
+	<b>Mix No</b>
+	{END MixNo_fieldheader}
+</th>
+{END MixNo_fieldheadercolumn}
+	{BEGIN ComponentNo_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN ComponentNo_fieldheader}
+	<b>Component No</b>
+	{END ComponentNo_fieldheader}
+</th>
+{END ComponentNo_fieldheadercolumn}
+	{BEGIN Qtty_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Qtty_fieldheader}
+	<b>Qtty</b>
+	{END Qtty_fieldheader}
+</th>
+{END Qtty_fieldheadercolumn}
+	{BEGIN UnitOrBucket_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN UnitOrBucket_fieldheader}
+	<b>Unit Or Bucket</b>
+	{END UnitOrBucket_fieldheader}
+</th>
+{END UnitOrBucket_fieldheadercolumn}
+		
+			{END record_header}
+			<td class="runner-cr"><img src="images/spacer.gif"></td>
+			{BEGIN endrecordheader_block}
+			<td class="runner-cs">&nbsp;</td>
+			{END endrecordheader_block}
+		</tr>
+	{END grid_header}
+		</thead>
+		<tbody>	
+		{BEGIN grid_row}
+	<tr class="runner-row style1" {$rowattrs} {$rowstyle} {$rowstyle}>
+		<td class="runner-cl"></td>
+		{BEGIN grid_record}
+				{BEGIN MixNo_fieldcolumn}
+<td  class="runner-cc {$MixNo_class}" {$MixNo_style}>
+	{$MixNo_value}
+</td>
+{END MixNo_fieldcolumn}
+	{BEGIN ComponentNo_fieldcolumn}
+<td  class="runner-cc {$ComponentNo_class}" {$ComponentNo_style}>
+	{$ComponentNo_value}
+</td>
+{END ComponentNo_fieldcolumn}
+	{BEGIN Qtty_fieldcolumn}
+<td  class="runner-cc {$Qtty_class}" {$Qtty_style}>
+	{$Qtty_value}
+</td>
+{END Qtty_fieldcolumn}
+	{BEGIN UnitOrBucket_fieldcolumn}
+<td  class="runner-cc {$UnitOrBucket_class}" {$UnitOrBucket_style}>
+	{$UnitOrBucket_value}
+</td>
+{END UnitOrBucket_fieldcolumn}
+
+		{END grid_record}
+		<td class="runner-cr"></td>
+		{BEGIN endrecord_block}
+		<td class="runner-cs">&nbsp;</td>
+		{END endrecord_block}
+	</tr>
+{END grid_row}
+										
+								<tr class="runner-bottomrow style1">
+									<td class="runner-cl"><img src="images/spacer.gif"></td>
+									{BEGIN record_footer}
+									{BEGIN MixNo_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END MixNo_fieldfootercolumn}
+{BEGIN ComponentNo_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END ComponentNo_fieldfootercolumn}
+{BEGIN Qtty_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Qtty_fieldfootercolumn}
+{BEGIN UnitOrBucket_fieldfootercolumn}
+<td class="runner-cc runner-clast"></td>
+{END UnitOrBucket_fieldfootercolumn}
+
+									{END record_footer}
+									<td class="runner-cr"><img src="images/spacer.gif"></td>
+									{BEGIN endrecordtotals_block}
+									<td class="runner-cs"></td>
+									{END endrecordtotals_block}
+								</tr>
+
+		</tbody>
+	</table>
+</div>	
+{END page}
+
+{END grid_block}
+
+
+
+{END container_grid}
+
+
+				</td>	
+
+				<td class="runner-right {$blockclass_right}">
+					
+				</td>	
+			</tr>
+			<tr class="runner-footer">
+				<td class="runner-bottom" colspan=3>
+					<!--%%bottom%%-->
+				</td>
+			</tr>
+		</table>
+		{$footer}
+	{END body}
+	</body>
+</html>

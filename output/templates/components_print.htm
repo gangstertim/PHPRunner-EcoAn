@@ -1,0 +1,292 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=7">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<table   cellpadding="0" class="runner-toptable">
+			<tr class="runner-header">
+				<td class="runner-top" colspan=3>
+					
+
+
+
+
+				</td>
+			</tr>
+			<tr class="runner-body">
+				
+				<td class="runner-left {$blockclass_left}" >
+					
+				</td>	
+				
+				<td class="runner-center {$blockclass_center}">
+					
+
+{BEGIN container_grid}
+
+
+{BEGIN grid_block}
+{BEGIN page}
+<h1>Components</h1>
+<span>
+{BEGIN page_number}
+Page {$pageno} of {$maxpages} 
+{END page_number}
+</span>
+
+	<div class="runner-s-grid">	
+	<table class="runner-c runner-c-grid" cellpadding="0">
+		<thead>
+		{BEGIN grid_header}
+		<tr class="runner-toprow style1">
+			<td class="runner-cl"><img src="images/spacer.gif"></td>
+			{BEGIN record_header}
+					{BEGIN ComponentNo_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN ComponentNo_fieldheader}
+	<b>Component No</b>
+	{END ComponentNo_fieldheader}
+</th>
+{END ComponentNo_fieldheadercolumn}
+	{BEGIN EngName_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN EngName_fieldheader}
+	<b>Eng Name</b>
+	{END EngName_fieldheader}
+</th>
+{END EngName_fieldheadercolumn}
+	{BEGIN ThaiName_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN ThaiName_fieldheader}
+	<b>Thai Name</b>
+	{END ThaiName_fieldheader}
+</th>
+{END ThaiName_fieldheadercolumn}
+	{BEGIN DescriptionEng_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN DescriptionEng_fieldheader}
+	<b>Description Eng</b>
+	{END DescriptionEng_fieldheader}
+</th>
+{END DescriptionEng_fieldheadercolumn}
+	{BEGIN DescriptionThai_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN DescriptionThai_fieldheader}
+	<b>Description Thai</b>
+	{END DescriptionThai_fieldheader}
+</th>
+{END DescriptionThai_fieldheadercolumn}
+	{BEGIN CompTypeNo_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN CompTypeNo_fieldheader}
+	<b>Comp Type No</b>
+	{END CompTypeNo_fieldheader}
+</th>
+{END CompTypeNo_fieldheadercolumn}
+	{BEGIN UnitEng_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN UnitEng_fieldheader}
+	<b>Unit Eng</b>
+	{END UnitEng_fieldheader}
+</th>
+{END UnitEng_fieldheadercolumn}
+	{BEGIN UnitQty_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN UnitQty_fieldheader}
+	<b>Unit Qty</b>
+	{END UnitQty_fieldheader}
+</th>
+{END UnitQty_fieldheadercolumn}
+	{BEGIN CompPurchaseUnitEn_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN CompPurchaseUnitEn_fieldheader}
+	<b>Comp Purchase Unit En</b>
+	{END CompPurchaseUnitEn_fieldheader}
+</th>
+{END CompPurchaseUnitEn_fieldheadercolumn}
+	{BEGIN Cost_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Cost_fieldheader}
+	<b>Cost</b>
+	{END Cost_fieldheader}
+</th>
+{END Cost_fieldheadercolumn}
+	{BEGIN PriceSell_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN PriceSell_fieldheader}
+	<b>Price Sell</b>
+	{END PriceSell_fieldheader}
+</th>
+{END PriceSell_fieldheadercolumn}
+		
+			{END record_header}
+			<td class="runner-cr"><img src="images/spacer.gif"></td>
+			{BEGIN endrecordheader_block}
+			<td class="runner-cs">&nbsp;</td>
+			{END endrecordheader_block}
+		</tr>
+	{END grid_header}
+		</thead>
+		<tbody>	
+		{BEGIN grid_row}
+	<tr class="runner-row style1" {$rowattrs} {$rowstyle} {$rowstyle}>
+		<td class="runner-cl"></td>
+		{BEGIN grid_record}
+				{BEGIN ComponentNo_fieldcolumn}
+<td  class="runner-cc {$ComponentNo_class}" {$ComponentNo_style}>
+	{$ComponentNo_value}
+</td>
+{END ComponentNo_fieldcolumn}
+	{BEGIN EngName_fieldcolumn}
+<td  class="runner-cc {$EngName_class}" {$EngName_style}>
+	{$EngName_value}
+</td>
+{END EngName_fieldcolumn}
+	{BEGIN ThaiName_fieldcolumn}
+<td  class="runner-cc {$ThaiName_class}" {$ThaiName_style}>
+	{$ThaiName_value}
+</td>
+{END ThaiName_fieldcolumn}
+	{BEGIN DescriptionEng_fieldcolumn}
+<td  class="runner-cc {$DescriptionEng_class}" {$DescriptionEng_style}>
+	{$DescriptionEng_value}
+</td>
+{END DescriptionEng_fieldcolumn}
+	{BEGIN DescriptionThai_fieldcolumn}
+<td  class="runner-cc {$DescriptionThai_class}" {$DescriptionThai_style}>
+	{$DescriptionThai_value}
+</td>
+{END DescriptionThai_fieldcolumn}
+	{BEGIN CompTypeNo_fieldcolumn}
+<td  class="runner-cc {$CompTypeNo_class}" {$CompTypeNo_style}>
+	{$CompTypeNo_value}
+</td>
+{END CompTypeNo_fieldcolumn}
+	{BEGIN UnitEng_fieldcolumn}
+<td  class="runner-cc {$UnitEng_class}" {$UnitEng_style}>
+	{$UnitEng_value}
+</td>
+{END UnitEng_fieldcolumn}
+	{BEGIN UnitQty_fieldcolumn}
+<td  class="runner-cc {$UnitQty_class}" {$UnitQty_style}>
+	{$UnitQty_value}
+</td>
+{END UnitQty_fieldcolumn}
+	{BEGIN CompPurchaseUnitEn_fieldcolumn}
+<td  class="runner-cc {$CompPurchaseUnitEn_class}" {$CompPurchaseUnitEn_style}>
+	{$CompPurchaseUnitEn_value}
+</td>
+{END CompPurchaseUnitEn_fieldcolumn}
+	{BEGIN Cost_fieldcolumn}
+<td  class="runner-cc {$Cost_class}" {$Cost_style}>
+	{$Cost_value}
+</td>
+{END Cost_fieldcolumn}
+	{BEGIN PriceSell_fieldcolumn}
+<td  class="runner-cc {$PriceSell_class}" {$PriceSell_style}>
+	{$PriceSell_value}
+</td>
+{END PriceSell_fieldcolumn}
+
+		{END grid_record}
+		<td class="runner-cr"></td>
+		{BEGIN endrecord_block}
+		<td class="runner-cs">&nbsp;</td>
+		{END endrecord_block}
+	</tr>
+{END grid_row}
+										
+								<tr class="runner-bottomrow style1">
+									<td class="runner-cl"><img src="images/spacer.gif"></td>
+									{BEGIN record_footer}
+									{BEGIN ComponentNo_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END ComponentNo_fieldfootercolumn}
+{BEGIN EngName_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END EngName_fieldfootercolumn}
+{BEGIN ThaiName_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END ThaiName_fieldfootercolumn}
+{BEGIN DescriptionEng_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END DescriptionEng_fieldfootercolumn}
+{BEGIN DescriptionThai_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END DescriptionThai_fieldfootercolumn}
+{BEGIN CompTypeNo_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END CompTypeNo_fieldfootercolumn}
+{BEGIN UnitEng_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END UnitEng_fieldfootercolumn}
+{BEGIN UnitQty_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END UnitQty_fieldfootercolumn}
+{BEGIN CompPurchaseUnitEn_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END CompPurchaseUnitEn_fieldfootercolumn}
+{BEGIN Cost_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Cost_fieldfootercolumn}
+{BEGIN PriceSell_fieldfootercolumn}
+<td class="runner-cc runner-clast"></td>
+{END PriceSell_fieldfootercolumn}
+
+									{END record_footer}
+									<td class="runner-cr"><img src="images/spacer.gif"></td>
+									{BEGIN endrecordtotals_block}
+									<td class="runner-cs"></td>
+									{END endrecordtotals_block}
+								</tr>
+
+		</tbody>
+	</table>
+</div>	
+{END page}
+
+{END grid_block}
+
+
+
+{END container_grid}
+
+
+				</td>	
+
+				<td class="runner-right {$blockclass_right}">
+					
+				</td>	
+			</tr>
+			<tr class="runner-footer">
+				<td class="runner-bottom" colspan=3>
+					<!--%%bottom%%-->
+				</td>
+			</tr>
+		</table>
+		{$footer}
+	{END body}
+	</body>
+</html>

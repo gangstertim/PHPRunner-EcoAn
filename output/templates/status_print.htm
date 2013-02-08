@@ -1,0 +1,172 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=7">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<table   cellpadding="0" class="runner-toptable">
+			<tr class="runner-header">
+				<td class="runner-top" colspan=3>
+					
+
+
+
+
+				</td>
+			</tr>
+			<tr class="runner-body">
+				
+				<td class="runner-left {$blockclass_left}" >
+					
+				</td>	
+				
+				<td class="runner-center {$blockclass_center}">
+					
+
+{BEGIN container_grid}
+
+
+{BEGIN grid_block}
+{BEGIN page}
+<h1>Status</h1>
+<span>
+{BEGIN page_number}
+Page {$pageno} of {$maxpages} 
+{END page_number}
+</span>
+
+	<div class="runner-s-grid">	
+	<table class="runner-c runner-c-grid" cellpadding="0">
+		<thead>
+		{BEGIN grid_header}
+		<tr class="runner-toprow style1">
+			<td class="runner-cl"><img src="images/spacer.gif"></td>
+			{BEGIN record_header}
+					{BEGIN StatusCode_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN StatusCode_fieldheader}
+	<b>Status Code</b>
+	{END StatusCode_fieldheader}
+</th>
+{END StatusCode_fieldheadercolumn}
+	{BEGIN CodeDescription_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN CodeDescription_fieldheader}
+	<b>Code Description</b>
+	{END CodeDescription_fieldheader}
+</th>
+{END CodeDescription_fieldheadercolumn}
+	{BEGIN ThaiDescription_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN ThaiDescription_fieldheader}
+	<b>Thai Description</b>
+	{END ThaiDescription_fieldheader}
+</th>
+{END ThaiDescription_fieldheadercolumn}
+		
+			{END record_header}
+			<td class="runner-cr"><img src="images/spacer.gif"></td>
+			{BEGIN endrecordheader_block}
+			<td class="runner-cs">&nbsp;</td>
+			{END endrecordheader_block}
+		</tr>
+	{END grid_header}
+		</thead>
+		<tbody>	
+		{BEGIN grid_row}
+	<tr class="runner-row style1" {$rowattrs} {$rowstyle} {$rowstyle}>
+		<td class="runner-cl"></td>
+		{BEGIN grid_record}
+				{BEGIN StatusCode_fieldcolumn}
+<td  class="runner-cc {$StatusCode_class}" {$StatusCode_style}>
+	{$StatusCode_value}
+</td>
+{END StatusCode_fieldcolumn}
+	{BEGIN CodeDescription_fieldcolumn}
+<td  class="runner-cc {$CodeDescription_class}" {$CodeDescription_style}>
+	{$CodeDescription_value}
+</td>
+{END CodeDescription_fieldcolumn}
+	{BEGIN ThaiDescription_fieldcolumn}
+<td  class="runner-cc {$ThaiDescription_class}" {$ThaiDescription_style}>
+	{$ThaiDescription_value}
+</td>
+{END ThaiDescription_fieldcolumn}
+
+		{END grid_record}
+		<td class="runner-cr"></td>
+		{BEGIN endrecord_block}
+		<td class="runner-cs">&nbsp;</td>
+		{END endrecord_block}
+	</tr>
+{END grid_row}
+										
+								<tr class="runner-bottomrow style1">
+									<td class="runner-cl"><img src="images/spacer.gif"></td>
+									{BEGIN record_footer}
+									{BEGIN StatusCode_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END StatusCode_fieldfootercolumn}
+{BEGIN CodeDescription_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END CodeDescription_fieldfootercolumn}
+{BEGIN ThaiDescription_fieldfootercolumn}
+<td class="runner-cc runner-clast"></td>
+{END ThaiDescription_fieldfootercolumn}
+
+									{END record_footer}
+									<td class="runner-cr"><img src="images/spacer.gif"></td>
+									{BEGIN endrecordtotals_block}
+									<td class="runner-cs"></td>
+									{END endrecordtotals_block}
+								</tr>
+
+		</tbody>
+	</table>
+</div>	
+{END page}
+
+{END grid_block}
+
+
+
+{END container_grid}
+
+
+				</td>	
+
+				<td class="runner-right {$blockclass_right}">
+					
+				</td>	
+			</tr>
+			<tr class="runner-footer">
+				<td class="runner-bottom" colspan=3>
+					<!--%%bottom%%-->
+				</td>
+			</tr>
+		</table>
+		{$footer}
+	{END body}
+	</body>
+</html>

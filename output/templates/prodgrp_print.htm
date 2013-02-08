@@ -1,0 +1,397 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=7">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<table   cellpadding="0" class="runner-toptable">
+			<tr class="runner-header">
+				<td class="runner-top" colspan=3>
+					
+
+
+
+
+				</td>
+			</tr>
+			<tr class="runner-body">
+				
+				<td class="runner-left {$blockclass_left}" >
+					
+				</td>	
+				
+				<td class="runner-center {$blockclass_center}">
+					
+
+{BEGIN container_grid}
+
+
+{BEGIN grid_block}
+{BEGIN page}
+<h1>Prodgrp</h1>
+<span>
+{BEGIN page_number}
+Page {$pageno} of {$maxpages} 
+{END page_number}
+</span>
+
+	<div class="runner-s-grid">	
+	<table class="runner-c runner-c-grid" cellpadding="0">
+		<thead>
+		{BEGIN grid_header}
+		<tr class="runner-toprow style1">
+			<td class="runner-cl"><img src="images/spacer.gif"></td>
+			{BEGIN record_header}
+					{BEGIN ProdGrpCode_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN ProdGrpCode_fieldheader}
+	<b>Prod Grp Code</b>
+	{END ProdGrpCode_fieldheader}
+</th>
+{END ProdGrpCode_fieldheadercolumn}
+	{BEGIN ThaiProductGroup_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN ThaiProductGroup_fieldheader}
+	<b>Thai Product Group</b>
+	{END ThaiProductGroup_fieldheader}
+</th>
+{END ThaiProductGroup_fieldheadercolumn}
+	{BEGIN EngProductGroup_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN EngProductGroup_fieldheader}
+	<b>Eng Product Group</b>
+	{END EngProductGroup_fieldheader}
+</th>
+{END EngProductGroup_fieldheadercolumn}
+	{BEGIN MarkDownWholesale_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN MarkDownWholesale_fieldheader}
+	<b>Mark Down Wholesale</b>
+	{END MarkDownWholesale_fieldheader}
+</th>
+{END MarkDownWholesale_fieldheadercolumn}
+	{BEGIN MarkDownRetail_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN MarkDownRetail_fieldheader}
+	<b>Mark Down Retail</b>
+	{END MarkDownRetail_fieldheader}
+</th>
+{END MarkDownRetail_fieldheadercolumn}
+	{BEGIN DaysWorked_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN DaysWorked_fieldheader}
+	<b>Days Worked</b>
+	{END DaysWorked_fieldheader}
+</th>
+{END DaysWorked_fieldheadercolumn}
+	{BEGIN NumberWorkers_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN NumberWorkers_fieldheader}
+	<b>Number Workers</b>
+	{END NumberWorkers_fieldheader}
+</th>
+{END NumberWorkers_fieldheadercolumn}
+	{BEGIN QtyMolds_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN QtyMolds_fieldheader}
+	<b>Qty Molds</b>
+	{END QtyMolds_fieldheader}
+</th>
+{END QtyMolds_fieldheadercolumn}
+	{BEGIN MouldsPerDay_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN MouldsPerDay_fieldheader}
+	<b>Moulds Per Day</b>
+	{END MouldsPerDay_fieldheader}
+</th>
+{END MouldsPerDay_fieldheadercolumn}
+	{BEGIN Interest_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Interest_fieldheader}
+	<b>Interest</b>
+	{END Interest_fieldheader}
+</th>
+{END Interest_fieldheadercolumn}
+	{BEGIN Period_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Period_fieldheader}
+	<b>Period</b>
+	{END Period_fieldheader}
+</th>
+{END Period_fieldheadercolumn}
+	{BEGIN DownPay_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN DownPay_fieldheader}
+	<b>Down Pay</b>
+	{END DownPay_fieldheader}
+</th>
+{END DownPay_fieldheadercolumn}
+	{BEGIN MonthsOfCap_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN MonthsOfCap_fieldheader}
+	<b>Months Of Cap</b>
+	{END MonthsOfCap_fieldheader}
+</th>
+{END MonthsOfCap_fieldheadercolumn}
+	{BEGIN Waste_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Waste_fieldheader}
+	<b>Waste</b>
+	{END Waste_fieldheader}
+</th>
+{END Waste_fieldheadercolumn}
+	{BEGIN Maint_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Maint_fieldheader}
+	<b>Maint</b>
+	{END Maint_fieldheader}
+</th>
+{END Maint_fieldheadercolumn}
+	{BEGIN ItemNotes_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN ItemNotes_fieldheader}
+	<b>Item Notes</b>
+	{END ItemNotes_fieldheader}
+</th>
+{END ItemNotes_fieldheadercolumn}
+	{BEGIN CuringTime_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN CuringTime_fieldheader}
+	<b>Curing Time</b>
+	{END CuringTime_fieldheader}
+</th>
+{END CuringTime_fieldheadercolumn}
+	{BEGIN GAP_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN GAP_fieldheader}
+	<b>GAP</b>
+	{END GAP_fieldheader}
+</th>
+{END GAP_fieldheadercolumn}
+		
+			{END record_header}
+			<td class="runner-cr"><img src="images/spacer.gif"></td>
+			{BEGIN endrecordheader_block}
+			<td class="runner-cs">&nbsp;</td>
+			{END endrecordheader_block}
+		</tr>
+	{END grid_header}
+		</thead>
+		<tbody>	
+		{BEGIN grid_row}
+	<tr class="runner-row style1" {$rowattrs} {$rowstyle} {$rowstyle}>
+		<td class="runner-cl"></td>
+		{BEGIN grid_record}
+				{BEGIN ProdGrpCode_fieldcolumn}
+<td  class="runner-cc {$ProdGrpCode_class}" {$ProdGrpCode_style}>
+	{$ProdGrpCode_value}
+</td>
+{END ProdGrpCode_fieldcolumn}
+	{BEGIN ThaiProductGroup_fieldcolumn}
+<td  class="runner-cc {$ThaiProductGroup_class}" {$ThaiProductGroup_style}>
+	{$ThaiProductGroup_value}
+</td>
+{END ThaiProductGroup_fieldcolumn}
+	{BEGIN EngProductGroup_fieldcolumn}
+<td  class="runner-cc {$EngProductGroup_class}" {$EngProductGroup_style}>
+	{$EngProductGroup_value}
+</td>
+{END EngProductGroup_fieldcolumn}
+	{BEGIN MarkDownWholesale_fieldcolumn}
+<td  class="runner-cc {$MarkDownWholesale_class}" {$MarkDownWholesale_style}>
+	{$MarkDownWholesale_value}
+</td>
+{END MarkDownWholesale_fieldcolumn}
+	{BEGIN MarkDownRetail_fieldcolumn}
+<td  class="runner-cc {$MarkDownRetail_class}" {$MarkDownRetail_style}>
+	{$MarkDownRetail_value}
+</td>
+{END MarkDownRetail_fieldcolumn}
+	{BEGIN DaysWorked_fieldcolumn}
+<td  class="runner-cc {$DaysWorked_class}" {$DaysWorked_style}>
+	{$DaysWorked_value}
+</td>
+{END DaysWorked_fieldcolumn}
+	{BEGIN NumberWorkers_fieldcolumn}
+<td  class="runner-cc {$NumberWorkers_class}" {$NumberWorkers_style}>
+	{$NumberWorkers_value}
+</td>
+{END NumberWorkers_fieldcolumn}
+	{BEGIN QtyMolds_fieldcolumn}
+<td  class="runner-cc {$QtyMolds_class}" {$QtyMolds_style}>
+	{$QtyMolds_value}
+</td>
+{END QtyMolds_fieldcolumn}
+	{BEGIN MouldsPerDay_fieldcolumn}
+<td  class="runner-cc {$MouldsPerDay_class}" {$MouldsPerDay_style}>
+	{$MouldsPerDay_value}
+</td>
+{END MouldsPerDay_fieldcolumn}
+	{BEGIN Interest_fieldcolumn}
+<td  class="runner-cc {$Interest_class}" {$Interest_style}>
+	{$Interest_value}
+</td>
+{END Interest_fieldcolumn}
+	{BEGIN Period_fieldcolumn}
+<td  class="runner-cc {$Period_class}" {$Period_style}>
+	{$Period_value}
+</td>
+{END Period_fieldcolumn}
+	{BEGIN DownPay_fieldcolumn}
+<td  class="runner-cc {$DownPay_class}" {$DownPay_style}>
+	{$DownPay_value}
+</td>
+{END DownPay_fieldcolumn}
+	{BEGIN MonthsOfCap_fieldcolumn}
+<td  class="runner-cc {$MonthsOfCap_class}" {$MonthsOfCap_style}>
+	{$MonthsOfCap_value}
+</td>
+{END MonthsOfCap_fieldcolumn}
+	{BEGIN Waste_fieldcolumn}
+<td  class="runner-cc {$Waste_class}" {$Waste_style}>
+	{$Waste_value}
+</td>
+{END Waste_fieldcolumn}
+	{BEGIN Maint_fieldcolumn}
+<td  class="runner-cc {$Maint_class}" {$Maint_style}>
+	{$Maint_value}
+</td>
+{END Maint_fieldcolumn}
+	{BEGIN ItemNotes_fieldcolumn}
+<td  class="runner-cc {$ItemNotes_class}" {$ItemNotes_style}>
+	{$ItemNotes_value}
+</td>
+{END ItemNotes_fieldcolumn}
+	{BEGIN CuringTime_fieldcolumn}
+<td  class="runner-cc {$CuringTime_class}" {$CuringTime_style}>
+	{$CuringTime_value}
+</td>
+{END CuringTime_fieldcolumn}
+	{BEGIN GAP_fieldcolumn}
+<td  class="runner-cc {$GAP_class}" {$GAP_style}>
+	{$GAP_value}
+</td>
+{END GAP_fieldcolumn}
+
+		{END grid_record}
+		<td class="runner-cr"></td>
+		{BEGIN endrecord_block}
+		<td class="runner-cs">&nbsp;</td>
+		{END endrecord_block}
+	</tr>
+{END grid_row}
+										
+								<tr class="runner-bottomrow style1">
+									<td class="runner-cl"><img src="images/spacer.gif"></td>
+									{BEGIN record_footer}
+									{BEGIN ProdGrpCode_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END ProdGrpCode_fieldfootercolumn}
+{BEGIN ThaiProductGroup_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END ThaiProductGroup_fieldfootercolumn}
+{BEGIN EngProductGroup_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END EngProductGroup_fieldfootercolumn}
+{BEGIN MarkDownWholesale_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END MarkDownWholesale_fieldfootercolumn}
+{BEGIN MarkDownRetail_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END MarkDownRetail_fieldfootercolumn}
+{BEGIN DaysWorked_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END DaysWorked_fieldfootercolumn}
+{BEGIN NumberWorkers_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END NumberWorkers_fieldfootercolumn}
+{BEGIN QtyMolds_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END QtyMolds_fieldfootercolumn}
+{BEGIN MouldsPerDay_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END MouldsPerDay_fieldfootercolumn}
+{BEGIN Interest_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Interest_fieldfootercolumn}
+{BEGIN Period_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Period_fieldfootercolumn}
+{BEGIN DownPay_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END DownPay_fieldfootercolumn}
+{BEGIN MonthsOfCap_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END MonthsOfCap_fieldfootercolumn}
+{BEGIN Waste_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Waste_fieldfootercolumn}
+{BEGIN Maint_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Maint_fieldfootercolumn}
+{BEGIN ItemNotes_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END ItemNotes_fieldfootercolumn}
+{BEGIN CuringTime_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END CuringTime_fieldfootercolumn}
+{BEGIN GAP_fieldfootercolumn}
+<td class="runner-cc runner-clast"></td>
+{END GAP_fieldfootercolumn}
+
+									{END record_footer}
+									<td class="runner-cr"><img src="images/spacer.gif"></td>
+									{BEGIN endrecordtotals_block}
+									<td class="runner-cs"></td>
+									{END endrecordtotals_block}
+								</tr>
+
+		</tbody>
+	</table>
+</div>	
+{END page}
+
+{END grid_block}
+
+
+
+{END container_grid}
+
+
+				</td>	
+
+				<td class="runner-right {$blockclass_right}">
+					
+				</td>	
+			</tr>
+			<tr class="runner-footer">
+				<td class="runner-bottom" colspan=3>
+					<!--%%bottom%%-->
+				</td>
+			</tr>
+		</table>
+		{$footer}
+	{END body}
+	</body>
+</html>

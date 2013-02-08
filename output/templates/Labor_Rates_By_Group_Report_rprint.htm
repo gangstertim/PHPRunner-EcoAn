@@ -1,0 +1,130 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=7">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--%%pagestyle%%-->
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+			
+
+
+
+{BEGIN container_grid}
+
+
+
+{BEGIN pages}
+<h1>Labor Rates By Group Report</h1>
+	<span {$pages_attrs}>
+		Page <b>{$pageno}</b> of <b>{$maxpages}</b>
+	</span>
+
+
+			<style>
+table.report {border-collapse: collapse} 
+table.report td {padding: 2px;border-width: 1px; border-style: solid; border-color: #cccccc;}
+div.page_block{clear:left;}
+td.noborder{padding-right:8px}
+td.data{padding-right:8px}
+td.pagesummary{background-color:#ffffbb;}
+td.globalsummary{background-color:#ffe0b0;}
+</style>
+{BEGIN grid_block}
+<div id="grid_block{$id}" class="runner-s-grid">
+<TABLE class="runner-c runner-c-grid" WIDTH="auto" CELLPADDING=1 CELLSPACING=0 BORDER=0 style="border: solid; border-width: 1px; border-color: black;">
+<tr class="runner-toprow style1">
+<td class="runner-cc blackshade"><b>Prod Grp Code</b></td>
+<td class="runner-cc blackshade"><b>Prod Thai Name</b></td>
+<td class="runner-cc blackshade"><b>Prod Eng Name</b></td>
+<td class="runner-cc blackshade"><b>Picture</b></td>
+<td class="runner-cc blackshade"><b>Thai Model</b></td>
+<td class="runner-cc blackshade"><b>Eng Model</b></td>
+<td class="runner-cc blackshade"><b>Mix No</b></td>
+<td class="runner-cc blackshade"><b>Prod Wt</b></td>
+<td class="runner-cc blackshade"><b>Color Mix No</b></td>
+<td class="runner-cc blackshade"><b>Face Wt</b></td>
+<td class="runner-cc blackshade"><b>Mold</b></td>
+<td class="runner-cc blackshade"><b>Pieces Per Mould</b></td>
+<td class="runner-cc blackshade"><b>Product Cost</b></td>
+<td class="runner-cc blackshade"><b>Price Retail</b></td>
+<td class="runner-cc blackshade"><b>Price Whole Sale</b></td>
+<td class="runner-cc blackshade"><b>Prod Stock Goal</b></td>
+<td class="runner-cc blackshade"><b>Thai Com</b></td>
+<td class="runner-cc blackshade"><b>Eng Com</b></td>
+<td class="runner-cc blackshade"><b>Status</b></td>
+<td class="runner-cc blackshade"><b>Mold Wt</b></td>
+<td class="runner-cc blackshade"><b>Gray Wt Mold</b></td>
+<td class="runner-cc blackshade"><b>Color Wt Mold</b></td>
+<td class="runner-cc blackshade"><b>Length</b></td>
+<td class="runner-cc blackshade"><b>Width1</b></td>
+<td class="runner-cc blackshade"><b>Thickness</b></td>
+<td class="runner-cc blackshade"><b>Prod No</b></td>
+</tr>
+{BEGIN grid_row}
+<!-------------------------------------  data ----------------------------------------->
+{BEGIN row_data}
+<tr class="runner-row style1">
+	<td class="runner-cc data">{$ProdGrpCode_value}</td>
+	<td class="runner-cc data">{$ProdThaiName_value}</td>
+	<td class="runner-cc data">{$ProdEngName_value}</td>
+	<td class="runner-cc data">{$Picture_value}</td>
+	<td class="runner-cc data">{$ThaiModel_value}</td>
+	<td class="runner-cc data">{$EngModel_value}</td>
+	<td class="runner-cc data">{$MixNo_value}</td>
+	<td class="runner-cc data">{$ProdWt_value}</td>
+	<td class="runner-cc data">{$ColorMixNo_value}</td>
+	<td class="runner-cc data">{$FaceWt_value}</td>
+	<td class="runner-cc data">{$Mold_value}</td>
+	<td class="runner-cc data">{$PiecesPerMould_value}</td>
+	<td class="runner-cc data">{$ProductCost_value}</td>
+	<td class="runner-cc data">{$PriceRetail_value}</td>
+	<td class="runner-cc data">{$PriceWholeSale_value}</td>
+	<td class="runner-cc data">{$ProdStockGoal_value}</td>
+	<td class="runner-cc data">{$ThaiCom_value}</td>
+	<td class="runner-cc data">{$EngCom_value}</td>
+	<td class="runner-cc data">{$Status_value}</td>
+	<td class="runner-cc data">{$MoldWt_value}</td>
+	<td class="runner-cc data">{$GrayWtMold_value}</td>
+	<td class="runner-cc data">{$ColorWtMold_value}</td>
+	<td class="runner-cc data">{$Length_value}</td>
+	<td class="runner-cc data">{$Width1_value}</td>
+	<td class="runner-cc data">{$Thickness_value}</td>
+	<td class="runner-cc data">{$ProdNo_value}</td>
+</tr>
+{END row_data}
+{END grid_row}
+</table>
+</div>
+{END grid_block}
+{END pages}
+
+
+
+
+
+{END container_grid}
+
+
+	{END body}
+	</body>
+</html>

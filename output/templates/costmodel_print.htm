@@ -1,0 +1,322 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=7">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<table   cellpadding="0" class="runner-toptable">
+			<tr class="runner-header">
+				<td class="runner-top" colspan=3>
+					
+
+
+
+
+				</td>
+			</tr>
+			<tr class="runner-body">
+				
+				<td class="runner-left {$blockclass_left}" >
+					
+				</td>	
+				
+				<td class="runner-center {$blockclass_center}">
+					
+
+{BEGIN container_grid}
+
+
+{BEGIN grid_block}
+{BEGIN page}
+<h1>Costmodel</h1>
+<span>
+{BEGIN page_number}
+Page {$pageno} of {$maxpages} 
+{END page_number}
+</span>
+
+	<div class="runner-s-grid">	
+	<table class="runner-c runner-c-grid" cellpadding="0">
+		<thead>
+		{BEGIN grid_header}
+		<tr class="runner-toprow style1">
+			<td class="runner-cl"><img src="images/spacer.gif"></td>
+			{BEGIN record_header}
+					{BEGIN ProdGrpCode_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN ProdGrpCode_fieldheader}
+	<b>Prod Grp Code</b>
+	{END ProdGrpCode_fieldheader}
+</th>
+{END ProdGrpCode_fieldheadercolumn}
+	{BEGIN Interest_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Interest_fieldheader}
+	<b>Interest</b>
+	{END Interest_fieldheader}
+</th>
+{END Interest_fieldheadercolumn}
+	{BEGIN Period_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Period_fieldheader}
+	<b>Period</b>
+	{END Period_fieldheader}
+</th>
+{END Period_fieldheadercolumn}
+	{BEGIN DownPay_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN DownPay_fieldheader}
+	<b>Down Pay</b>
+	{END DownPay_fieldheader}
+</th>
+{END DownPay_fieldheadercolumn}
+	{BEGIN DaysWorked_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN DaysWorked_fieldheader}
+	<b>Days Worked</b>
+	{END DaysWorked_fieldheader}
+</th>
+{END DaysWorked_fieldheadercolumn}
+	{BEGIN Qty_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Qty_fieldheader}
+	<b>Qty</b>
+	{END Qty_fieldheader}
+</th>
+{END Qty_fieldheadercolumn}
+	{BEGIN MonthsOfCap_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN MonthsOfCap_fieldheader}
+	<b>Months Of Cap</b>
+	{END MonthsOfCap_fieldheader}
+</th>
+{END MonthsOfCap_fieldheadercolumn}
+	{BEGIN Waste_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Waste_fieldheader}
+	<b>Waste</b>
+	{END Waste_fieldheader}
+</th>
+{END Waste_fieldheadercolumn}
+	{BEGIN Maint_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Maint_fieldheader}
+	<b>Maint</b>
+	{END Maint_fieldheader}
+</th>
+{END Maint_fieldheadercolumn}
+	{BEGIN Admin_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Admin_fieldheader}
+	<b>Admin</b>
+	{END Admin_fieldheader}
+</th>
+{END Admin_fieldheadercolumn}
+	{BEGIN Mgr_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Mgr_fieldheader}
+	<b>Mgr</b>
+	{END Mgr_fieldheader}
+</th>
+{END Mgr_fieldheadercolumn}
+	{BEGIN Clerk_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Clerk_fieldheader}
+	<b>Clerk</b>
+	{END Clerk_fieldheader}
+</th>
+{END Clerk_fieldheadercolumn}
+	{BEGIN Notes_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Notes_fieldheader}
+	<b>Notes</b>
+	{END Notes_fieldheader}
+</th>
+{END Notes_fieldheadercolumn}
+		
+			{END record_header}
+			<td class="runner-cr"><img src="images/spacer.gif"></td>
+			{BEGIN endrecordheader_block}
+			<td class="runner-cs">&nbsp;</td>
+			{END endrecordheader_block}
+		</tr>
+	{END grid_header}
+		</thead>
+		<tbody>	
+		{BEGIN grid_row}
+	<tr class="runner-row style1" {$rowattrs} {$rowstyle} {$rowstyle}>
+		<td class="runner-cl"></td>
+		{BEGIN grid_record}
+				{BEGIN ProdGrpCode_fieldcolumn}
+<td  class="runner-cc {$ProdGrpCode_class}" {$ProdGrpCode_style}>
+	{$ProdGrpCode_value}
+</td>
+{END ProdGrpCode_fieldcolumn}
+	{BEGIN Interest_fieldcolumn}
+<td  class="runner-cc {$Interest_class}" {$Interest_style}>
+	{$Interest_value}
+</td>
+{END Interest_fieldcolumn}
+	{BEGIN Period_fieldcolumn}
+<td  class="runner-cc {$Period_class}" {$Period_style}>
+	{$Period_value}
+</td>
+{END Period_fieldcolumn}
+	{BEGIN DownPay_fieldcolumn}
+<td  class="runner-cc {$DownPay_class}" {$DownPay_style}>
+	{$DownPay_value}
+</td>
+{END DownPay_fieldcolumn}
+	{BEGIN DaysWorked_fieldcolumn}
+<td  class="runner-cc {$DaysWorked_class}" {$DaysWorked_style}>
+	{$DaysWorked_value}
+</td>
+{END DaysWorked_fieldcolumn}
+	{BEGIN Qty_fieldcolumn}
+<td  class="runner-cc {$Qty_class}" {$Qty_style}>
+	{$Qty_value}
+</td>
+{END Qty_fieldcolumn}
+	{BEGIN MonthsOfCap_fieldcolumn}
+<td  class="runner-cc {$MonthsOfCap_class}" {$MonthsOfCap_style}>
+	{$MonthsOfCap_value}
+</td>
+{END MonthsOfCap_fieldcolumn}
+	{BEGIN Waste_fieldcolumn}
+<td  class="runner-cc {$Waste_class}" {$Waste_style}>
+	{$Waste_value}
+</td>
+{END Waste_fieldcolumn}
+	{BEGIN Maint_fieldcolumn}
+<td  class="runner-cc {$Maint_class}" {$Maint_style}>
+	{$Maint_value}
+</td>
+{END Maint_fieldcolumn}
+	{BEGIN Admin_fieldcolumn}
+<td  class="runner-cc {$Admin_class}" {$Admin_style}>
+	{$Admin_value}
+</td>
+{END Admin_fieldcolumn}
+	{BEGIN Mgr_fieldcolumn}
+<td  class="runner-cc {$Mgr_class}" {$Mgr_style}>
+	{$Mgr_value}
+</td>
+{END Mgr_fieldcolumn}
+	{BEGIN Clerk_fieldcolumn}
+<td  class="runner-cc {$Clerk_class}" {$Clerk_style}>
+	{$Clerk_value}
+</td>
+{END Clerk_fieldcolumn}
+	{BEGIN Notes_fieldcolumn}
+<td  class="runner-cc {$Notes_class}" {$Notes_style}>
+	{$Notes_value}
+</td>
+{END Notes_fieldcolumn}
+
+		{END grid_record}
+		<td class="runner-cr"></td>
+		{BEGIN endrecord_block}
+		<td class="runner-cs">&nbsp;</td>
+		{END endrecord_block}
+	</tr>
+{END grid_row}
+										
+								<tr class="runner-bottomrow style1">
+									<td class="runner-cl"><img src="images/spacer.gif"></td>
+									{BEGIN record_footer}
+									{BEGIN ProdGrpCode_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END ProdGrpCode_fieldfootercolumn}
+{BEGIN Interest_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Interest_fieldfootercolumn}
+{BEGIN Period_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Period_fieldfootercolumn}
+{BEGIN DownPay_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END DownPay_fieldfootercolumn}
+{BEGIN DaysWorked_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END DaysWorked_fieldfootercolumn}
+{BEGIN Qty_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Qty_fieldfootercolumn}
+{BEGIN MonthsOfCap_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END MonthsOfCap_fieldfootercolumn}
+{BEGIN Waste_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Waste_fieldfootercolumn}
+{BEGIN Maint_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Maint_fieldfootercolumn}
+{BEGIN Admin_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Admin_fieldfootercolumn}
+{BEGIN Mgr_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Mgr_fieldfootercolumn}
+{BEGIN Clerk_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Clerk_fieldfootercolumn}
+{BEGIN Notes_fieldfootercolumn}
+<td class="runner-cc runner-clast"></td>
+{END Notes_fieldfootercolumn}
+
+									{END record_footer}
+									<td class="runner-cr"><img src="images/spacer.gif"></td>
+									{BEGIN endrecordtotals_block}
+									<td class="runner-cs"></td>
+									{END endrecordtotals_block}
+								</tr>
+
+		</tbody>
+	</table>
+</div>	
+{END page}
+
+{END grid_block}
+
+
+
+{END container_grid}
+
+
+				</td>	
+
+				<td class="runner-right {$blockclass_right}">
+					
+				</td>	
+			</tr>
+			<tr class="runner-footer">
+				<td class="runner-bottom" colspan=3>
+					<!--%%bottom%%-->
+				</td>
+			</tr>
+		</table>
+		{$footer}
+	{END body}
+	</body>
+</html>

@@ -1,0 +1,92 @@
+<div class="searchOptions bottomPanelBorder" {$srchOpt_attrs}>
+	<!-- Search panel content -->
+	<div class="srchCritTop" style="display: none;">
+		Criteria:&nbsp;
+		<input type="radio" name="srchType" class="runner-radio-button" {$all_checkbox}> {BEGIN all_checkbox_label}all{END all_checkbox_label}
+		&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="srchType" class="runner-radio-button" {$any_checkbox}> {BEGIN any_checkbox_label}any{END any_checkbox_label}
+	</div>
+	
+	<div class="addOption">
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideControlChooseMenu{$id}" class="runner-button" {$showHideCtrls_attrs}>Add field</a>
+		</span>
+		&nbsp;&nbsp;&nbsp;
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideSearchType{$id}" class="runner-button" {$showHideCtrlsOpt_attrs}>{$showHideOpt_mess}</a>
+		</span>
+	</div>
+	
+	<!-- choose controls div -->
+	<div class="runner-panel controlChooseMenu" {$controlChooseMenuDiv_attrs}>
+		{BEGIN addSearch_ProdGrpCode}
+			<a href="#" id="addSearchControl_ProdGrpCode" class="addSearchControl" {$addSearchControl_ProdGrpCode_attrs}>Prod Grp Code</a><br>
+		{END addSearch_ProdGrpCode}
+		{BEGIN addSearch_Status}
+			<a href="#" id="addSearchControl_Status" class="addSearchControl" {$addSearchControl_Status_attrs}>Status</a><br>
+		{END addSearch_Status}
+		{BEGIN addSearch_ProdNo}
+			<a href="#" id="addSearchControl_ProdNo" class="addSearchControl" {$addSearchControl_ProdNo_attrs}>Prod No</a><br>
+		{END addSearch_ProdNo}
+		{BEGIN addSearch_CostType}
+			<a href="#" id="addSearchControl_CostType" class="addSearchControl" {$addSearchControl_CostType_attrs}>Cost Type</a><br>
+		{END addSearch_CostType}
+		{BEGIN addSearch_EngName}
+			<a href="#" id="addSearchControl_EngName" class="addSearchControl" {$addSearchControl_EngName_attrs}>Eng Name</a><br>
+		{END addSearch_EngName}
+		{BEGIN addSearch_ThaiName}
+			<a href="#" id="addSearchControl_ThaiName" class="addSearchControl" {$addSearchControl_ThaiName_attrs}>Thai Name</a><br>
+		{END addSearch_ThaiName}
+		{BEGIN addSearch_Qtty}
+			<a href="#" id="addSearchControl_Qtty" class="addSearchControl" {$addSearchControl_Qtty_attrs}>Qtty</a><br>
+		{END addSearch_Qtty}
+		{BEGIN addSearch_PieceCost}
+			<a href="#" id="addSearchControl_PieceCost" class="addSearchControl" {$addSearchControl_PieceCost_attrs}>Piece Cost</a><br>
+		{END addSearch_PieceCost}
+		{BEGIN addSearch_SortOrder}
+			<a href="#" id="addSearchControl_SortOrder" class="addSearchControl" {$addSearchControl_SortOrder_attrs}>Sort Order</a><br>
+		{END addSearch_SortOrder}
+		{BEGIN addSearch_Cost}
+			<a href="#" id="addSearchControl_Cost" class="addSearchControl" {$addSearchControl_Cost_attrs}>Cost</a><br>
+		{END addSearch_Cost}
+		{BEGIN addSearch_UnitEngRpt}
+			<a href="#" id="addSearchControl_UnitEngRpt" class="addSearchControl" {$addSearchControl_UnitEngRpt_attrs}>Unit Eng Rpt</a><br>
+		{END addSearch_UnitEngRpt}
+		{BEGIN addSearch_UnitThaiRpt}
+			<a href="#" id="addSearchControl_UnitThaiRpt" class="addSearchControl" {$addSearchControl_UnitThaiRpt_attrs}>Unit Thai Rpt</a><br>
+		{END addSearch_UnitThaiRpt}
+		{BEGIN addSearch_CompPurchaseUnitEn}
+			<a href="#" id="addSearchControl_CompPurchaseUnitEn" class="addSearchControl" {$addSearchControl_CompPurchaseUnitEn_attrs}>Comp Purchase Unit En</a><br>
+		{END addSearch_CompPurchaseUnitEn}
+		{BEGIN addSearch_CostYear}
+			<a href="#" id="addSearchControl_CostYear" class="addSearchControl" {$addSearchControl_CostYear_attrs}>Cost Year</a><br>
+		{END addSearch_CostYear}
+		{BEGIN addSearch_CostMonth}
+			<a href="#" id="addSearchControl_CostMonth" class="addSearchControl" {$addSearchControl_CostMonth_attrs}>Cost Month</a><br>
+		{END addSearch_CostMonth}
+		{BEGIN addSearch_PercentCost}
+			<a href="#" id="addSearchControl_PercentCost" class="addSearchControl" {$addSearchControl_PercentCost_attrs}>Percent Cost</a><br>
+		{END addSearch_PercentCost}
+	</div>
+	
+	<div class="controlsBlock">
+		{BEGIN searchCtrlBlock}
+		<div class="srchPanelRow" {$filterRow_attrs}>
+			<div class="srchPanelCell">{$delCtrlButt}&nbsp;{$fLabel}:&nbsp;</div>
+			<div class="srchPanelCell srchPanelCell2">{$searchtype} {$searchcontrol} {$searchcontrol1}</div>
+		</div>
+		{END searchCtrlBlock}
+	</div>
+		
+	<div class="bottomSearchButt" align="left" {$bottomSearchButt_attrs}>
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" class="runner-button" {$searchbutton_attrs}>Search</a>
+		</span>
+	</div>
+</div>

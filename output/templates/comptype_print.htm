@@ -1,0 +1,202 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=7">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<table   cellpadding="0" class="runner-toptable">
+			<tr class="runner-header">
+				<td class="runner-top" colspan=3>
+					
+
+
+
+
+				</td>
+			</tr>
+			<tr class="runner-body">
+				
+				<td class="runner-left {$blockclass_left}" >
+					
+				</td>	
+				
+				<td class="runner-center {$blockclass_center}">
+					
+
+{BEGIN container_grid}
+
+
+{BEGIN grid_block}
+{BEGIN page}
+<h1>Comptype</h1>
+<span>
+{BEGIN page_number}
+Page {$pageno} of {$maxpages} 
+{END page_number}
+</span>
+
+	<div class="runner-s-grid">	
+	<table class="runner-c runner-c-grid" cellpadding="0">
+		<thead>
+		{BEGIN grid_header}
+		<tr class="runner-toprow style1">
+			<td class="runner-cl"><img src="images/spacer.gif"></td>
+			{BEGIN record_header}
+					{BEGIN CompTypeEng_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN CompTypeEng_fieldheader}
+	<b>Comp Type Eng</b>
+	{END CompTypeEng_fieldheader}
+</th>
+{END CompTypeEng_fieldheadercolumn}
+	{BEGIN CompTypeLL_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN CompTypeLL_fieldheader}
+	<b>Comp Type LL</b>
+	{END CompTypeLL_fieldheader}
+</th>
+{END CompTypeLL_fieldheadercolumn}
+	{BEGIN DetailsEng_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN DetailsEng_fieldheader}
+	<b>Details Eng</b>
+	{END DetailsEng_fieldheader}
+</th>
+{END DetailsEng_fieldheadercolumn}
+	{BEGIN detailsLL_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN detailsLL_fieldheader}
+	<b>Details LL</b>
+	{END detailsLL_fieldheader}
+</th>
+{END detailsLL_fieldheadercolumn}
+	{BEGIN CompTypeNo_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN CompTypeNo_fieldheader}
+	<b>Comp Type No</b>
+	{END CompTypeNo_fieldheader}
+</th>
+{END CompTypeNo_fieldheadercolumn}
+		
+			{END record_header}
+			<td class="runner-cr"><img src="images/spacer.gif"></td>
+			{BEGIN endrecordheader_block}
+			<td class="runner-cs">&nbsp;</td>
+			{END endrecordheader_block}
+		</tr>
+	{END grid_header}
+		</thead>
+		<tbody>	
+		{BEGIN grid_row}
+	<tr class="runner-row style1" {$rowattrs} {$rowstyle} {$rowstyle}>
+		<td class="runner-cl"></td>
+		{BEGIN grid_record}
+				{BEGIN CompTypeEng_fieldcolumn}
+<td  class="runner-cc {$CompTypeEng_class}" {$CompTypeEng_style}>
+	{$CompTypeEng_value}
+</td>
+{END CompTypeEng_fieldcolumn}
+	{BEGIN CompTypeLL_fieldcolumn}
+<td  class="runner-cc {$CompTypeLL_class}" {$CompTypeLL_style}>
+	{$CompTypeLL_value}
+</td>
+{END CompTypeLL_fieldcolumn}
+	{BEGIN DetailsEng_fieldcolumn}
+<td  class="runner-cc {$DetailsEng_class}" {$DetailsEng_style}>
+	{$DetailsEng_value}
+</td>
+{END DetailsEng_fieldcolumn}
+	{BEGIN detailsLL_fieldcolumn}
+<td  class="runner-cc {$detailsLL_class}" {$detailsLL_style}>
+	{$detailsLL_value}
+</td>
+{END detailsLL_fieldcolumn}
+	{BEGIN CompTypeNo_fieldcolumn}
+<td  class="runner-cc {$CompTypeNo_class}" {$CompTypeNo_style}>
+	{$CompTypeNo_value}
+</td>
+{END CompTypeNo_fieldcolumn}
+
+		{END grid_record}
+		<td class="runner-cr"></td>
+		{BEGIN endrecord_block}
+		<td class="runner-cs">&nbsp;</td>
+		{END endrecord_block}
+	</tr>
+{END grid_row}
+										
+								<tr class="runner-bottomrow style1">
+									<td class="runner-cl"><img src="images/spacer.gif"></td>
+									{BEGIN record_footer}
+									{BEGIN CompTypeEng_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END CompTypeEng_fieldfootercolumn}
+{BEGIN CompTypeLL_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END CompTypeLL_fieldfootercolumn}
+{BEGIN DetailsEng_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END DetailsEng_fieldfootercolumn}
+{BEGIN detailsLL_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END detailsLL_fieldfootercolumn}
+{BEGIN CompTypeNo_fieldfootercolumn}
+<td class="runner-cc runner-clast"></td>
+{END CompTypeNo_fieldfootercolumn}
+
+									{END record_footer}
+									<td class="runner-cr"><img src="images/spacer.gif"></td>
+									{BEGIN endrecordtotals_block}
+									<td class="runner-cs"></td>
+									{END endrecordtotals_block}
+								</tr>
+
+		</tbody>
+	</table>
+</div>	
+{END page}
+
+{END grid_block}
+
+
+
+{END container_grid}
+
+
+				</td>	
+
+				<td class="runner-right {$blockclass_right}">
+					
+				</td>	
+			</tr>
+			<tr class="runner-footer">
+				<td class="runner-bottom" colspan=3>
+					<!--%%bottom%%-->
+				</td>
+			</tr>
+		</table>
+		{$footer}
+	{END body}
+	</body>
+</html>

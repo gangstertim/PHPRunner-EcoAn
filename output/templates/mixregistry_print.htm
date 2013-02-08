@@ -1,0 +1,202 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=7">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<table   cellpadding="0" class="runner-toptable">
+			<tr class="runner-header">
+				<td class="runner-top" colspan=3>
+					
+
+
+
+
+				</td>
+			</tr>
+			<tr class="runner-body">
+				
+				<td class="runner-left {$blockclass_left}" >
+					
+				</td>	
+				
+				<td class="runner-center {$blockclass_center}">
+					
+
+{BEGIN container_grid}
+
+
+{BEGIN grid_block}
+{BEGIN page}
+<h1>Mixregistry</h1>
+<span>
+{BEGIN page_number}
+Page {$pageno} of {$maxpages} 
+{END page_number}
+</span>
+
+	<div class="runner-s-grid">	
+	<table class="runner-c runner-c-grid" cellpadding="0">
+		<thead>
+		{BEGIN grid_header}
+		<tr class="runner-toprow style1">
+			<td class="runner-cl"><img src="images/spacer.gif"></td>
+			{BEGIN record_header}
+					{BEGIN MixNo_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN MixNo_fieldheader}
+	<b>Mix No</b>
+	{END MixNo_fieldheader}
+</th>
+{END MixNo_fieldheadercolumn}
+	{BEGIN MixColor_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN MixColor_fieldheader}
+	<b>Mix Color</b>
+	{END MixColor_fieldheader}
+</th>
+{END MixColor_fieldheadercolumn}
+	{BEGIN ProdGrpCode_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN ProdGrpCode_fieldheader}
+	<b>Prod Grp Code</b>
+	{END ProdGrpCode_fieldheader}
+</th>
+{END ProdGrpCode_fieldheadercolumn}
+	{BEGIN Notes_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Notes_fieldheader}
+	<b>Notes</b>
+	{END Notes_fieldheader}
+</th>
+{END Notes_fieldheadercolumn}
+	{BEGIN Status_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Status_fieldheader}
+	<b>Status</b>
+	{END Status_fieldheader}
+</th>
+{END Status_fieldheadercolumn}
+		
+			{END record_header}
+			<td class="runner-cr"><img src="images/spacer.gif"></td>
+			{BEGIN endrecordheader_block}
+			<td class="runner-cs">&nbsp;</td>
+			{END endrecordheader_block}
+		</tr>
+	{END grid_header}
+		</thead>
+		<tbody>	
+		{BEGIN grid_row}
+	<tr class="runner-row style1" {$rowattrs} {$rowstyle} {$rowstyle}>
+		<td class="runner-cl"></td>
+		{BEGIN grid_record}
+				{BEGIN MixNo_fieldcolumn}
+<td  class="runner-cc {$MixNo_class}" {$MixNo_style}>
+	{$MixNo_value}
+</td>
+{END MixNo_fieldcolumn}
+	{BEGIN MixColor_fieldcolumn}
+<td  class="runner-cc {$MixColor_class}" {$MixColor_style}>
+	{$MixColor_value}
+</td>
+{END MixColor_fieldcolumn}
+	{BEGIN ProdGrpCode_fieldcolumn}
+<td  class="runner-cc {$ProdGrpCode_class}" {$ProdGrpCode_style}>
+	{$ProdGrpCode_value}
+</td>
+{END ProdGrpCode_fieldcolumn}
+	{BEGIN Notes_fieldcolumn}
+<td  class="runner-cc {$Notes_class}" {$Notes_style}>
+	{$Notes_value}
+</td>
+{END Notes_fieldcolumn}
+	{BEGIN Status_fieldcolumn}
+<td  class="runner-cc {$Status_class}" {$Status_style}>
+	{$Status_value}
+</td>
+{END Status_fieldcolumn}
+
+		{END grid_record}
+		<td class="runner-cr"></td>
+		{BEGIN endrecord_block}
+		<td class="runner-cs">&nbsp;</td>
+		{END endrecord_block}
+	</tr>
+{END grid_row}
+										
+								<tr class="runner-bottomrow style1">
+									<td class="runner-cl"><img src="images/spacer.gif"></td>
+									{BEGIN record_footer}
+									{BEGIN MixNo_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END MixNo_fieldfootercolumn}
+{BEGIN MixColor_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END MixColor_fieldfootercolumn}
+{BEGIN ProdGrpCode_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END ProdGrpCode_fieldfootercolumn}
+{BEGIN Notes_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Notes_fieldfootercolumn}
+{BEGIN Status_fieldfootercolumn}
+<td class="runner-cc runner-clast"></td>
+{END Status_fieldfootercolumn}
+
+									{END record_footer}
+									<td class="runner-cr"><img src="images/spacer.gif"></td>
+									{BEGIN endrecordtotals_block}
+									<td class="runner-cs"></td>
+									{END endrecordtotals_block}
+								</tr>
+
+		</tbody>
+	</table>
+</div>	
+{END page}
+
+{END grid_block}
+
+
+
+{END container_grid}
+
+
+				</td>	
+
+				<td class="runner-right {$blockclass_right}">
+					
+				</td>	
+			</tr>
+			<tr class="runner-footer">
+				<td class="runner-bottom" colspan=3>
+					<!--%%bottom%%-->
+				</td>
+			</tr>
+		</table>
+		{$footer}
+	{END body}
+	</body>
+</html>

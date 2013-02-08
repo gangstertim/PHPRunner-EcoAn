@@ -1,0 +1,94 @@
+.page-detailspreview,
+  .runner-pagewrapper .page-detailspreview,
+  .runner-pagewrapper .runner-pagewrapper .page-detailspreview
+{
+padding-top:10px; padding-left:10px;
+}
+.page-detailspreview .runner-c-dcount,
+  .runner-pagewrapper .page-detailspreview .runner-c-dcount,
+  .runner-pagewrapper .runner-pagewrapper .page-detailspreview .runner-c-dcount
+{
+margin-bottom:5px;
+}
+.page-detailspreview .runner-b-detailspreviewheader, .page-detailspreview .runner-b-detailspreviewheader,
+.page-detailspreview .runner-b-detailspreviewheader, .page-detailspreview .runner-b-detailspreviewheader > *,
+  .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewheader, .page-detailspreview .runner-b-detailspreviewheader,
+  .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewheader, .page-detailspreview .runner-b-detailspreviewheader > *,
+  .runner-pagewrapper .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewheader, .page-detailspreview .runner-b-detailspreviewheader,
+  .runner-pagewrapper .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewheader, .page-detailspreview .runner-b-detailspreviewheader > *
+{
+white-space: nowrap;
+}
+.page-detailspreview .runner-b-detailspreviewheader, .page-detailspreview .runner-b-detailspreviewheader,
+.page-detailspreview .runner-b-detailspreviewheader, .page-detailspreview .runner-b-detailspreviewheader > *,
+  .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewheader, .page-detailspreview .runner-b-detailspreviewheader,
+  .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewheader, .page-detailspreview .runner-b-detailspreviewheader > *,
+  .runner-pagewrapper .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewheader, .page-detailspreview .runner-b-detailspreviewheader,
+  .runner-pagewrapper .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewheader, .page-detailspreview .runner-b-detailspreviewheader > *
+{
+text-align: right;
+}
+.page-detailspreview .runner-b-detailspreviewdetailsfount, .page-detailspreview .runner-b-detailspreviewdetailsfount,
+.page-detailspreview .runner-b-detailspreviewdetailsfount, .page-detailspreview .runner-b-detailspreviewdetailsfount > *,
+  .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewdetailsfount, .page-detailspreview .runner-b-detailspreviewdetailsfount,
+  .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewdetailsfount, .page-detailspreview .runner-b-detailspreviewdetailsfount > *,
+  .runner-pagewrapper .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewdetailsfount, .page-detailspreview .runner-b-detailspreviewdetailsfount,
+  .runner-pagewrapper .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewdetailsfount, .page-detailspreview .runner-b-detailspreviewdetailsfount > *
+{
+white-space: nowrap;
+}
+.page-detailspreview .runner-b-detailspreviewdetailsfount, .page-detailspreview .runner-b-detailspreviewdetailsfount,
+.page-detailspreview .runner-b-detailspreviewdetailsfount, .page-detailspreview .runner-b-detailspreviewdetailsfount > *,
+  .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewdetailsfount, .page-detailspreview .runner-b-detailspreviewdetailsfount,
+  .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewdetailsfount, .page-detailspreview .runner-b-detailspreviewdetailsfount > *,
+  .runner-pagewrapper .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewdetailsfount, .page-detailspreview .runner-b-detailspreviewdetailsfount,
+  .runner-pagewrapper .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewdetailsfount, .page-detailspreview .runner-b-detailspreviewdetailsfount > *
+{
+text-align: right;
+}
+.page-detailspreview .runner-b-detailspreviewdispfirst, .page-detailspreview .runner-b-detailspreviewdispfirst,
+.page-detailspreview .runner-b-detailspreviewdispfirst, .page-detailspreview .runner-b-detailspreviewdispfirst > *,
+  .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewdispfirst, .page-detailspreview .runner-b-detailspreviewdispfirst,
+  .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewdispfirst, .page-detailspreview .runner-b-detailspreviewdispfirst > *,
+  .runner-pagewrapper .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewdispfirst, .page-detailspreview .runner-b-detailspreviewdispfirst,
+  .runner-pagewrapper .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewdispfirst, .page-detailspreview .runner-b-detailspreviewdispfirst > *
+{
+white-space: nowrap;
+}
+.page-detailspreview .runner-b-detailspreviewdispfirst, .page-detailspreview .runner-b-detailspreviewdispfirst,
+.page-detailspreview .runner-b-detailspreviewdispfirst, .page-detailspreview .runner-b-detailspreviewdispfirst > *,
+  .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewdispfirst, .page-detailspreview .runner-b-detailspreviewdispfirst,
+  .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewdispfirst, .page-detailspreview .runner-b-detailspreviewdispfirst > *,
+  .runner-pagewrapper .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewdispfirst, .page-detailspreview .runner-b-detailspreviewdispfirst,
+  .runner-pagewrapper .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewdispfirst, .page-detailspreview .runner-b-detailspreviewdispfirst > *
+{
+text-align: right;
+}
+.page-detailspreview .runner-c-detailspreviewgrid,
+  .runner-pagewrapper .page-detailspreview .runner-c-detailspreviewgrid,
+  .runner-pagewrapper .runner-pagewrapper .page-detailspreview .runner-c-detailspreviewgrid
+{
+margin-bottom:5px;
+}
+.page-detailspreview .runner-b-detailspreviewfields, .page-detailspreview .runner-b-detailspreviewfields,
+.page-detailspreview .runner-b-detailspreviewfields, .page-detailspreview .runner-b-detailspreviewfields > *,
+  .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewfields, .page-detailspreview .runner-b-detailspreviewfields,
+  .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewfields, .page-detailspreview .runner-b-detailspreviewfields > *,
+  .runner-pagewrapper .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewfields, .page-detailspreview .runner-b-detailspreviewfields,
+  .runner-pagewrapper .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewfields, .page-detailspreview .runner-b-detailspreviewfields > *
+{
+white-space: nowrap;
+}
+.page-detailspreview .runner-b-detailspreviewfields, .page-detailspreview .runner-b-detailspreviewfields,
+.page-detailspreview .runner-b-detailspreviewfields, .page-detailspreview .runner-b-detailspreviewfields > *,
+  .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewfields, .page-detailspreview .runner-b-detailspreviewfields,
+  .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewfields, .page-detailspreview .runner-b-detailspreviewfields > *,
+  .runner-pagewrapper .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewfields, .page-detailspreview .runner-b-detailspreviewfields,
+  .runner-pagewrapper .runner-pagewrapper .page-detailspreview .runner-b-detailspreviewfields, .page-detailspreview .runner-b-detailspreviewfields > *
+{
+text-align: right;
+}
+body.page-detailspreview .runner-bare
+{
+padding-right: 5px;
+}

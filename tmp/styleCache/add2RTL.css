@@ -1,0 +1,162 @@
+.page-preview,
+  .runner-pagewrapper .page-preview,
+  .runner-pagewrapper .runner-pagewrapper .page-preview
+{
+padding-top:10px; padding-left:10px;
+}
+.page-preview .runner-c-add,
+  .runner-pagewrapper .page-preview .runner-c-add,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-c-add
+{
+margin-bottom:5px;
+}
+.page-preview .runner-c-add,
+  .runner-pagewrapper .page-preview .runner-c-add,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-c-add
+{
+width:500px;
+}
+body.page-preview .runner-c-add
+{
+margin-left:auto; margin-right:auto;
+}
+.page-preview .runner-b-addheader, .page-preview .runner-b-addheader,
+.page-preview .runner-b-addheader, .page-preview .runner-b-addheader > *,
+  .runner-pagewrapper .page-preview .runner-b-addheader, .page-preview .runner-b-addheader,
+  .runner-pagewrapper .page-preview .runner-b-addheader, .page-preview .runner-b-addheader > *,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-addheader, .page-preview .runner-b-addheader,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-addheader, .page-preview .runner-b-addheader > *
+{
+white-space: nowrap;
+}
+.page-preview .runner-b-addheader, .page-preview .runner-b-addheader,
+.page-preview .runner-b-addheader, .page-preview .runner-b-addheader > *,
+  .runner-pagewrapper .page-preview .runner-b-addheader, .page-preview .runner-b-addheader,
+  .runner-pagewrapper .page-preview .runner-b-addheader, .page-preview .runner-b-addheader > *,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-addheader, .page-preview .runner-b-addheader,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-addheader, .page-preview .runner-b-addheader > *
+{
+text-align: right;
+}
+.page-preview .runner-b-message, .page-preview .runner-b-message,
+.page-preview .runner-b-message, .page-preview .runner-b-message > *,
+  .runner-pagewrapper .page-preview .runner-b-message, .page-preview .runner-b-message,
+  .runner-pagewrapper .page-preview .runner-b-message, .page-preview .runner-b-message > *,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-message, .page-preview .runner-b-message,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-message, .page-preview .runner-b-message > *
+{
+white-space: nowrap;
+}
+.page-preview .runner-b-message, .page-preview .runner-b-message,
+.page-preview .runner-b-message, .page-preview .runner-b-message > *,
+  .runner-pagewrapper .page-preview .runner-b-message, .page-preview .runner-b-message,
+  .runner-pagewrapper .page-preview .runner-b-message, .page-preview .runner-b-message > *,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-message, .page-preview .runner-b-message,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-message, .page-preview .runner-b-message > *
+{
+text-align: right;
+}
+.page-preview .runner-c-fields,
+  .runner-pagewrapper .page-preview .runner-c-fields,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-c-fields
+{
+margin-bottom:5px;
+}
+.page-preview .runner-c-fields,
+  .runner-pagewrapper .page-preview .runner-c-fields,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-c-fields
+{
+width:100%;
+}
+.page-preview .runner-b-addfields, .page-preview .runner-b-addfields,
+.page-preview .runner-b-addfields, .page-preview .runner-b-addfields > *,
+  .runner-pagewrapper .page-preview .runner-b-addfields, .page-preview .runner-b-addfields,
+  .runner-pagewrapper .page-preview .runner-b-addfields, .page-preview .runner-b-addfields > *,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-addfields, .page-preview .runner-b-addfields,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-addfields, .page-preview .runner-b-addfields > *
+{
+white-space: nowrap;
+}
+.page-preview .runner-b-addfields, .page-preview .runner-b-addfields,
+.page-preview .runner-b-addfields, .page-preview .runner-b-addfields > *,
+  .runner-pagewrapper .page-preview .runner-b-addfields, .page-preview .runner-b-addfields,
+  .runner-pagewrapper .page-preview .runner-b-addfields, .page-preview .runner-b-addfields > *,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-addfields, .page-preview .runner-b-addfields,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-addfields, .page-preview .runner-b-addfields > *
+{
+text-align: right;
+}
+.page-preview .runner-b-legend, .page-preview .runner-b-legend,
+.page-preview .runner-b-legend, .page-preview .runner-b-legend > *,
+  .runner-pagewrapper .page-preview .runner-b-legend, .page-preview .runner-b-legend,
+  .runner-pagewrapper .page-preview .runner-b-legend, .page-preview .runner-b-legend > *,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-legend, .page-preview .runner-b-legend,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-legend, .page-preview .runner-b-legend > *
+{
+white-space: nowrap;
+}
+.page-preview .runner-b-legend, .page-preview .runner-b-legend,
+.page-preview .runner-b-legend, .page-preview .runner-b-legend > *,
+  .runner-pagewrapper .page-preview .runner-b-legend, .page-preview .runner-b-legend,
+  .runner-pagewrapper .page-preview .runner-b-legend, .page-preview .runner-b-legend > *,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-legend, .page-preview .runner-b-legend,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-legend, .page-preview .runner-b-legend > *
+{
+text-align: right;
+}
+.page-preview .runner-b-addbuttons, .page-preview .runner-b-addbuttons,
+.page-preview .runner-b-addbuttons, .page-preview .runner-b-addbuttons > *,
+  .runner-pagewrapper .page-preview .runner-b-addbuttons, .page-preview .runner-b-addbuttons,
+  .runner-pagewrapper .page-preview .runner-b-addbuttons, .page-preview .runner-b-addbuttons > *,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-addbuttons, .page-preview .runner-b-addbuttons,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-addbuttons, .page-preview .runner-b-addbuttons > *
+{
+white-space: nowrap;
+}
+.page-preview .runner-b-addbuttons, .page-preview .runner-b-addbuttons,
+.page-preview .runner-b-addbuttons, .page-preview .runner-b-addbuttons > *,
+  .runner-pagewrapper .page-preview .runner-b-addbuttons, .page-preview .runner-b-addbuttons,
+  .runner-pagewrapper .page-preview .runner-b-addbuttons, .page-preview .runner-b-addbuttons > *,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-addbuttons, .page-preview .runner-b-addbuttons,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-addbuttons, .page-preview .runner-b-addbuttons > *
+{
+text-align: right;
+}
+.page-preview .runner-c-details,
+  .runner-pagewrapper .page-preview .runner-c-details,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-c-details
+{
+margin-bottom:5px;
+}
+.page-preview .runner-c-details,
+  .runner-pagewrapper .page-preview .runner-c-details,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-c-details
+{
+width:500px;
+}
+.page-preview .runner-b-adddetails, .page-preview .runner-b-adddetails,
+.page-preview .runner-b-adddetails, .page-preview .runner-b-adddetails > *,
+  .runner-pagewrapper .page-preview .runner-b-adddetails, .page-preview .runner-b-adddetails,
+  .runner-pagewrapper .page-preview .runner-b-adddetails, .page-preview .runner-b-adddetails > *,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-adddetails, .page-preview .runner-b-adddetails,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-adddetails, .page-preview .runner-b-adddetails > *
+{
+white-space: nowrap;
+}
+.page-preview .runner-b-adddetails, .page-preview .runner-b-adddetails,
+.page-preview .runner-b-adddetails, .page-preview .runner-b-adddetails > *,
+  .runner-pagewrapper .page-preview .runner-b-adddetails, .page-preview .runner-b-adddetails,
+  .runner-pagewrapper .page-preview .runner-b-adddetails, .page-preview .runner-b-adddetails > *,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-adddetails, .page-preview .runner-b-adddetails,
+  .runner-pagewrapper .runner-pagewrapper .page-preview .runner-b-adddetails, .page-preview .runner-b-adddetails > *
+{
+text-align: right;
+}
+body.page-preview .runner-toptable
+{
+width:100%;
+}
+body.page-preview .runner-top
+{
+padding-right: 5px;
+}

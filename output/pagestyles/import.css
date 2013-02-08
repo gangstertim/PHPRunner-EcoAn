@@ -1,0 +1,120 @@
+.page-import,
+  .runner-pagewrapper .page-import,
+  .runner-pagewrapper .runner-pagewrapper .page-import
+{
+padding-top:10px; padding-left:10px;
+}
+.page-import .runner-c-import,
+  .runner-pagewrapper .page-import .runner-c-import,
+  .runner-pagewrapper .runner-pagewrapper .page-import .runner-c-import
+{
+margin-bottom:5px;
+}
+.page-import .runner-c-import,
+  .runner-pagewrapper .page-import .runner-c-import,
+  .runner-pagewrapper .runner-pagewrapper .page-import .runner-c-import
+{
+width:500px;
+}
+body.page-import .runner-c-import
+{
+margin-left:auto; margin-right:auto;
+}
+.page-import .runner-b-importheader, .page-import .runner-b-importheader,
+.page-import .runner-b-importheader, .page-import .runner-b-importheader > *,
+  .runner-pagewrapper .page-import .runner-b-importheader, .page-import .runner-b-importheader,
+  .runner-pagewrapper .page-import .runner-b-importheader, .page-import .runner-b-importheader > *,
+  .runner-pagewrapper .runner-pagewrapper .page-import .runner-b-importheader, .page-import .runner-b-importheader,
+  .runner-pagewrapper .runner-pagewrapper .page-import .runner-b-importheader, .page-import .runner-b-importheader > *
+{
+white-space: nowrap;
+}
+.page-import .runner-b-importheader, .page-import .runner-b-importheader,
+.page-import .runner-b-importheader, .page-import .runner-b-importheader > *,
+  .runner-pagewrapper .page-import .runner-b-importheader, .page-import .runner-b-importheader,
+  .runner-pagewrapper .page-import .runner-b-importheader, .page-import .runner-b-importheader > *,
+  .runner-pagewrapper .runner-pagewrapper .page-import .runner-b-importheader, .page-import .runner-b-importheader,
+  .runner-pagewrapper .runner-pagewrapper .page-import .runner-b-importheader, .page-import .runner-b-importheader > *
+{
+text-align: left;
+}
+.page-import .runner-b-importheader_text, .page-import .runner-b-importheader_text,
+.page-import .runner-b-importheader_text, .page-import .runner-b-importheader_text > *,
+  .runner-pagewrapper .page-import .runner-b-importheader_text, .page-import .runner-b-importheader_text,
+  .runner-pagewrapper .page-import .runner-b-importheader_text, .page-import .runner-b-importheader_text > *,
+  .runner-pagewrapper .runner-pagewrapper .page-import .runner-b-importheader_text, .page-import .runner-b-importheader_text,
+  .runner-pagewrapper .runner-pagewrapper .page-import .runner-b-importheader_text, .page-import .runner-b-importheader_text > *
+{
+white-space: nowrap;
+}
+.page-import .runner-b-importheader_text, .page-import .runner-b-importheader_text,
+.page-import .runner-b-importheader_text, .page-import .runner-b-importheader_text > *,
+  .runner-pagewrapper .page-import .runner-b-importheader_text, .page-import .runner-b-importheader_text,
+  .runner-pagewrapper .page-import .runner-b-importheader_text, .page-import .runner-b-importheader_text > *,
+  .runner-pagewrapper .runner-pagewrapper .page-import .runner-b-importheader_text, .page-import .runner-b-importheader_text,
+  .runner-pagewrapper .runner-pagewrapper .page-import .runner-b-importheader_text, .page-import .runner-b-importheader_text > *
+{
+text-align: left;
+}
+.page-import .runner-b-errormessage, .page-import .runner-b-errormessage,
+.page-import .runner-b-errormessage, .page-import .runner-b-errormessage > *,
+  .runner-pagewrapper .page-import .runner-b-errormessage, .page-import .runner-b-errormessage,
+  .runner-pagewrapper .page-import .runner-b-errormessage, .page-import .runner-b-errormessage > *,
+  .runner-pagewrapper .runner-pagewrapper .page-import .runner-b-errormessage, .page-import .runner-b-errormessage,
+  .runner-pagewrapper .runner-pagewrapper .page-import .runner-b-errormessage, .page-import .runner-b-errormessage > *
+{
+white-space: nowrap;
+}
+.page-import .runner-b-errormessage, .page-import .runner-b-errormessage,
+.page-import .runner-b-errormessage, .page-import .runner-b-errormessage > *,
+  .runner-pagewrapper .page-import .runner-b-errormessage, .page-import .runner-b-errormessage,
+  .runner-pagewrapper .page-import .runner-b-errormessage, .page-import .runner-b-errormessage > *,
+  .runner-pagewrapper .runner-pagewrapper .page-import .runner-b-errormessage, .page-import .runner-b-errormessage,
+  .runner-pagewrapper .runner-pagewrapper .page-import .runner-b-errormessage, .page-import .runner-b-errormessage > *
+{
+text-align: left;
+}
+.page-import .runner-b-importfields, .page-import .runner-b-importfields,
+.page-import .runner-b-importfields, .page-import .runner-b-importfields > *,
+  .runner-pagewrapper .page-import .runner-b-importfields, .page-import .runner-b-importfields,
+  .runner-pagewrapper .page-import .runner-b-importfields, .page-import .runner-b-importfields > *,
+  .runner-pagewrapper .runner-pagewrapper .page-import .runner-b-importfields, .page-import .runner-b-importfields,
+  .runner-pagewrapper .runner-pagewrapper .page-import .runner-b-importfields, .page-import .runner-b-importfields > *
+{
+white-space: nowrap;
+}
+.page-import .runner-b-importfields, .page-import .runner-b-importfields,
+.page-import .runner-b-importfields, .page-import .runner-b-importfields > *,
+  .runner-pagewrapper .page-import .runner-b-importfields, .page-import .runner-b-importfields,
+  .runner-pagewrapper .page-import .runner-b-importfields, .page-import .runner-b-importfields > *,
+  .runner-pagewrapper .runner-pagewrapper .page-import .runner-b-importfields, .page-import .runner-b-importfields,
+  .runner-pagewrapper .runner-pagewrapper .page-import .runner-b-importfields, .page-import .runner-b-importfields > *
+{
+text-align: left;
+}
+.page-import .runner-b-importbuttons, .page-import .runner-b-importbuttons,
+.page-import .runner-b-importbuttons, .page-import .runner-b-importbuttons > *,
+  .runner-pagewrapper .page-import .runner-b-importbuttons, .page-import .runner-b-importbuttons,
+  .runner-pagewrapper .page-import .runner-b-importbuttons, .page-import .runner-b-importbuttons > *,
+  .runner-pagewrapper .runner-pagewrapper .page-import .runner-b-importbuttons, .page-import .runner-b-importbuttons,
+  .runner-pagewrapper .runner-pagewrapper .page-import .runner-b-importbuttons, .page-import .runner-b-importbuttons > *
+{
+white-space: nowrap;
+}
+.page-import .runner-b-importbuttons, .page-import .runner-b-importbuttons,
+.page-import .runner-b-importbuttons, .page-import .runner-b-importbuttons > *,
+  .runner-pagewrapper .page-import .runner-b-importbuttons, .page-import .runner-b-importbuttons,
+  .runner-pagewrapper .page-import .runner-b-importbuttons, .page-import .runner-b-importbuttons > *,
+  .runner-pagewrapper .runner-pagewrapper .page-import .runner-b-importbuttons, .page-import .runner-b-importbuttons,
+  .runner-pagewrapper .runner-pagewrapper .page-import .runner-b-importbuttons, .page-import .runner-b-importbuttons > *
+{
+text-align: left;
+}
+body.page-import .runner-toptable
+{
+width:100%;
+}
+body.page-import .runner-top
+{
+padding-right: 5px;
+}

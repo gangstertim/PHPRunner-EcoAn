@@ -1,0 +1,109 @@
+<div {$pageattrs}>
+
+{BEGIN container_dcount}
+<table class="runner-c runner-c-dcount" cellpadding="0" >
+<tr class="{$cheaderclass_dcount}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+
+
+<tr  class="runner-row style1 runner-b-detailspreviewheader {$brickclass_detailspreviewheader}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" ><b>Prodcosts</b>
+</td><td class="runner-cr"></td></tr>
+
+
+
+<tr  class="runner-row style1 runner-b-detailspreviewdetailsfount {$brickclass_detailspreviewdetailsfount}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" >Details found: <strong>{$row_count}.</strong>
+</td><td class="runner-cr"></td></tr>
+
+
+{BEGIN display_first}
+<tr  class="runner-row style1 runner-b-detailspreviewdispfirst {$brickclass_detailspreviewdispfirst}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" >Displaying first: <strong>{$display_count}</strong>.
+</td><td class="runner-cr"></td></tr>{END display_first}
+
+
+<tr class="{$cfooterclass_dcount}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+</table>
+{END container_dcount}
+
+
+
+{BEGIN container_detailspreviewgrid}
+
+
+{BEGIN details_data}
+<table class="runner-c runner-c-detailspreviewgrid runner-b-detailspreviewgrid">
+	<tr  class="runner-toprow style1">
+		<th class="runner-cl"><img src="images/spacer.gif"></th>
+		<th class="runner-cc ">Prod Grp Code</th>
+		<th class="runner-cc ">Status</th>
+		<th class="runner-cc ">Prod No</th>
+		<th class="runner-cc ">Cost Type</th>
+		<th class="runner-cc ">Eng Name</th>
+		<th class="runner-cc ">Thai Name</th>
+		<th class="runner-cc ">Qtty</th>
+		<th class="runner-cc ">Piece Cost</th>
+		<th class="runner-cc ">Sort Order</th>
+		<th class="runner-cc ">Cost</th>
+		<th class="runner-cc ">Unit Eng Rpt</th>
+		<th class="runner-cc ">Unit Thai Rpt</th>
+		<th class="runner-cc ">Comp Purchase Unit En</th>
+		<th class="runner-cc ">Cost Year</th>
+		<th class="runner-cc ">Cost Month</th>
+		<th class="runner-cc runner-clast">Percent Cost</th>
+		<th class="runner-cr"><img src="images/spacer.gif"></th>
+	</tr>
+	{BEGIN details_row}
+	<tr class="runner-row style1">
+		<td class="runner-cl"><img src="images/spacer.gif"></td>
+		<td class="runner-cc ">{$ProdGrpCode_value}</td>
+		<td class="runner-cc ">{$Status_value}</td>
+		<td class="runner-cc ">{$ProdNo_value}</td>
+		<td class="runner-cc ">{$CostType_value}</td>
+		<td class="runner-cc ">{$EngName_value}</td>
+		<td class="runner-cc ">{$ThaiName_value}</td>
+		<td class="runner-cc ">{$Qtty_value}</td>
+		<td class="runner-cc ">{$PieceCost_value}</td>
+		<td class="runner-cc ">{$SortOrder_value}</td>
+		<td class="runner-cc ">{$Cost_value}</td>
+		<td class="runner-cc ">{$UnitEngRpt_value}</td>
+		<td class="runner-cc ">{$UnitThaiRpt_value}</td>
+		<td class="runner-cc ">{$CompPurchaseUnitEn_value}</td>
+		<td class="runner-cc ">{$CostYear_value}</td>
+		<td class="runner-cc ">{$CostMonth_value}</td>
+		<td class="runner-cc runner-clast">{$PercentCost_value}</td>
+		<td class="runner-cr"><img src="images/spacer.gif"></td>
+	</tr>
+	{END details_row}
+	<tr class="runner-bottomrow style1">
+		<td class="runner-cl"><img src="images/spacer.gif"></td>
+			<td class="runner-cc "></td>
+			<td class="runner-cc "></td>
+			<td class="runner-cc "></td>
+			<td class="runner-cc "></td>
+			<td class="runner-cc "></td>
+			<td class="runner-cc "></td>
+			<td class="runner-cc "></td>
+			<td class="runner-cc "></td>
+			<td class="runner-cc "></td>
+			<td class="runner-cc "></td>
+			<td class="runner-cc "></td>
+			<td class="runner-cc "></td>
+			<td class="runner-cc "></td>
+			<td class="runner-cc "></td>
+			<td class="runner-cc "></td>
+			<td class="runner-cc runner-clast"></td>
+		<td class="runner-cr"><img src="images/spacer.gif"></td>
+	</tr>
+</table>
+
+{END details_data}
+
+
+
+{END container_detailspreviewgrid}
+
+</div>

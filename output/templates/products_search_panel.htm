@@ -1,0 +1,127 @@
+<div class="searchOptions bottomPanelBorder" {$srchOpt_attrs}>
+	
+	<!-- Search panel content -->
+	<div class="srchCritTop" style="display: none;">
+		Criteria:&nbsp;
+		<input type="radio" name="srchType" class="runner-radio-button" {$all_checkbox}> {BEGIN all_checkbox_label}all{END all_checkbox_label}
+		&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="srchType" class="runner-radio-button" {$any_checkbox}> {BEGIN any_checkbox_label}any{END any_checkbox_label}
+	</div>
+	
+	<div class="addOption">
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideControlChooseMenu{$id}" class="runner-button" {$showHideCtrls_attrs}>Add field</a>
+		</span>
+		&nbsp;&nbsp;&nbsp;
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideSearchType{$id}" class="runner-button" {$showHideCtrlsOpt_attrs}>{$showHideOpt_mess}</a>
+		</span>
+	</div>
+	
+	<!-- choose controls div -->
+	<div class="runner-panel controlChooseMenu" {$controlChooseMenuDiv_attrs}>
+		{BEGIN addSearch_ProdGrpCode}
+			<a href="#" id="addSearchControl_ProdGrpCode" class="addSearchControl" {$addSearchControl_ProdGrpCode_attrs}>Prod Grp Code</a><br>
+		{END addSearch_ProdGrpCode}
+		{BEGIN addSearch_ProdThaiName}
+			<a href="#" id="addSearchControl_ProdThaiName" class="addSearchControl" {$addSearchControl_ProdThaiName_attrs}>Prod Thai Name</a><br>
+		{END addSearch_ProdThaiName}
+		{BEGIN addSearch_ProdEngName}
+			<a href="#" id="addSearchControl_ProdEngName" class="addSearchControl" {$addSearchControl_ProdEngName_attrs}>Prod Eng Name</a><br>
+		{END addSearch_ProdEngName}
+		{BEGIN addSearch_Picture}
+			<a href="#" id="addSearchControl_Picture" class="addSearchControl" {$addSearchControl_Picture_attrs}>Picture</a><br>
+		{END addSearch_Picture}
+		{BEGIN addSearch_ThaiModel}
+			<a href="#" id="addSearchControl_ThaiModel" class="addSearchControl" {$addSearchControl_ThaiModel_attrs}>Thai Model</a><br>
+		{END addSearch_ThaiModel}
+		{BEGIN addSearch_EngModel}
+			<a href="#" id="addSearchControl_EngModel" class="addSearchControl" {$addSearchControl_EngModel_attrs}>Eng Model</a><br>
+		{END addSearch_EngModel}
+		{BEGIN addSearch_MixNo}
+			<a href="#" id="addSearchControl_MixNo" class="addSearchControl" {$addSearchControl_MixNo_attrs}>Mix No</a><br>
+		{END addSearch_MixNo}
+		{BEGIN addSearch_ProdWt}
+			<a href="#" id="addSearchControl_ProdWt" class="addSearchControl" {$addSearchControl_ProdWt_attrs}>Prod Wt</a><br>
+		{END addSearch_ProdWt}
+		{BEGIN addSearch_ColorMixNo}
+			<a href="#" id="addSearchControl_ColorMixNo" class="addSearchControl" {$addSearchControl_ColorMixNo_attrs}>Color Mix No</a><br>
+		{END addSearch_ColorMixNo}
+		{BEGIN addSearch_FaceWt}
+			<a href="#" id="addSearchControl_FaceWt" class="addSearchControl" {$addSearchControl_FaceWt_attrs}>Face Wt</a><br>
+		{END addSearch_FaceWt}
+		{BEGIN addSearch_Mold}
+			<a href="#" id="addSearchControl_Mold" class="addSearchControl" {$addSearchControl_Mold_attrs}>Mold</a><br>
+		{END addSearch_Mold}
+		{BEGIN addSearch_PiecesPerMould}
+			<a href="#" id="addSearchControl_PiecesPerMould" class="addSearchControl" {$addSearchControl_PiecesPerMould_attrs}>Pieces Per Mould</a><br>
+		{END addSearch_PiecesPerMould}
+		{BEGIN addSearch_ProductCost}
+			<a href="#" id="addSearchControl_ProductCost" class="addSearchControl" {$addSearchControl_ProductCost_attrs}>Product Cost</a><br>
+		{END addSearch_ProductCost}
+		{BEGIN addSearch_PriceRetail}
+			<a href="#" id="addSearchControl_PriceRetail" class="addSearchControl" {$addSearchControl_PriceRetail_attrs}>Price Retail</a><br>
+		{END addSearch_PriceRetail}
+		{BEGIN addSearch_PriceWholeSale}
+			<a href="#" id="addSearchControl_PriceWholeSale" class="addSearchControl" {$addSearchControl_PriceWholeSale_attrs}>Price Whole Sale</a><br>
+		{END addSearch_PriceWholeSale}
+		{BEGIN addSearch_ProdStockGoal}
+			<a href="#" id="addSearchControl_ProdStockGoal" class="addSearchControl" {$addSearchControl_ProdStockGoal_attrs}>Prod Stock Goal</a><br>
+		{END addSearch_ProdStockGoal}
+		{BEGIN addSearch_ThaiCom}
+			<a href="#" id="addSearchControl_ThaiCom" class="addSearchControl" {$addSearchControl_ThaiCom_attrs}>Thai Com</a><br>
+		{END addSearch_ThaiCom}
+		{BEGIN addSearch_EngCom}
+			<a href="#" id="addSearchControl_EngCom" class="addSearchControl" {$addSearchControl_EngCom_attrs}>Eng Com</a><br>
+		{END addSearch_EngCom}
+		{BEGIN addSearch_Status}
+			<a href="#" id="addSearchControl_Status" class="addSearchControl" {$addSearchControl_Status_attrs}>Status</a><br>
+		{END addSearch_Status}
+		{BEGIN addSearch_MoldWt}
+			<a href="#" id="addSearchControl_MoldWt" class="addSearchControl" {$addSearchControl_MoldWt_attrs}>Mold Wt</a><br>
+		{END addSearch_MoldWt}
+		{BEGIN addSearch_GrayWtMold}
+			<a href="#" id="addSearchControl_GrayWtMold" class="addSearchControl" {$addSearchControl_GrayWtMold_attrs}>Gray Wt Mold</a><br>
+		{END addSearch_GrayWtMold}
+		{BEGIN addSearch_ColorWtMold}
+			<a href="#" id="addSearchControl_ColorWtMold" class="addSearchControl" {$addSearchControl_ColorWtMold_attrs}>Color Wt Mold</a><br>
+		{END addSearch_ColorWtMold}
+		{BEGIN addSearch_Length}
+			<a href="#" id="addSearchControl_Length" class="addSearchControl" {$addSearchControl_Length_attrs}>Length</a><br>
+		{END addSearch_Length}
+		{BEGIN addSearch_Width1}
+			<a href="#" id="addSearchControl_Width1" class="addSearchControl" {$addSearchControl_Width1_attrs}>Width1</a><br>
+		{END addSearch_Width1}
+		{BEGIN addSearch_Thickness}
+			<a href="#" id="addSearchControl_Thickness" class="addSearchControl" {$addSearchControl_Thickness_attrs}>Thickness</a><br>
+		{END addSearch_Thickness}
+		{BEGIN addSearch_ProdNo}
+			<a href="#" id="addSearchControl_ProdNo" class="addSearchControl" {$addSearchControl_ProdNo_attrs}>Prod No</a><br>
+		{END addSearch_ProdNo}
+	</div>
+	
+	<table class="controlsBlock">
+	{BEGIN searchCtrlBlock}
+		<tr class="srchPanelRow" {$filterRow_attrs}>
+			<td class="srchPanelCell">{$delCtrlButt}</td>
+			<td class="srchPanelCell">{$fLabel}:&nbsp;</td>
+			<td class="srchPanelCell srchPanelCell2">
+				<div class="runner-searchtype">{$searchtype}</div>
+				<div class="runner-searchcontrol">{$searchcontrol}</div>
+				<div class="runner-searchcontrol">{$searchcontrol1}</div>
+		</tr>
+	{END searchCtrlBlock}
+	</table>
+	
+	<div class="bottomSearchButt" align="left" {$bottomSearchButt_attrs}>
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" class="runner-button" {$searchbutton_attrs}>Search</a>
+		</span>
+	</div>
+</div>

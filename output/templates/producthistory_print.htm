@@ -1,0 +1,472 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=7">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<table   cellpadding="0" class="runner-toptable">
+			<tr class="runner-header">
+				<td class="runner-top" colspan=3>
+					
+
+
+
+
+				</td>
+			</tr>
+			<tr class="runner-body">
+				
+				<td class="runner-left {$blockclass_left}" >
+					
+				</td>	
+				
+				<td class="runner-center {$blockclass_center}">
+					
+
+{BEGIN container_grid}
+
+
+{BEGIN grid_block}
+{BEGIN page}
+<h1>Producthistory</h1>
+<span>
+{BEGIN page_number}
+Page {$pageno} of {$maxpages} 
+{END page_number}
+</span>
+
+	<div class="runner-s-grid">	
+	<table class="runner-c runner-c-grid" cellpadding="0">
+		<thead>
+		{BEGIN grid_header}
+		<tr class="runner-toprow style1">
+			<td class="runner-cl"><img src="images/spacer.gif"></td>
+			{BEGIN record_header}
+					{BEGIN ProdNo_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN ProdNo_fieldheader}
+	<b>Prod No</b>
+	{END ProdNo_fieldheader}
+</th>
+{END ProdNo_fieldheadercolumn}
+	{BEGIN ProdGrpCode_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN ProdGrpCode_fieldheader}
+	<b>Prod Grp Code</b>
+	{END ProdGrpCode_fieldheader}
+</th>
+{END ProdGrpCode_fieldheadercolumn}
+	{BEGIN ProdThaiName_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN ProdThaiName_fieldheader}
+	<b>Prod Thai Name</b>
+	{END ProdThaiName_fieldheader}
+</th>
+{END ProdThaiName_fieldheadercolumn}
+	{BEGIN ProdEngName_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN ProdEngName_fieldheader}
+	<b>Prod Eng Name</b>
+	{END ProdEngName_fieldheader}
+</th>
+{END ProdEngName_fieldheadercolumn}
+	{BEGIN Picture_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Picture_fieldheader}
+	<b>Picture</b>
+	{END Picture_fieldheader}
+</th>
+{END Picture_fieldheadercolumn}
+	{BEGIN ThaiModel_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN ThaiModel_fieldheader}
+	<b>Thai Model</b>
+	{END ThaiModel_fieldheader}
+</th>
+{END ThaiModel_fieldheadercolumn}
+	{BEGIN EngModel_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN EngModel_fieldheader}
+	<b>Eng Model</b>
+	{END EngModel_fieldheader}
+</th>
+{END EngModel_fieldheadercolumn}
+	{BEGIN MixNo_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN MixNo_fieldheader}
+	<b>Mix No</b>
+	{END MixNo_fieldheader}
+</th>
+{END MixNo_fieldheadercolumn}
+	{BEGIN ProdWt_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN ProdWt_fieldheader}
+	<b>Prod Wt</b>
+	{END ProdWt_fieldheader}
+</th>
+{END ProdWt_fieldheadercolumn}
+	{BEGIN ColorMixNo_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN ColorMixNo_fieldheader}
+	<b>Color Mix No</b>
+	{END ColorMixNo_fieldheader}
+</th>
+{END ColorMixNo_fieldheadercolumn}
+	{BEGIN FaceWt_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN FaceWt_fieldheader}
+	<b>Face Wt</b>
+	{END FaceWt_fieldheader}
+</th>
+{END FaceWt_fieldheadercolumn}
+	{BEGIN Mold_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Mold_fieldheader}
+	<b>Mold</b>
+	{END Mold_fieldheader}
+</th>
+{END Mold_fieldheadercolumn}
+	{BEGIN PiecesPerMould_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN PiecesPerMould_fieldheader}
+	<b>Pieces Per Mould</b>
+	{END PiecesPerMould_fieldheader}
+</th>
+{END PiecesPerMould_fieldheadercolumn}
+	{BEGIN ProductCost_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN ProductCost_fieldheader}
+	<b>Product Cost</b>
+	{END ProductCost_fieldheader}
+</th>
+{END ProductCost_fieldheadercolumn}
+	{BEGIN PriceRetail_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN PriceRetail_fieldheader}
+	<b>Price Retail</b>
+	{END PriceRetail_fieldheader}
+</th>
+{END PriceRetail_fieldheadercolumn}
+	{BEGIN PriceWholeSale_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN PriceWholeSale_fieldheader}
+	<b>Price Whole Sale</b>
+	{END PriceWholeSale_fieldheader}
+</th>
+{END PriceWholeSale_fieldheadercolumn}
+	{BEGIN ProdStockGoal_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN ProdStockGoal_fieldheader}
+	<b>Prod Stock Goal</b>
+	{END ProdStockGoal_fieldheader}
+</th>
+{END ProdStockGoal_fieldheadercolumn}
+	{BEGIN ThaiCom_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN ThaiCom_fieldheader}
+	<b>Thai Com</b>
+	{END ThaiCom_fieldheader}
+</th>
+{END ThaiCom_fieldheadercolumn}
+	{BEGIN EngCom_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN EngCom_fieldheader}
+	<b>Eng Com</b>
+	{END EngCom_fieldheader}
+</th>
+{END EngCom_fieldheadercolumn}
+	{BEGIN Status_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Status_fieldheader}
+	<b>Status</b>
+	{END Status_fieldheader}
+</th>
+{END Status_fieldheadercolumn}
+	{BEGIN ChangeType_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN ChangeType_fieldheader}
+	<b>Change Type</b>
+	{END ChangeType_fieldheader}
+</th>
+{END ChangeType_fieldheadercolumn}
+	{BEGIN ChangeDate_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN ChangeDate_fieldheader}
+	<b>Change Date</b>
+	{END ChangeDate_fieldheader}
+</th>
+{END ChangeDate_fieldheadercolumn}
+	{BEGIN ChangeTime_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN ChangeTime_fieldheader}
+	<b>Change Time</b>
+	{END ChangeTime_fieldheader}
+</th>
+{END ChangeTime_fieldheadercolumn}
+		
+			{END record_header}
+			<td class="runner-cr"><img src="images/spacer.gif"></td>
+			{BEGIN endrecordheader_block}
+			<td class="runner-cs">&nbsp;</td>
+			{END endrecordheader_block}
+		</tr>
+	{END grid_header}
+		</thead>
+		<tbody>	
+		{BEGIN grid_row}
+	<tr class="runner-row style1" {$rowattrs} {$rowstyle} {$rowstyle}>
+		<td class="runner-cl"></td>
+		{BEGIN grid_record}
+				{BEGIN ProdNo_fieldcolumn}
+<td  class="runner-cc {$ProdNo_class}" {$ProdNo_style}>
+	{$ProdNo_value}
+</td>
+{END ProdNo_fieldcolumn}
+	{BEGIN ProdGrpCode_fieldcolumn}
+<td  class="runner-cc {$ProdGrpCode_class}" {$ProdGrpCode_style}>
+	{$ProdGrpCode_value}
+</td>
+{END ProdGrpCode_fieldcolumn}
+	{BEGIN ProdThaiName_fieldcolumn}
+<td  class="runner-cc {$ProdThaiName_class}" {$ProdThaiName_style}>
+	{$ProdThaiName_value}
+</td>
+{END ProdThaiName_fieldcolumn}
+	{BEGIN ProdEngName_fieldcolumn}
+<td  class="runner-cc {$ProdEngName_class}" {$ProdEngName_style}>
+	{$ProdEngName_value}
+</td>
+{END ProdEngName_fieldcolumn}
+	{BEGIN Picture_fieldcolumn}
+<td  class="runner-cc {$Picture_class}" {$Picture_style}>
+	{$Picture_value}
+</td>
+{END Picture_fieldcolumn}
+	{BEGIN ThaiModel_fieldcolumn}
+<td  class="runner-cc {$ThaiModel_class}" {$ThaiModel_style}>
+	{$ThaiModel_value}
+</td>
+{END ThaiModel_fieldcolumn}
+	{BEGIN EngModel_fieldcolumn}
+<td  class="runner-cc {$EngModel_class}" {$EngModel_style}>
+	{$EngModel_value}
+</td>
+{END EngModel_fieldcolumn}
+	{BEGIN MixNo_fieldcolumn}
+<td  class="runner-cc {$MixNo_class}" {$MixNo_style}>
+	{$MixNo_value}
+</td>
+{END MixNo_fieldcolumn}
+	{BEGIN ProdWt_fieldcolumn}
+<td  class="runner-cc {$ProdWt_class}" {$ProdWt_style}>
+	{$ProdWt_value}
+</td>
+{END ProdWt_fieldcolumn}
+	{BEGIN ColorMixNo_fieldcolumn}
+<td  class="runner-cc {$ColorMixNo_class}" {$ColorMixNo_style}>
+	{$ColorMixNo_value}
+</td>
+{END ColorMixNo_fieldcolumn}
+	{BEGIN FaceWt_fieldcolumn}
+<td  class="runner-cc {$FaceWt_class}" {$FaceWt_style}>
+	{$FaceWt_value}
+</td>
+{END FaceWt_fieldcolumn}
+	{BEGIN Mold_fieldcolumn}
+<td  class="runner-cc {$Mold_class}" {$Mold_style}>
+	{$Mold_value}
+</td>
+{END Mold_fieldcolumn}
+	{BEGIN PiecesPerMould_fieldcolumn}
+<td  class="runner-cc {$PiecesPerMould_class}" {$PiecesPerMould_style}>
+	{$PiecesPerMould_value}
+</td>
+{END PiecesPerMould_fieldcolumn}
+	{BEGIN ProductCost_fieldcolumn}
+<td  class="runner-cc {$ProductCost_class}" {$ProductCost_style}>
+	{$ProductCost_value}
+</td>
+{END ProductCost_fieldcolumn}
+	{BEGIN PriceRetail_fieldcolumn}
+<td  class="runner-cc {$PriceRetail_class}" {$PriceRetail_style}>
+	{$PriceRetail_value}
+</td>
+{END PriceRetail_fieldcolumn}
+	{BEGIN PriceWholeSale_fieldcolumn}
+<td  class="runner-cc {$PriceWholeSale_class}" {$PriceWholeSale_style}>
+	{$PriceWholeSale_value}
+</td>
+{END PriceWholeSale_fieldcolumn}
+	{BEGIN ProdStockGoal_fieldcolumn}
+<td  class="runner-cc {$ProdStockGoal_class}" {$ProdStockGoal_style}>
+	{$ProdStockGoal_value}
+</td>
+{END ProdStockGoal_fieldcolumn}
+	{BEGIN ThaiCom_fieldcolumn}
+<td  class="runner-cc {$ThaiCom_class}" {$ThaiCom_style}>
+	{$ThaiCom_value}
+</td>
+{END ThaiCom_fieldcolumn}
+	{BEGIN EngCom_fieldcolumn}
+<td  class="runner-cc {$EngCom_class}" {$EngCom_style}>
+	{$EngCom_value}
+</td>
+{END EngCom_fieldcolumn}
+	{BEGIN Status_fieldcolumn}
+<td  class="runner-cc {$Status_class}" {$Status_style}>
+	{$Status_value}
+</td>
+{END Status_fieldcolumn}
+	{BEGIN ChangeType_fieldcolumn}
+<td  class="runner-cc {$ChangeType_class}" {$ChangeType_style}>
+	{$ChangeType_value}
+</td>
+{END ChangeType_fieldcolumn}
+	{BEGIN ChangeDate_fieldcolumn}
+<td  class="runner-cc {$ChangeDate_class}" {$ChangeDate_style}>
+	{$ChangeDate_value}
+</td>
+{END ChangeDate_fieldcolumn}
+	{BEGIN ChangeTime_fieldcolumn}
+<td  class="runner-cc {$ChangeTime_class}" {$ChangeTime_style}>
+	{$ChangeTime_value}
+</td>
+{END ChangeTime_fieldcolumn}
+
+		{END grid_record}
+		<td class="runner-cr"></td>
+		{BEGIN endrecord_block}
+		<td class="runner-cs">&nbsp;</td>
+		{END endrecord_block}
+	</tr>
+{END grid_row}
+										
+								<tr class="runner-bottomrow style1">
+									<td class="runner-cl"><img src="images/spacer.gif"></td>
+									{BEGIN record_footer}
+									{BEGIN ProdNo_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END ProdNo_fieldfootercolumn}
+{BEGIN ProdGrpCode_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END ProdGrpCode_fieldfootercolumn}
+{BEGIN ProdThaiName_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END ProdThaiName_fieldfootercolumn}
+{BEGIN ProdEngName_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END ProdEngName_fieldfootercolumn}
+{BEGIN Picture_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Picture_fieldfootercolumn}
+{BEGIN ThaiModel_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END ThaiModel_fieldfootercolumn}
+{BEGIN EngModel_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END EngModel_fieldfootercolumn}
+{BEGIN MixNo_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END MixNo_fieldfootercolumn}
+{BEGIN ProdWt_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END ProdWt_fieldfootercolumn}
+{BEGIN ColorMixNo_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END ColorMixNo_fieldfootercolumn}
+{BEGIN FaceWt_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END FaceWt_fieldfootercolumn}
+{BEGIN Mold_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Mold_fieldfootercolumn}
+{BEGIN PiecesPerMould_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END PiecesPerMould_fieldfootercolumn}
+{BEGIN ProductCost_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END ProductCost_fieldfootercolumn}
+{BEGIN PriceRetail_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END PriceRetail_fieldfootercolumn}
+{BEGIN PriceWholeSale_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END PriceWholeSale_fieldfootercolumn}
+{BEGIN ProdStockGoal_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END ProdStockGoal_fieldfootercolumn}
+{BEGIN ThaiCom_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END ThaiCom_fieldfootercolumn}
+{BEGIN EngCom_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END EngCom_fieldfootercolumn}
+{BEGIN Status_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Status_fieldfootercolumn}
+{BEGIN ChangeType_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END ChangeType_fieldfootercolumn}
+{BEGIN ChangeDate_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END ChangeDate_fieldfootercolumn}
+{BEGIN ChangeTime_fieldfootercolumn}
+<td class="runner-cc runner-clast"></td>
+{END ChangeTime_fieldfootercolumn}
+
+									{END record_footer}
+									<td class="runner-cr"><img src="images/spacer.gif"></td>
+									{BEGIN endrecordtotals_block}
+									<td class="runner-cs"></td>
+									{END endrecordtotals_block}
+								</tr>
+
+		</tbody>
+	</table>
+</div>	
+{END page}
+
+{END grid_block}
+
+
+
+{END container_grid}
+
+
+				</td>	
+
+				<td class="runner-right {$blockclass_right}">
+					
+				</td>	
+			</tr>
+			<tr class="runner-footer">
+				<td class="runner-bottom" colspan=3>
+					<!--%%bottom%%-->
+				</td>
+			</tr>
+		</table>
+		{$footer}
+	{END body}
+	</body>
+</html>

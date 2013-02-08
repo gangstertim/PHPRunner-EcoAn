@@ -1,0 +1,755 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=7">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<table   cellpadding="0" class="runner-toptable">
+			<tr class="runner-header">
+				<td class="runner-top" colspan=3>
+					
+
+
+
+{BEGIN container_toplinks}
+<table class="runner-c runner-c-toplinks" cellpadding="0" >
+<tr class="{$cheaderclass_toplinks}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+<tr class="runner-row style1">
+<td class="runner-cl"></td>
+<td class="runner-cc">
+<table border="0" cellpadding="0" class="runner-hc">
+<tr>
+
+{BEGIN prints_block}
+<td  class="runner-cc runner-bl runner-b-toplinks_print" {$brickclass_toplinks_print}><span>{BEGIN print_link}
+	<span class="runner-btnframe">
+	<span class="runner-btnleft"></span>
+	<span class="runner-btnright"></span>
+	<a href="#" class="runner-button" {$printlink_attrs}>Print this page</a>
+	</span>
+{END print_link}
+
+{BEGIN printall_link}
+	<span class="runner-btnframe">
+	<span class="runner-btnleft"></span>
+	<span class="runner-btnright"></span>
+	<a href="#" class="runner-button" {$printalllink_attrs}>Print all pages</a>
+	</span>
+{END printall_link}
+
+
+
+
+</span></td>
+{END prints_block}
+
+
+{BEGIN asearch_link}
+<td  class="runner-cc runner-bl runner-b-toplinks_advsearch" {$brickclass_toplinks_advsearch}><span>	<span class="runner-btnframe">
+	<span class="runner-btnleft"></span>
+	<span class="runner-btnright"></span>
+	<a href="#" class="runner-button" {$advsearchlink_attrs}>Advanced search</a>
+	</span>
+</span></td>
+{END asearch_link}
+
+
+{BEGIN import_link}
+<td  class="runner-cc runner-bl runner-b-toplinks_import" {$brickclass_toplinks_import}><span>	<span class="runner-btnframe">
+	<span class="runner-btnleft"></span>
+	<span class="runner-btnright"></span>
+	<a href="prodgrp_import.php?{$crosstable_attrs}" class="runner-button" {$importlink_attrs}>Import</a>
+	</span>
+</span></td>
+{END import_link}
+
+
+{BEGIN export_link}
+<td  class="runner-cc runner-bl runner-b-toplinks_export" {$brickclass_toplinks_export}><span>	<span class="runner-btnframe">
+	<span class="runner-btnleft"></span>
+	<span class="runner-btnright"></span>
+	<a target="_blank" href="prodgrp_export.php" class="runner-button" {$exportlink_attrs}>Export results</a>
+	</span>
+</span></td>
+{END export_link}
+
+
+<td class="runner-cc filler"></td>
+
+
+</tr>
+</table></td>
+<td class="runner-cr"></td>
+</tr>
+
+<tr class="{$cfooterclass_toplinks}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+</table>
+{END container_toplinks}
+
+
+
+{BEGIN container_hmenu}
+<table class="runner-c runner-c-hmenu" cellpadding="0" >
+<tr class="{$cheaderclass_hmenu}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+<tr class="runner-row style1">
+<td class="runner-cl"></td>
+<td class="runner-cc">
+<table border="0" cellpadding="0" class="runner-hc">
+<tr>
+
+{BEGIN menu_block}
+<td  class="runner-cc runner-bl runner-b-hmenu" {$brickclass_hmenu}><span>{$mainmenu horizontal}
+</span></td>
+{END menu_block}
+
+<td class="runner-cc filler"></td>
+</tr>
+</table></td>
+<td class="runner-cr"></td>
+</tr>
+
+<tr class="{$cfooterclass_hmenu}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+</table>
+{END container_hmenu}
+
+
+
+
+				</td>
+			</tr>
+			<tr class="runner-body">
+				
+				<td class="runner-left {$blockclass_left}" >
+					
+
+{BEGIN container_left}
+<table class="runner-c runner-c-left" cellpadding="0" >
+<tr class="{$cheaderclass_left}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+
+{BEGIN searchform_block}
+<tr  class="runner-row style2 runner-b-vsearch1 {$brickclass_vsearch1}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" >	Search for:
+	{BEGIN searchPanelTopButtons}	
+	<span>
+	<span class="runner-btnframe">
+	<span class="runner-btnleft"></span>
+	<span class="runner-btnright"></span>
+	<a href="#" class="runner-button-img" id="showSrchWin{$id}" {$showHideSearchWin_attrs}><img src="images/search/showWindowPin.gif"></a>
+	</span>
+	&nbsp;		
+	<span class="runner-btnframe">
+	<span class="runner-btnleft"></span>
+	<span class="runner-btnright"></span>
+	<a href="#" class="runner-button-img" id="showOptPanel{$id}" {$showHideSearchPanel_attrs}><img src="images/search/showOptions.gif"></a>
+	</span>
+	</span>
+	{END searchPanelTopButtons}
+</td><td class="runner-cr"></td></tr>{END searchform_block}
+
+
+{BEGIN searchform_block}
+<tr  class="runner-row style1 runner-b-vsearch2 {$brickclass_vsearch2}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" ><div>
+	<span>
+		{BEGIN searchform_text}
+		<input type="text" {$searchfor_attrs} size="25">
+		{END searchform_text}
+		&nbsp;
+		{BEGIN searchform_search}
+		<span class="runner-btnframe">
+			<span class="runner-btnleft"></span>
+			<span class="runner-btnright"></span>
+			<a href="#" class="runner-button-img" {$searchbutton_attrs}><img src="images/search/search.gif"></a>
+		</span>
+		{END searchform_search}
+		&nbsp;
+		{BEGIN searchform_showall}
+		<span class="runner-btnframe" {$showAllCont_attrs}>
+			<span class="runner-btnleft"></span>
+			<span class="runner-btnright"></span>
+			<a class="runner-button" href="#" {$showallbutton_attrs}>Show all</a>
+		</span>
+		{END searchform_showall}
+	</span>	
+</div></td><td class="runner-cr"></td></tr>{END searchform_block}
+
+
+{BEGIN searchPanel}
+<tr  class="runner-row style1 runner-b-searchpanel {$brickclass_searchpanel}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" ><div class="searchPanelContainer">
+{$adv_search_panel}
+</div></td><td class="runner-cr"></td></tr>{END searchPanel}
+
+
+{BEGIN details_block}
+<tr  class="runner-row style2 runner-b-vdetails_found {$brickclass_vdetails_found}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" ><span  {$details_attrs}>Details found: <span class="runner-details_found_count">{$records_found}</span></span>
+</td><td class="runner-cr"></td></tr>{END details_block}
+
+
+{BEGIN pages_block}
+<tr  class="runner-row style1 runner-b-vpage_of {$brickclass_vpage_of}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" ><span id="pages_block{$id}">
+	<span {$pages_attrs}>Page {$page} of {$maxpages}</span>
+</span>
+</td><td class="runner-cr"></td></tr>{END pages_block}
+
+
+{BEGIN recordspp_block}
+<tr  class="runner-row style1 runner-b-vrecsperpage {$brickclass_vrecsperpage}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" ><span id="recordspp_block{$id}" name="recordspp_block{$id}">
+	Records Per Page:&nbsp;{$recsPerPage}
+</span>
+</td><td class="runner-cr"></td></tr>{END recordspp_block}
+
+
+<tr class="{$cfooterclass_left}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+</table>
+{END container_left}
+
+
+				</td>	
+				
+				<td class="runner-center {$blockclass_center}">
+					
+
+{BEGIN container_message}
+<table class="runner-c runner-c-message" cellpadding="0" >
+<tr class="{$cheaderclass_message}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+<tr class="runner-row style1">
+<td class="runner-cl"></td>
+<td class="runner-cc">
+<table border="0" cellpadding="0" class="runner-hc">
+<tr>
+
+{BEGIN message_block}
+<td  class="runner-cc runner-bc runner-b-message" {$brickclass_message}><span><div class="runner-message">{$message}</div></span></td>
+{END message_block}
+
+
+</tr>
+</table></td>
+<td class="runner-cr"></td>
+</tr>
+
+<tr class="{$cfooterclass_message}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+</table>
+{END container_message}
+
+
+
+{BEGIN container_grid}
+
+
+{BEGIN grid_block}
+						<table class="runner-c runner-c-grid runner-b-grid" cellpadding="0" >
+						<thead>
+															{BEGIN grid_header}
+								<tr class="runner-toprow style1 {$gridHeader_class}" >
+									{BEGIN record_header}
+									<th class="runner-cl"><img src="images/spacer.gif"></th>
+																		{BEGIN listIcons_column}
+									<th class="runner-cc" iEditCont="all">&nbsp;</th>
+									{END listIcons_column}	
+
+									
+																										{BEGIN ProdGrpCode_fieldheadercolumn}
+									<th class="runner-cc ">
+									{BEGIN ProdGrpCode_fieldheader}
+																				<a {$ProdGrpCode_orderlinkattrs}>
+											Prod Grp Code
+										</a>
+									{END ProdGrpCode_fieldheader}
+									</th>
+									{END ProdGrpCode_fieldheadercolumn}
+
+																	{BEGIN ThaiProductGroup_fieldheadercolumn}
+									<th class="runner-cc ">
+									{BEGIN ThaiProductGroup_fieldheader}
+																				<a {$ThaiProductGroup_orderlinkattrs}>
+											Thai Product Group
+										</a>
+									{END ThaiProductGroup_fieldheader}
+									</th>
+									{END ThaiProductGroup_fieldheadercolumn}
+
+																	{BEGIN EngProductGroup_fieldheadercolumn}
+									<th class="runner-cc ">
+									{BEGIN EngProductGroup_fieldheader}
+																				<a {$EngProductGroup_orderlinkattrs}>
+											Eng Product Group
+										</a>
+									{END EngProductGroup_fieldheader}
+									</th>
+									{END EngProductGroup_fieldheadercolumn}
+
+																	{BEGIN MarkDownWholesale_fieldheadercolumn}
+									<th class="runner-cc ">
+									{BEGIN MarkDownWholesale_fieldheader}
+																				<a {$MarkDownWholesale_orderlinkattrs}>
+											Mark Down Wholesale
+										</a>
+									{END MarkDownWholesale_fieldheader}
+									</th>
+									{END MarkDownWholesale_fieldheadercolumn}
+
+																	{BEGIN MarkDownRetail_fieldheadercolumn}
+									<th class="runner-cc ">
+									{BEGIN MarkDownRetail_fieldheader}
+																				<a {$MarkDownRetail_orderlinkattrs}>
+											Mark Down Retail
+										</a>
+									{END MarkDownRetail_fieldheader}
+									</th>
+									{END MarkDownRetail_fieldheadercolumn}
+
+																	{BEGIN DaysWorked_fieldheadercolumn}
+									<th class="runner-cc ">
+									{BEGIN DaysWorked_fieldheader}
+																				<a {$DaysWorked_orderlinkattrs}>
+											Days Worked
+										</a>
+									{END DaysWorked_fieldheader}
+									</th>
+									{END DaysWorked_fieldheadercolumn}
+
+																	{BEGIN NumberWorkers_fieldheadercolumn}
+									<th class="runner-cc ">
+									{BEGIN NumberWorkers_fieldheader}
+																				<a {$NumberWorkers_orderlinkattrs}>
+											Number Workers
+										</a>
+									{END NumberWorkers_fieldheader}
+									</th>
+									{END NumberWorkers_fieldheadercolumn}
+
+																	{BEGIN QtyMolds_fieldheadercolumn}
+									<th class="runner-cc ">
+									{BEGIN QtyMolds_fieldheader}
+																				<a {$QtyMolds_orderlinkattrs}>
+											Qty Molds
+										</a>
+									{END QtyMolds_fieldheader}
+									</th>
+									{END QtyMolds_fieldheadercolumn}
+
+																	{BEGIN MouldsPerDay_fieldheadercolumn}
+									<th class="runner-cc ">
+									{BEGIN MouldsPerDay_fieldheader}
+																				<a {$MouldsPerDay_orderlinkattrs}>
+											Moulds Per Day
+										</a>
+									{END MouldsPerDay_fieldheader}
+									</th>
+									{END MouldsPerDay_fieldheadercolumn}
+
+																	{BEGIN Interest_fieldheadercolumn}
+									<th class="runner-cc ">
+									{BEGIN Interest_fieldheader}
+																				<a {$Interest_orderlinkattrs}>
+											Interest
+										</a>
+									{END Interest_fieldheader}
+									</th>
+									{END Interest_fieldheadercolumn}
+
+																	{BEGIN Period_fieldheadercolumn}
+									<th class="runner-cc ">
+									{BEGIN Period_fieldheader}
+																				<a {$Period_orderlinkattrs}>
+											Period
+										</a>
+									{END Period_fieldheader}
+									</th>
+									{END Period_fieldheadercolumn}
+
+																	{BEGIN DownPay_fieldheadercolumn}
+									<th class="runner-cc ">
+									{BEGIN DownPay_fieldheader}
+																				<a {$DownPay_orderlinkattrs}>
+											Down Pay
+										</a>
+									{END DownPay_fieldheader}
+									</th>
+									{END DownPay_fieldheadercolumn}
+
+																	{BEGIN MonthsOfCap_fieldheadercolumn}
+									<th class="runner-cc ">
+									{BEGIN MonthsOfCap_fieldheader}
+																				<a {$MonthsOfCap_orderlinkattrs}>
+											Months Of Cap
+										</a>
+									{END MonthsOfCap_fieldheader}
+									</th>
+									{END MonthsOfCap_fieldheadercolumn}
+
+																	{BEGIN Waste_fieldheadercolumn}
+									<th class="runner-cc ">
+									{BEGIN Waste_fieldheader}
+																				<a {$Waste_orderlinkattrs}>
+											Waste
+										</a>
+									{END Waste_fieldheader}
+									</th>
+									{END Waste_fieldheadercolumn}
+
+																	{BEGIN Maint_fieldheadercolumn}
+									<th class="runner-cc ">
+									{BEGIN Maint_fieldheader}
+																				<a {$Maint_orderlinkattrs}>
+											Maint
+										</a>
+									{END Maint_fieldheader}
+									</th>
+									{END Maint_fieldheadercolumn}
+
+																	{BEGIN ItemNotes_fieldheadercolumn}
+									<th class="runner-cc ">
+									{BEGIN ItemNotes_fieldheader}
+																				<a {$ItemNotes_orderlinkattrs}>
+											Item Notes
+										</a>
+									{END ItemNotes_fieldheader}
+									</th>
+									{END ItemNotes_fieldheadercolumn}
+
+																	{BEGIN CuringTime_fieldheadercolumn}
+									<th class="runner-cc ">
+									{BEGIN CuringTime_fieldheader}
+																				<a {$CuringTime_orderlinkattrs}>
+											Curing Time
+										</a>
+									{END CuringTime_fieldheader}
+									</th>
+									{END CuringTime_fieldheadercolumn}
+
+																	{BEGIN GAP_fieldheadercolumn}
+									<th class="runner-cc runner-clast">
+									{BEGIN GAP_fieldheader}
+																				<a {$GAP_orderlinkattrs}>
+											GAP
+										</a>
+									{END GAP_fieldheader}
+									</th>
+									{END GAP_fieldheadercolumn}
+
+
+									
+									<th class="runner-cr"><img src="images/spacer.gif"></th>
+									{BEGIN endrecordheader_block}
+									<th class="runner-cs">&nbsp;</th>
+									
+									{END endrecordheader_block}
+									
+									{END record_header}
+									
+								</tr>
+								{END grid_header}
+
+						</thead>
+						<tbody>	
+															{BEGIN grid_row}
+								<tr class="runner-row style1 {$rowclass}" {$rowattrs} {$rowstyle}>
+									{BEGIN grid_record}
+									<td class="runner-cl" {$rowstyle}></td>
+
+																		{BEGIN listIcons_column}
+									<td class="runner-cc runner-bc runner-icons" iEditCont="all" {$rowstyle}>
+									
+									
+									
+																		</td>	
+									{END listIcons_column}	
+
+									
+
+										{BEGIN ProdGrpCode_fieldcolumn}
+	<td class="runner-cc  {$ProdGrpCode_class}" {$ProdGrpCode_style}>
+		{$ProdGrpCode_value}
+	</td>
+{END ProdGrpCode_fieldcolumn}
+
+	{BEGIN ThaiProductGroup_fieldcolumn}
+	<td class="runner-cc  {$ThaiProductGroup_class}" {$ThaiProductGroup_style}>
+		{$ThaiProductGroup_value}
+	</td>
+{END ThaiProductGroup_fieldcolumn}
+
+	{BEGIN EngProductGroup_fieldcolumn}
+	<td class="runner-cc  {$EngProductGroup_class}" {$EngProductGroup_style}>
+		{$EngProductGroup_value}
+	</td>
+{END EngProductGroup_fieldcolumn}
+
+	{BEGIN MarkDownWholesale_fieldcolumn}
+	<td class="runner-cc  {$MarkDownWholesale_class}" {$MarkDownWholesale_style}>
+		{$MarkDownWholesale_value}
+	</td>
+{END MarkDownWholesale_fieldcolumn}
+
+	{BEGIN MarkDownRetail_fieldcolumn}
+	<td class="runner-cc  {$MarkDownRetail_class}" {$MarkDownRetail_style}>
+		{$MarkDownRetail_value}
+	</td>
+{END MarkDownRetail_fieldcolumn}
+
+	{BEGIN DaysWorked_fieldcolumn}
+	<td class="runner-cc  {$DaysWorked_class}" {$DaysWorked_style}>
+		{$DaysWorked_value}
+	</td>
+{END DaysWorked_fieldcolumn}
+
+	{BEGIN NumberWorkers_fieldcolumn}
+	<td class="runner-cc  {$NumberWorkers_class}" {$NumberWorkers_style}>
+		{$NumberWorkers_value}
+	</td>
+{END NumberWorkers_fieldcolumn}
+
+	{BEGIN QtyMolds_fieldcolumn}
+	<td class="runner-cc  {$QtyMolds_class}" {$QtyMolds_style}>
+		{$QtyMolds_value}
+	</td>
+{END QtyMolds_fieldcolumn}
+
+	{BEGIN MouldsPerDay_fieldcolumn}
+	<td class="runner-cc  {$MouldsPerDay_class}" {$MouldsPerDay_style}>
+		{$MouldsPerDay_value}
+	</td>
+{END MouldsPerDay_fieldcolumn}
+
+	{BEGIN Interest_fieldcolumn}
+	<td class="runner-cc  {$Interest_class}" {$Interest_style}>
+		{$Interest_value}
+	</td>
+{END Interest_fieldcolumn}
+
+	{BEGIN Period_fieldcolumn}
+	<td class="runner-cc  {$Period_class}" {$Period_style}>
+		{$Period_value}
+	</td>
+{END Period_fieldcolumn}
+
+	{BEGIN DownPay_fieldcolumn}
+	<td class="runner-cc  {$DownPay_class}" {$DownPay_style}>
+		{$DownPay_value}
+	</td>
+{END DownPay_fieldcolumn}
+
+	{BEGIN MonthsOfCap_fieldcolumn}
+	<td class="runner-cc  {$MonthsOfCap_class}" {$MonthsOfCap_style}>
+		{$MonthsOfCap_value}
+	</td>
+{END MonthsOfCap_fieldcolumn}
+
+	{BEGIN Waste_fieldcolumn}
+	<td class="runner-cc  {$Waste_class}" {$Waste_style}>
+		{$Waste_value}
+	</td>
+{END Waste_fieldcolumn}
+
+	{BEGIN Maint_fieldcolumn}
+	<td class="runner-cc  {$Maint_class}" {$Maint_style}>
+		{$Maint_value}
+	</td>
+{END Maint_fieldcolumn}
+
+	{BEGIN ItemNotes_fieldcolumn}
+	<td class="runner-cc  {$ItemNotes_class}" {$ItemNotes_style}>
+		{$ItemNotes_value}
+	</td>
+{END ItemNotes_fieldcolumn}
+
+	{BEGIN CuringTime_fieldcolumn}
+	<td class="runner-cc  {$CuringTime_class}" {$CuringTime_style}>
+		{$CuringTime_value}
+	</td>
+{END CuringTime_fieldcolumn}
+
+	{BEGIN GAP_fieldcolumn}
+	<td class="runner-cc runner-clast {$GAP_class}" {$GAP_style}>
+		{$GAP_value}
+	</td>
+{END GAP_fieldcolumn}
+
+
+																		<td class="runner-cr" {$rowstyle}></td>
+									{BEGIN endrecord_block}
+									<td class="runner-cs" {$endrecordblock_attrs}>&nbsp;</td>
+									{END endrecord_block}
+																	
+									{END grid_record}
+
+								</tr>
+								{END grid_row}
+															{BEGIN grid_footer}
+																<tr class="runner-bottomrow style1{$gridFooter_class}" >
+									{BEGIN record_footer}
+									<td class="runner-cl"><img src="images/spacer.gif"></td>
+																		{BEGIN listIcons_column}
+									<td class="runner-cc"></td>
+									{END listIcons_column}	
+									
+									
+
+									{BEGIN ProdGrpCode_fieldheadercolumn}
+<td class="runner-cc "></td>
+{END ProdGrpCode_fieldheadercolumn}
+{BEGIN ThaiProductGroup_fieldheadercolumn}
+<td class="runner-cc "></td>
+{END ThaiProductGroup_fieldheadercolumn}
+{BEGIN EngProductGroup_fieldheadercolumn}
+<td class="runner-cc "></td>
+{END EngProductGroup_fieldheadercolumn}
+{BEGIN MarkDownWholesale_fieldheadercolumn}
+<td class="runner-cc "></td>
+{END MarkDownWholesale_fieldheadercolumn}
+{BEGIN MarkDownRetail_fieldheadercolumn}
+<td class="runner-cc "></td>
+{END MarkDownRetail_fieldheadercolumn}
+{BEGIN DaysWorked_fieldheadercolumn}
+<td class="runner-cc "></td>
+{END DaysWorked_fieldheadercolumn}
+{BEGIN NumberWorkers_fieldheadercolumn}
+<td class="runner-cc "></td>
+{END NumberWorkers_fieldheadercolumn}
+{BEGIN QtyMolds_fieldheadercolumn}
+<td class="runner-cc "></td>
+{END QtyMolds_fieldheadercolumn}
+{BEGIN MouldsPerDay_fieldheadercolumn}
+<td class="runner-cc "></td>
+{END MouldsPerDay_fieldheadercolumn}
+{BEGIN Interest_fieldheadercolumn}
+<td class="runner-cc "></td>
+{END Interest_fieldheadercolumn}
+{BEGIN Period_fieldheadercolumn}
+<td class="runner-cc "></td>
+{END Period_fieldheadercolumn}
+{BEGIN DownPay_fieldheadercolumn}
+<td class="runner-cc "></td>
+{END DownPay_fieldheadercolumn}
+{BEGIN MonthsOfCap_fieldheadercolumn}
+<td class="runner-cc "></td>
+{END MonthsOfCap_fieldheadercolumn}
+{BEGIN Waste_fieldheadercolumn}
+<td class="runner-cc "></td>
+{END Waste_fieldheadercolumn}
+{BEGIN Maint_fieldheadercolumn}
+<td class="runner-cc "></td>
+{END Maint_fieldheadercolumn}
+{BEGIN ItemNotes_fieldheadercolumn}
+<td class="runner-cc "></td>
+{END ItemNotes_fieldheadercolumn}
+{BEGIN CuringTime_fieldheadercolumn}
+<td class="runner-cc "></td>
+{END CuringTime_fieldheadercolumn}
+{BEGIN GAP_fieldheadercolumn}
+<td class="runner-cc runner-clast"></td>
+{END GAP_fieldheadercolumn}
+
+									<td class="runner-cr"><img src="images/spacer.gif"></td>
+									
+									
+									{BEGIN endrecordfooter_block}
+									<td class="runner-cs"></td>
+									{END endrecordfooter_block}
+									{END record_footer}
+								</tr>
+								{END grid_footer}
+
+						</tbody>
+					</table>
+					
+
+{END grid_block}
+
+
+
+{END container_grid}
+
+
+
+{BEGIN container_pagination}
+<table class="runner-c runner-c-pagination" cellpadding="0" >
+<tr class="{$cheaderclass_pagination}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+<tr class="runner-row style1">
+<td class="runner-cl"></td>
+<td class="runner-cc">
+<table border="0" cellpadding="0" class="runner-hc">
+<tr>
+
+{BEGIN pagination_block}
+<td  class="runner-cc runner-bc runner-b-pagination" {$brickclass_pagination}><span>{$pagination}</span></td>
+{END pagination_block}
+
+
+</tr>
+</table></td>
+<td class="runner-cr"></td>
+</tr>
+
+<tr class="{$cfooterclass_pagination}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+</table>
+{END container_pagination}
+
+
+				</td>	
+
+				<td class="runner-right {$blockclass_right}">
+					
+				</td>	
+			</tr>
+			<tr class="runner-footer">
+				<td class="runner-bottom" colspan=3>
+					<!--%%bottom%%-->
+				</td>
+			</tr>
+		</table>
+		{$footer}
+	{END body}
+	</body>
+</html>

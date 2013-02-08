@@ -1,0 +1,68 @@
+.preview .runner-s-empty > * > * > .runner-toprow.style1 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-empty > * > * > .runner-toprow.style1 > *.runner-cc a
+{
+color: #004080
+}
+.preview .runner-s-empty > * > * > .runner-row.style1 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-empty > * > * > .runner-row.style1 > *.runner-cc a
+{
+color: #004080
+}
+.preview .runner-s-empty > * > * > .runner-toprow.style2 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-empty > * > * > .runner-toprow.style2 > *.runner-cc a
+{
+color: #000000
+}
+.preview .runner-s-empty > * > * > .runner-row.style2 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-empty > * > * > .runner-row.style2 > *.runner-cc a
+{
+color: #000000
+}
+.preview .runner-s-empty > * > * > .runner-toprow.style3 > *.runner-cc a,
+.preview .runner-s-empty > * > * > .runner-toprow > *.runner-cc a.alt,
+.preview  .runner-wrapper .runner-s-empty > * > * > .runner-toprow.style3 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-empty > * > * > .runner-toprow > *.runner-cc a.alt
+{
+color: #696969
+}
+.preview .runner-s-empty > * > * > .runner-row.style3 > *.runner-cc a,
+.preview .runner-s-empty > * > * > .runner-row > *.runner-cc a.alt,
+.preview  .runner-wrapper .runner-s-empty > * > * > .runner-row.style3 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-empty > * > * > .runner-row > *.runner-cc a.alt
+{
+color: #696969
+}
+.preview .runner-s-disabled-empty > * > * > .runner-toprow.style1 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-disabled-empty > * > * > .runner-toprow.style1 > *.runner-cc a
+{
+color: #B7B7B7
+}
+.preview .runner-s-disabled-empty > * > * > .runner-row.style1 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-disabled-empty > * > * > .runner-row.style1 > *.runner-cc a
+{
+color: #B7B7B7
+}
+.preview .runner-s-disabled-empty > * > * > .runner-toprow.style2 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-disabled-empty > * > * > .runner-toprow.style2 > *.runner-cc a
+{
+color: #A3A3A3
+}
+.preview .runner-s-disabled-empty > * > * > .runner-row.style2 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-disabled-empty > * > * > .runner-row.style2 > *.runner-cc a
+{
+color: #A3A3A3
+}
+.preview .runner-s-disabled-empty > * > * > .runner-toprow.style3 > *.runner-cc a,
+.preview .runner-s-disabled-empty > * > * > .runner-toprow > *.runner-cc a.alt,
+.preview  .runner-wrapper .runner-s-disabled-empty > * > * > .runner-toprow.style3 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-disabled-empty > * > * > .runner-toprow > *.runner-cc a.alt
+{
+color: #C3C3C3
+}
+.preview .runner-s-disabled-empty > * > * > .runner-row.style3 > *.runner-cc a,
+.preview .runner-s-disabled-empty > * > * > .runner-row > *.runner-cc a.alt,
+.preview  .runner-wrapper .runner-s-disabled-empty > * > * > .runner-row.style3 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-disabled-empty > * > * > .runner-row > *.runner-cc a.alt
+{
+color: #C3C3C3
+}

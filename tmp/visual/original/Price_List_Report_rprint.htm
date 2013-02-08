@@ -1,0 +1,322 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=7">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--%%pagestyle%%-->
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+			
+
+
+
+{BEGIN container_grid}
+
+
+
+{BEGIN pages}
+<h1>Price List Report</h1>
+	<span {$pages_attrs}>
+		Page <b>{$pageno}</b> of <b>{$maxpages}</b>
+	</span>
+
+
+			<style>
+table.report {border-collapse: collapse} 
+table.report td {padding: 2px;border-width: 1px; border-style: solid; border-color: #cccccc;}
+div.page_block{clear:left;}
+td.noborder{padding-right:8px}
+td.data{padding-right:8px}
+td.group_1{background-color: #90EE90;}
+td.group_2{background-color: #FF0000;}
+td.nbgroup_1{background-color: #90EE90;border-style:none;}
+td.nbgroup_2{background-color: #FF0000;border-style:none;}
+td.header_1{background-color: #7ACA7A;}
+td.header_2{background-color: #D80000;}
+td.pagesummary{background-color:#ffffbb;}
+td.globalsummary{background-color:#ffe0b0;}
+</style>
+<div id="grid_block{$id}">
+<TABLE CELLPADDING=5 CELLSPACING=0 BORDER=0>
+	<tr class="runner-toprow style1">
+		<td class="runner-cl"><img src="images/spacer.gif"/></td>
+		<td class="runner-cc"></td>
+		<td class="runner-cr"><img src="images/spacer.gif"/></td>
+	</tr>
+	<tr class="runner-row style1">
+		<td class="runner-cl"></td>
+		<td class="runner-cc">
+			<table cellspacing=0 cellpadding=0 border=0 style="padding:2px">
+				{BEGIN grid_row}
+				<!-------------------------------------  group headers ----------------------------------------->
+				{BEGIN ProdEngName_newgroup}
+				<tr>
+				<td class=header_1 colspan=11>
+				Prod Eng Name:&nbsp;
+				<font style="font-weight:900">{$ProdEngName_grval}</font></td>
+				</tr>
+								{END ProdEngName_newgroup}
+				{BEGIN CostType_newgroup}
+				<tr>
+				<td class=header_2 colspan=11>
+				Cost Type:&nbsp;
+				<font style="font-weight:900">{$CostType_grval}</font></td>
+				</tr>
+								<tr>
+				<td class=blackshade>Prod Thai Name</td>
+				<td class=blackshade>Prod No</td>
+				<td class=blackshade>Eng Name</td>
+				<td class=blackshade>Thai Name</td>
+				<td class=blackshade>Piece Cost</td>
+				<td class=blackshade>Cost</td>
+				<td class=blackshade>Cost Year</td>
+				<td class=blackshade>Cost Month</td>
+				<td class=blackshade>Percent Cost</td>
+				<td class=blackshade>Qtty</td>
+				<td class=blackshade>Unit Eng Rpt</td>
+				</tr>
+				{END CostType_newgroup}
+								<!-------------------------------------  data ----------------------------------------->
+				{BEGIN row_data}
+				<tr>
+					<td class=data>{$ProdThaiName_value}</td>
+					<td class=data>{$ProdNo_value}</td>
+					<td class=data>{$EngName_value}</td>
+					<td class=data>{$ThaiName_value}</td>
+					<td class=data>{$PieceCost_value}</td>
+					<td class=data>{$Cost_value}</td>
+					<td class=data>{$CostYear_value}</td>
+					<td class=data>{$CostMonth_value}</td>
+					<td class=data>{$PercentCost_value}</td>
+					<td class=data>{$Qtty_value}</td>
+					<td class=data>{$UnitEngRpt_value}</td>
+				</tr>
+				{END row_data}
+				<!-------------------------------------  group summary ----------------------------------------->
+												{END grid_row}
+			</table>
+		</td>
+		<td class="runner-cr"></td>
+	</tr>
+	<tr class="runner-row style1">
+		<td class="runner-cl"></td>
+		<td class="runner-cc">
+			<table cellspacing=0 cellpadding=0 border=0>
+								<tr>
+				<td class=blackshade>Prod Thai Name</td>
+				<td class=blackshade>Prod No</td>
+				<td class=blackshade>Eng Name</td>
+				<td class=blackshade>Thai Name</td>
+				<td class=blackshade>Piece Cost</td>
+				<td class=blackshade>Cost</td>
+				<td class=blackshade>Cost Year</td>
+				<td class=blackshade>Cost Month</td>
+				<td class=blackshade>Percent Cost</td>
+				<td class=blackshade>Qtty</td>
+				<td class=blackshade>Unit Eng Rpt</td>
+				</tr>
+								<!--------------------------------------page summary-------------------------------------------->
+				<tr>
+					<td class=pagesummary colspan=11>Page summary 
+					 {$page_total_cnt} - records total</td>
+				</tr>
+								<!--  Sum -->
+				<tr>
+					<td class=pagesummary>
+												Sum
+						&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+												{$page_totalPieceCost_sum}
+					</td>
+					<td class=pagesummary>
+												&nbsp;
+												{$page_totalCost_sum}
+					</td>
+					<td class=pagesummary>
+												&nbsp;
+												{$page_totalCostYear_sum}
+					</td>
+					<td class=pagesummary>
+												&nbsp;
+												{$page_totalCostMonth_sum}
+					</td>
+					<td class=pagesummary>
+												&nbsp;
+												{$page_totalPercentCost_sum}
+					</td>
+					<td class=pagesummary>
+												&nbsp;
+												{$page_totalQtty_sum}
+					</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+				</tr>	
+								<!--  Avg -->
+				<tr>
+					<td class=pagesummary>
+												Average
+						&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+												{$page_totalCost_avg}
+					</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+				</tr>	
+								<!--  Min -->
+				<tr>
+					<td class=pagesummary>
+												Min
+						&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+												{$page_totalCost_min}
+					</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+				</tr>	
+								<!--  Max -->
+				<tr>
+					<td class=pagesummary>
+												Max
+						&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+												{$page_totalCost_max}
+					</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+					<td class=pagesummary>
+												&nbsp;
+											</td>
+				</tr>	
+								</table>
+			</td>
+		<td class="runner-cr"></td>
+	</tr>
+	<tr class="runner-bottomrow style1">
+		<td class="runner-cl"><img src="images/spacer.gif"/></td>
+		<td class="runner-cc"></td>
+		<td class="runner-cr"><img src="images/spacer.gif"/></td>
+	</tr>
+</table>
+</div>
+
+{END pages}
+
+
+
+
+
+{END container_grid}
+
+
+	{END body}
+	</body>
+</html>

@@ -1,0 +1,329 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=7">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<table   cellpadding="0" class="runner-toptable">
+			<tr class="runner-header">
+				<td class="runner-top" colspan=3>
+					
+
+{BEGIN container_edit}
+<table class="runner-c runner-c-edit" cellpadding="0" align=center>
+
+
+<tr class="runner-toprow style2 header"><td class="runner-cl"><img src="images/spacer.gif"></td><td class="runner-cc" ><div  class="runner-b-editheader {$brickclass_editheader}">Costmodel, Edit record [
+Prod Grp Code: {$show_key1}
+]</div></td><td class="runner-cr"><img src="images/spacer.gif"></td></tr>
+
+
+{BEGIN message_block}
+<tr  class="runner-row style1 runner-b-message {$brickclass_message}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" ><div class="runner-message">{$message}</div></td><td class="runner-cr"></td></tr>{END message_block}
+
+
+
+<tr  class="runner-row style1 runner-b-wrapper {$wrapperclass_fields}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents runner-wrapper" >
+
+{BEGIN container_fields}
+<table class="runner-c runner-c-fields" cellpadding="0" >
+
+
+	{BEGIN ProdGrpCode_fieldblock}
+	<tr class="runner-toprow header style1 runner-b-editfields"><td class="runner-cl"><img src="images/spacer.gif"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_ProdGrpCode {$fielddispclass_ProdGrpCode}">
+				{BEGIN ProdGrpCode_label}Prod Grp Code{END ProdGrpCode_label}
+			</div>
+		</td>
+		<td class="runner-cc alt runner-fixedcell">
+			<div class="fieldcontrol_ProdGrpCode {$fielddispclass_ProdGrpCode}">
+				{$ProdGrpCode_editcontrol}&nbsp;
+			</div>
+		</td>
+	<td class="runner-cr alt"><img src="images/spacer.gif"></td></tr>
+{END ProdGrpCode_fieldblock}
+	{BEGIN Interest_fieldblock}
+	<tr class="runner-row style1 runner-b-editfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_Interest {$fielddispclass_Interest}">
+				{BEGIN Interest_label}Interest{END Interest_label}
+			</div>
+		</td>
+		<td class="runner-cc alt runner-fixedcell">
+			<div class="fieldcontrol_Interest {$fielddispclass_Interest}">
+				{$Interest_editcontrol}&nbsp;
+			</div>
+		</td>
+	<td class="runner-cr alt"></td></tr>
+{END Interest_fieldblock}
+	{BEGIN Period_fieldblock}
+	<tr class="runner-row style1 runner-b-editfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_Period {$fielddispclass_Period}">
+				{BEGIN Period_label}Period{END Period_label}
+			</div>
+		</td>
+		<td class="runner-cc alt runner-fixedcell">
+			<div class="fieldcontrol_Period {$fielddispclass_Period}">
+				{$Period_editcontrol}&nbsp;
+			</div>
+		</td>
+	<td class="runner-cr alt"></td></tr>
+{END Period_fieldblock}
+	{BEGIN DownPay_fieldblock}
+	<tr class="runner-row style1 runner-b-editfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_DownPay {$fielddispclass_DownPay}">
+				{BEGIN DownPay_label}Down Pay{END DownPay_label}
+			</div>
+		</td>
+		<td class="runner-cc alt runner-fixedcell">
+			<div class="fieldcontrol_DownPay {$fielddispclass_DownPay}">
+				{$DownPay_editcontrol}&nbsp;
+			</div>
+		</td>
+	<td class="runner-cr alt"></td></tr>
+{END DownPay_fieldblock}
+	{BEGIN DaysWorked_fieldblock}
+	<tr class="runner-row style1 runner-b-editfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_DaysWorked {$fielddispclass_DaysWorked}">
+				{BEGIN DaysWorked_label}Days Worked{END DaysWorked_label}
+			</div>
+		</td>
+		<td class="runner-cc alt runner-fixedcell">
+			<div class="fieldcontrol_DaysWorked {$fielddispclass_DaysWorked}">
+				{$DaysWorked_editcontrol}&nbsp;
+			</div>
+		</td>
+	<td class="runner-cr alt"></td></tr>
+{END DaysWorked_fieldblock}
+	{BEGIN Qty_fieldblock}
+	<tr class="runner-row style1 runner-b-editfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_Qty {$fielddispclass_Qty}">
+				{BEGIN Qty_label}Qty{END Qty_label}
+			</div>
+		</td>
+		<td class="runner-cc alt runner-fixedcell">
+			<div class="fieldcontrol_Qty {$fielddispclass_Qty}">
+				{$Qty_editcontrol}&nbsp;
+			</div>
+		</td>
+	<td class="runner-cr alt"></td></tr>
+{END Qty_fieldblock}
+	{BEGIN MonthsOfCap_fieldblock}
+	<tr class="runner-row style1 runner-b-editfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_MonthsOfCap {$fielddispclass_MonthsOfCap}">
+				{BEGIN MonthsOfCap_label}Months Of Cap{END MonthsOfCap_label}
+			</div>
+		</td>
+		<td class="runner-cc alt runner-fixedcell">
+			<div class="fieldcontrol_MonthsOfCap {$fielddispclass_MonthsOfCap}">
+				{$MonthsOfCap_editcontrol}&nbsp;
+			</div>
+		</td>
+	<td class="runner-cr alt"></td></tr>
+{END MonthsOfCap_fieldblock}
+	{BEGIN Waste_fieldblock}
+	<tr class="runner-row style1 runner-b-editfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_Waste {$fielddispclass_Waste}">
+				{BEGIN Waste_label}Waste{END Waste_label}
+			</div>
+		</td>
+		<td class="runner-cc alt runner-fixedcell">
+			<div class="fieldcontrol_Waste {$fielddispclass_Waste}">
+				{$Waste_editcontrol}&nbsp;
+			</div>
+		</td>
+	<td class="runner-cr alt"></td></tr>
+{END Waste_fieldblock}
+	{BEGIN Maint_fieldblock}
+	<tr class="runner-row style1 runner-b-editfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_Maint {$fielddispclass_Maint}">
+				{BEGIN Maint_label}Maint{END Maint_label}
+			</div>
+		</td>
+		<td class="runner-cc alt runner-fixedcell">
+			<div class="fieldcontrol_Maint {$fielddispclass_Maint}">
+				{$Maint_editcontrol}&nbsp;
+			</div>
+		</td>
+	<td class="runner-cr alt"></td></tr>
+{END Maint_fieldblock}
+	{BEGIN Admin_fieldblock}
+	<tr class="runner-row style1 runner-b-editfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_Admin {$fielddispclass_Admin}">
+				{BEGIN Admin_label}Admin{END Admin_label}
+			</div>
+		</td>
+		<td class="runner-cc alt runner-fixedcell">
+			<div class="fieldcontrol_Admin {$fielddispclass_Admin}">
+				{$Admin_editcontrol}&nbsp;
+			</div>
+		</td>
+	<td class="runner-cr alt"></td></tr>
+{END Admin_fieldblock}
+	{BEGIN Mgr_fieldblock}
+	<tr class="runner-row style1 runner-b-editfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_Mgr {$fielddispclass_Mgr}">
+				{BEGIN Mgr_label}Mgr{END Mgr_label}
+			</div>
+		</td>
+		<td class="runner-cc alt runner-fixedcell">
+			<div class="fieldcontrol_Mgr {$fielddispclass_Mgr}">
+				{$Mgr_editcontrol}&nbsp;
+			</div>
+		</td>
+	<td class="runner-cr alt"></td></tr>
+{END Mgr_fieldblock}
+	{BEGIN Clerk_fieldblock}
+	<tr class="runner-row style1 runner-b-editfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_Clerk {$fielddispclass_Clerk}">
+				{BEGIN Clerk_label}Clerk{END Clerk_label}
+			</div>
+		</td>
+		<td class="runner-cc alt runner-fixedcell">
+			<div class="fieldcontrol_Clerk {$fielddispclass_Clerk}">
+				{$Clerk_editcontrol}&nbsp;
+			</div>
+		</td>
+	<td class="runner-cr alt"></td></tr>
+{END Clerk_fieldblock}
+	{BEGIN Notes_fieldblock}
+	<tr class="runner-row style1 runner-b-editfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_Notes {$fielddispclass_Notes}">
+				{BEGIN Notes_label}Notes{END Notes_label}
+			</div>
+		</td>
+		<td class="runner-cc alt runner-fixedcell">
+			<div class="fieldcontrol_Notes {$fielddispclass_Notes}">
+				{$Notes_editcontrol}&nbsp;
+			</div>
+		</td>
+	<td class="runner-cr alt"></td></tr>
+{END Notes_fieldblock}
+
+
+
+{BEGIN legend}
+<tr  class="runner-row style3 runner-b-legend {$brickclass_legend}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" colspan=2><span id="required_block{$id}">
+<img src="images/icon_required.gif" alt="bullet"> - Required field
+</span>
+</td><td class="runner-cr"></td></tr>{END legend}
+
+
+
+<tr  class="runner-row style2 runner-b-editbuttons {$brickclass_editbuttons}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" colspan=2>{BEGIN save_button}
+<span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#" class="runner-button" {$savebutton_attrs}>Save</a>
+</span>
+{END save_button}
+{BEGIN reset_button}
+<span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#" class="runner-button" {$resetbutton_attrs}>Reset</a>
+</span>
+{END reset_button}
+{BEGIN prev_button}
+<span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#" class="runner-button" {$prevbutton_attrs}>&nbsp;<<<&nbsp;</a>
+</span>
+{END prev_button}
+{BEGIN back_button}
+<span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#" class="runner-button" {$backbutton_attrs}>Back to list</a>
+</span>
+{END back_button}
+{BEGIN next_button}
+<span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#" class="runner-button" {$nextbutton_attrs}>&nbsp;>>>&nbsp;</a>
+</span>
+{END next_button}
+</td><td class="runner-cr"></td></tr>
+
+
+<tr class="{$cfooterclass_fields}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+</table>
+{END container_fields}
+
+</td><td class="runner-cr"></td></tr>
+
+
+<tr class="{$cfooterclass_edit}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+</table>
+{END container_edit}
+
+
+
+
+				</td>
+			</tr>
+			<tr class="runner-body">
+				
+				<td class="runner-left {$blockclass_left}" >
+					
+				</td>	
+				
+				<td class="runner-center {$blockclass_center}">
+					
+				</td>	
+
+				<td class="runner-right {$blockclass_right}">
+					
+				</td>	
+			</tr>
+			<tr class="runner-footer">
+				<td class="runner-bottom" colspan=3>
+					<!--%%bottom%%-->
+				</td>
+			</tr>
+		</table>
+		{$footer}
+	{END body}
+	</body>
+</html>

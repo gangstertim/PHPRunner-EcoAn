@@ -1,0 +1,95 @@
+<div class="searchOptions bottomPanelBorder" {$srchOpt_attrs}>
+	<!-- Search panel content -->
+	<div class="srchCritTop" style="display: none;">
+		Criteria:&nbsp;
+		<input type="radio" name="srchType" class="runner-radio-button" {$all_checkbox}> {BEGIN all_checkbox_label}all{END all_checkbox_label}
+		&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="srchType" class="runner-radio-button" {$any_checkbox}> {BEGIN any_checkbox_label}any{END any_checkbox_label}
+	</div>
+	
+	<div class="addOption">
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideControlChooseMenu{$id}" class="runner-button" {$showHideCtrls_attrs}>Add field</a>
+		</span>
+		&nbsp;&nbsp;&nbsp;
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideSearchType{$id}" class="runner-button" {$showHideCtrlsOpt_attrs}>{$showHideOpt_mess}</a>
+		</span>
+	</div>
+	
+	<!-- choose controls div -->
+	<div class="runner-panel controlChooseMenu" {$controlChooseMenuDiv_attrs}>
+		{BEGIN addSearch_ComponentNo}
+			<a href="#" id="addSearchControl_ComponentNo" class="addSearchControl" {$addSearchControl_ComponentNo_attrs}>Component No</a><br>
+		{END addSearch_ComponentNo}
+		{BEGIN addSearch_EngName}
+			<a href="#" id="addSearchControl_EngName" class="addSearchControl" {$addSearchControl_EngName_attrs}>Eng Name</a><br>
+		{END addSearch_EngName}
+		{BEGIN addSearch_ThaiName}
+			<a href="#" id="addSearchControl_ThaiName" class="addSearchControl" {$addSearchControl_ThaiName_attrs}>Thai Name</a><br>
+		{END addSearch_ThaiName}
+		{BEGIN addSearch_DescriptionEng}
+			<a href="#" id="addSearchControl_DescriptionEng" class="addSearchControl" {$addSearchControl_DescriptionEng_attrs}>Description Eng</a><br>
+		{END addSearch_DescriptionEng}
+		{BEGIN addSearch_DescriptionThai}
+			<a href="#" id="addSearchControl_DescriptionThai" class="addSearchControl" {$addSearchControl_DescriptionThai_attrs}>Description Thai</a><br>
+		{END addSearch_DescriptionThai}
+		{BEGIN addSearch_CompTypeNo}
+			<a href="#" id="addSearchControl_CompTypeNo" class="addSearchControl" {$addSearchControl_CompTypeNo_attrs}>Comp Type No</a><br>
+		{END addSearch_CompTypeNo}
+		{BEGIN addSearch_UnitEng}
+			<a href="#" id="addSearchControl_UnitEng" class="addSearchControl" {$addSearchControl_UnitEng_attrs}>Unit Eng</a><br>
+		{END addSearch_UnitEng}
+		{BEGIN addSearch_UnitQty}
+			<a href="#" id="addSearchControl_UnitQty" class="addSearchControl" {$addSearchControl_UnitQty_attrs}>Unit Qty</a><br>
+		{END addSearch_UnitQty}
+		{BEGIN addSearch_CompPurchaseUnitEn}
+			<a href="#" id="addSearchControl_CompPurchaseUnitEn" class="addSearchControl" {$addSearchControl_CompPurchaseUnitEn_attrs}>Comp Purchase Unit En</a><br>
+		{END addSearch_CompPurchaseUnitEn}
+		{BEGIN addSearch_Cost}
+			<a href="#" id="addSearchControl_Cost" class="addSearchControl" {$addSearchControl_Cost_attrs}>Cost</a><br>
+		{END addSearch_Cost}
+		{BEGIN addSearch_Density}
+			<a href="#" id="addSearchControl_Density" class="addSearchControl" {$addSearchControl_Density_attrs}>Density</a><br>
+		{END addSearch_Density}
+		{BEGIN addSearch_Source}
+			<a href="#" id="addSearchControl_Source" class="addSearchControl" {$addSearchControl_Source_attrs}>Source</a><br>
+		{END addSearch_Source}
+		{BEGIN addSearch_SortOrder}
+			<a href="#" id="addSearchControl_SortOrder" class="addSearchControl" {$addSearchControl_SortOrder_attrs}>Sort Order</a><br>
+		{END addSearch_SortOrder}
+		{BEGIN addSearch_ChangeType}
+			<a href="#" id="addSearchControl_ChangeType" class="addSearchControl" {$addSearchControl_ChangeType_attrs}>Change Type</a><br>
+		{END addSearch_ChangeType}
+		{BEGIN addSearch_ChangeDate}
+			<a href="#" id="addSearchControl_ChangeDate" class="addSearchControl" {$addSearchControl_ChangeDate_attrs}>Change Date</a><br>
+		{END addSearch_ChangeDate}
+		{BEGIN addSearch_ChangeTime}
+			<a href="#" id="addSearchControl_ChangeTime" class="addSearchControl" {$addSearchControl_ChangeTime_attrs}>Change Time</a><br>
+		{END addSearch_ChangeTime}
+		{BEGIN addSearch_SorOrder}
+			<a href="#" id="addSearchControl_SorOrder" class="addSearchControl" {$addSearchControl_SorOrder_attrs}>Sor Order</a><br>
+		{END addSearch_SorOrder}
+	</div>
+	
+	<div class="controlsBlock">
+		{BEGIN searchCtrlBlock}
+		<div class="srchPanelRow" {$filterRow_attrs}>
+			<div class="srchPanelCell">{$delCtrlButt}&nbsp;{$fLabel}:&nbsp;</div>
+			<div class="srchPanelCell srchPanelCell2">{$searchtype} {$searchcontrol} {$searchcontrol1}</div>
+		</div>
+		{END searchCtrlBlock}
+	</div>
+		
+	<div class="bottomSearchButt" align="left" {$bottomSearchButt_attrs}>
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" class="runner-button" {$searchbutton_attrs}>Search</a>
+		</span>
+	</div>
+</div>

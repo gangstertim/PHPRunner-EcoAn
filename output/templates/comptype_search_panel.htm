@@ -1,0 +1,64 @@
+<div class="searchOptions bottomPanelBorder" {$srchOpt_attrs}>
+	
+	<!-- Search panel content -->
+	<div class="srchCritTop" style="display: none;">
+		Criteria:&nbsp;
+		<input type="radio" name="srchType" class="runner-radio-button" {$all_checkbox}> {BEGIN all_checkbox_label}all{END all_checkbox_label}
+		&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="srchType" class="runner-radio-button" {$any_checkbox}> {BEGIN any_checkbox_label}any{END any_checkbox_label}
+	</div>
+	
+	<div class="addOption">
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideControlChooseMenu{$id}" class="runner-button" {$showHideCtrls_attrs}>Add field</a>
+		</span>
+		&nbsp;&nbsp;&nbsp;
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideSearchType{$id}" class="runner-button" {$showHideCtrlsOpt_attrs}>{$showHideOpt_mess}</a>
+		</span>
+	</div>
+	
+	<!-- choose controls div -->
+	<div class="runner-panel controlChooseMenu" {$controlChooseMenuDiv_attrs}>
+		{BEGIN addSearch_CompTypeEng}
+			<a href="#" id="addSearchControl_CompTypeEng" class="addSearchControl" {$addSearchControl_CompTypeEng_attrs}>Comp Type Eng</a><br>
+		{END addSearch_CompTypeEng}
+		{BEGIN addSearch_CompTypeLL}
+			<a href="#" id="addSearchControl_CompTypeLL" class="addSearchControl" {$addSearchControl_CompTypeLL_attrs}>Comp Type LL</a><br>
+		{END addSearch_CompTypeLL}
+		{BEGIN addSearch_DetailsEng}
+			<a href="#" id="addSearchControl_DetailsEng" class="addSearchControl" {$addSearchControl_DetailsEng_attrs}>Details Eng</a><br>
+		{END addSearch_DetailsEng}
+		{BEGIN addSearch_detailsLL}
+			<a href="#" id="addSearchControl_detailsLL" class="addSearchControl" {$addSearchControl_detailsLL_attrs}>Details LL</a><br>
+		{END addSearch_detailsLL}
+		{BEGIN addSearch_CompTypeNo}
+			<a href="#" id="addSearchControl_CompTypeNo" class="addSearchControl" {$addSearchControl_CompTypeNo_attrs}>Comp Type No</a><br>
+		{END addSearch_CompTypeNo}
+	</div>
+	
+	<table class="controlsBlock">
+	{BEGIN searchCtrlBlock}
+		<tr class="srchPanelRow" {$filterRow_attrs}>
+			<td class="srchPanelCell">{$delCtrlButt}</td>
+			<td class="srchPanelCell">{$fLabel}:&nbsp;</td>
+			<td class="srchPanelCell srchPanelCell2">
+				<div class="runner-searchtype">{$searchtype}</div>
+				<div class="runner-searchcontrol">{$searchcontrol}</div>
+				<div class="runner-searchcontrol">{$searchcontrol1}</div>
+		</tr>
+	{END searchCtrlBlock}
+	</table>
+	
+	<div class="bottomSearchButt" align="left" {$bottomSearchButt_attrs}>
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" class="runner-button" {$searchbutton_attrs}>Search</a>
+		</span>
+	</div>
+</div>

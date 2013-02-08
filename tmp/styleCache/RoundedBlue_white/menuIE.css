@@ -1,0 +1,176 @@
+.preview .runner-s-menu > * > * > .runner-toprow.style1 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-menu > * > * > .runner-toprow.style1 > *.runner-cc a
+{
+color: #333333
+}
+.preview .runner-s-menu > * > * > .runner-row.style1 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-menu > * > * > .runner-row.style1 > *.runner-cc a
+{
+color: #333333
+}
+.preview .runner-s-menu > * > * > .runner-toprow.style2 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-menu > * > * > .runner-toprow.style2 > *.runner-cc a
+{
+color: #333333
+}
+.preview .runner-s-menu > * > * > .runner-row.style2 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-menu > * > * > .runner-row.style2 > *.runner-cc a
+{
+color: #333333
+}
+.preview .runner-s-menu > * > * > .runner-toprow.style3 > *.runner-cc a,
+.preview .runner-s-menu > * > * > .runner-toprow > *.runner-cc a.alt,
+.preview  .runner-wrapper .runner-s-menu > * > * > .runner-toprow.style3 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-menu > * > * > .runner-toprow > *.runner-cc a.alt
+{
+color: #333333
+}
+.preview .runner-s-menu > * > * > .runner-row.style3 > *.runner-cc a,
+.preview .runner-s-menu > * > * > .runner-row > *.runner-cc a.alt,
+.preview  .runner-wrapper .runner-s-menu > * > * > .runner-row.style3 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-menu > * > * > .runner-row > *.runner-cc a.alt
+{
+color: #333333
+}
+.preview .runner-s-menu > * > * > .runner-toprow.runner-vmenu > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-menu > * > * > .runner-toprow.runner-vmenu > *.runner-cc a
+{
+color: #333333
+}
+.preview .runner-s-menu > * > * > .runner-b-vmenu.runner-vmenu > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-menu > * > * > .runner-b-vmenu.runner-vmenu > *.runner-cc a
+{
+color: #333333
+}
+.preview .runner-s-menu > * > * > .runner-b-vmenu.runner-vmenu.current > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-menu > * > * > .runner-b-vmenu.runner-vmenu.current > *.runner-cc a
+{
+color: #FFFFFF
+}
+.preview .runner-s-menu > * > * > .runner-b-vmenu.runner-vmenu.active > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-menu > * > * > .runner-b-vmenu.runner-vmenu.active > *.runner-cc a
+{
+color: #FFFFFF
+}
+.preview .runner-s-menu  .runner-btnright,
+.preview  .runner-wrapper .runner-s-menu  .runner-btnright
+{
+clip:rect(auto auto auto 490px);
+}
+.preview .runner-s-disabled-menu > * > * > .runner-toprow.style1 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-disabled-menu > * > * > .runner-toprow.style1 > *.runner-cc a
+{
+color: #B3B3B3
+}
+.preview .runner-s-disabled-menu > * > * > .runner-row.style1 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-disabled-menu > * > * > .runner-row.style1 > *.runner-cc a
+{
+color: #B3B3B3
+}
+.preview .runner-s-disabled-menu > * > * > .runner-toprow.style2 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-disabled-menu > * > * > .runner-toprow.style2 > *.runner-cc a
+{
+color: #B3B3B3
+}
+.preview .runner-s-disabled-menu > * > * > .runner-row.style2 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-disabled-menu > * > * > .runner-row.style2 > *.runner-cc a
+{
+color: #B3B3B3
+}
+.preview .runner-s-disabled-menu > * > * > .runner-toprow.style3 > *.runner-cc a,
+.preview .runner-s-disabled-menu > * > * > .runner-toprow > *.runner-cc a.alt,
+.preview  .runner-wrapper .runner-s-disabled-menu > * > * > .runner-toprow.style3 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-disabled-menu > * > * > .runner-toprow > *.runner-cc a.alt
+{
+color: #B3B3B3
+}
+.preview .runner-s-disabled-menu > * > * > .runner-row.style3 > *.runner-cc a,
+.preview .runner-s-disabled-menu > * > * > .runner-row > *.runner-cc a.alt,
+.preview  .runner-wrapper .runner-s-disabled-menu > * > * > .runner-row.style3 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-disabled-menu > * > * > .runner-row > *.runner-cc a.alt
+{
+color: #B3B3B3
+}
+.preview .runner-s-disabled-menu  .runner-btnright,
+.preview  .runner-wrapper .runner-s-disabled-menu  .runner-btnright
+{
+clip:rect(auto auto auto 490px);
+}
+.preview .runner-s-menu > * > * > .runner-toprow.style1 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-menu > * > * > .runner-toprow.style1 > *.runner-cc a
+{
+color: #333333
+}
+.preview .runner-s-menu > * > * > .runner-row.style1 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-menu > * > * > .runner-row.style1 > *.runner-cc a
+{
+color: #333333
+}
+.preview .runner-s-menu > * > * > .runner-toprow.style2 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-menu > * > * > .runner-toprow.style2 > *.runner-cc a
+{
+color: #333333
+}
+.preview .runner-s-menu > * > * > .runner-row.style2 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-menu > * > * > .runner-row.style2 > *.runner-cc a
+{
+color: #333333
+}
+.preview .runner-s-menu > * > * > .runner-toprow.style3 > *.runner-cc a,
+.preview .runner-s-menu > * > * > .runner-toprow > *.runner-cc a.alt,
+.preview  .runner-wrapper .runner-s-menu > * > * > .runner-toprow.style3 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-menu > * > * > .runner-toprow > *.runner-cc a.alt
+{
+color: #333333
+}
+.preview .runner-s-menu > * > * > .runner-row.style3 > *.runner-cc a,
+.preview .runner-s-menu > * > * > .runner-row > *.runner-cc a.alt,
+.preview  .runner-wrapper .runner-s-menu > * > * > .runner-row.style3 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-menu > * > * > .runner-row > *.runner-cc a.alt
+{
+color: #333333
+}
+.preview .runner-s-menu  .runner-btnright,
+.preview  .runner-wrapper .runner-s-menu  .runner-btnright
+{
+clip:rect(auto auto auto 490px);
+}
+.preview .runner-s-disabled-menu > * > * > .runner-toprow.style1 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-disabled-menu > * > * > .runner-toprow.style1 > *.runner-cc a
+{
+color: #B3B3B3
+}
+.preview .runner-s-disabled-menu > * > * > .runner-row.style1 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-disabled-menu > * > * > .runner-row.style1 > *.runner-cc a
+{
+color: #B3B3B3
+}
+.preview .runner-s-disabled-menu > * > * > .runner-toprow.style2 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-disabled-menu > * > * > .runner-toprow.style2 > *.runner-cc a
+{
+color: #B3B3B3
+}
+.preview .runner-s-disabled-menu > * > * > .runner-row.style2 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-disabled-menu > * > * > .runner-row.style2 > *.runner-cc a
+{
+color: #B3B3B3
+}
+.preview .runner-s-disabled-menu > * > * > .runner-toprow.style3 > *.runner-cc a,
+.preview .runner-s-disabled-menu > * > * > .runner-toprow > *.runner-cc a.alt,
+.preview  .runner-wrapper .runner-s-disabled-menu > * > * > .runner-toprow.style3 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-disabled-menu > * > * > .runner-toprow > *.runner-cc a.alt
+{
+color: #B3B3B3
+}
+.preview .runner-s-disabled-menu > * > * > .runner-row.style3 > *.runner-cc a,
+.preview .runner-s-disabled-menu > * > * > .runner-row > *.runner-cc a.alt,
+.preview  .runner-wrapper .runner-s-disabled-menu > * > * > .runner-row.style3 > *.runner-cc a,
+.preview  .runner-wrapper .runner-s-disabled-menu > * > * > .runner-row > *.runner-cc a.alt
+{
+color: #B3B3B3
+}
+.preview .runner-s-disabled-menu  .runner-btnright,
+.preview  .runner-wrapper .runner-s-disabled-menu  .runner-btnright
+{
+clip:rect(auto auto auto 490px);
+}

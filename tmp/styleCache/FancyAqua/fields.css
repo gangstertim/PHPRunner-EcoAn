@@ -1,0 +1,906 @@
+.preview .runner-s-fields > * > * > .runner-toprow > .runner-cl img
+{
+height: 4px
+}
+.preview .runner-s-fields > * > * > .runner-toprow > .runner-cr img
+{
+height: 4px
+}
+.preview .runner-s-fields > * > * > .runner-bottomrow > .runner-cl img
+{
+height: 4px
+}
+.preview .runner-s-fields > * > * > .runner-bottomrow > .runner-cr img
+{
+height: 4px
+}
+.preview .runner-s-fields > * > * > * > .runner-cl ,
+.preview .runner-s-fields > * > * > * > .runner-cl  > img,
+.preview .runner-s-fields > * > * > * > .runner-cr ,
+.preview .runner-s-fields > * > * > * > .runner-cr  > img
+{
+width: 4px
+}
+.preview .runner-s-fields > * > * > .runner-toprow.style1 > .runner-cl 
+{
+
+background: none;
+background-image: url('imgfields/sprite1.png?23294443');
+background-position: 0px 0px;
+background-repeat: no-repeat;
+}
+.preview .runner-s-fields > * > * > .runner-toprow.style1 > .runner-cc 
+{
+
+background: none;
+background-color:#CFDBEA;
+background-image: url('imgfields/sprite2.png?23294443');
+background-position: 0px 0px;
+background-repeat: repeat-x;
+}
+.preview .runner-s-fields > * > * > .runner-toprow.style1 > .runner-cr 
+{
+
+background: none;
+background-image: url('imgfields/sprite1.png?23294443');
+background-position: -4px 0px;
+background-repeat: no-repeat;
+}
+.preview .runner-s-fields > * > * > .runner-row.style1 > .runner-cl 
+{
+
+background: none;
+background-color:#CFDBEA;
+background-image: url('imgfields/sprite3.png?23294443');
+background-position: 0px 0px;
+background-repeat: repeat-y;
+}
+.preview .runner-s-fields > * > * > .runner-row.style1 > .runner-cc 
+{
+
+background: none;
+background-color:#CFDBEA;
+background-image: url('imgfields/sprite4.png?23294443');
+background-position: left top;
+background-repeat: repeat-x;
+}
+.preview .runner-s-fields > * > * > .runner-row.style1 > .runner-cr 
+{
+
+background: none;
+background-color:#CFDBEA;
+background-image: url('imgfields/sprite3.png?23294443');
+background-position: -4px 0px;
+background-repeat: repeat-y;
+}
+.preview .runner-s-fields > * > * > .runner-bottomrow.style1 > .runner-cl 
+{
+
+background: none;
+background-image: url('imgfields/sprite1.png?23294443');
+background-position: -8px 0px;
+background-repeat: no-repeat;
+}
+.preview .runner-s-fields > * > * > .runner-bottomrow.style1 > .runner-cc 
+{
+
+background: none;
+background-color:#CFDBEA;
+background-image: url('imgfields/sprite2.png?23294443');
+background-position: 0px -400px;
+background-repeat: repeat-x;
+}
+.preview .runner-s-fields > * > * > .runner-bottomrow.style1 > .runner-cr 
+{
+
+background: none;
+background-image: url('imgfields/sprite1.png?23294443');
+background-position: -12px 0px;
+background-repeat: no-repeat;
+}
+.preview .runner-s-fields > * > * > .runner-toprow.style2 > .runner-cl 
+{
+
+background: none;
+background-image: url('imgfields/sprite1.png?23294443');
+background-position: -16px 0px;
+background-repeat: no-repeat;
+}
+.preview .runner-s-fields > * > * > .runner-toprow.style2 > .runner-cc 
+{
+
+background: none;
+background-color:#EDEDED;
+background-image: url('imgfields/sprite2.png?23294443');
+background-position: 0px -404px;
+background-repeat: repeat-x;
+}
+.preview .runner-s-fields > * > * > .runner-toprow.style2 > .runner-cr 
+{
+
+background: none;
+background-image: url('imgfields/sprite1.png?23294443');
+background-position: -20px 0px;
+background-repeat: no-repeat;
+}
+.preview .runner-s-fields > * > * > .runner-row.style2 > .runner-cl 
+{
+
+background: none;
+background-color:#EDEDED;
+background-image: url('imgfields/sprite5.png?23294443');
+background-position: 0px 0px;
+background-repeat: repeat-y;
+}
+.preview .runner-s-fields > * > * > .runner-row.style2 > .runner-cc 
+{
+
+background: none;
+background-color:#EDEDED;
+}
+.preview .runner-s-fields > * > * > .runner-row.style2 > .runner-cr 
+{
+
+background: none;
+background-color:#EDEDED;
+background-image: url('imgfields/sprite5.png?23294443');
+background-position: -4px 0px;
+background-repeat: repeat-y;
+}
+.preview .runner-s-fields > * > * > .runner-bottomrow.style2 > .runner-cl 
+{
+
+background: none;
+background-image: url('imgfields/sprite1.png?23294443');
+background-position: -24px 0px;
+background-repeat: no-repeat;
+}
+.preview .runner-s-fields > * > * > .runner-bottomrow.style2 > .runner-cc 
+{
+
+background: none;
+background-color:#EDEDED;
+background-image: url('imgfields/sprite2.png?23294443');
+background-position: 0px -804px;
+background-repeat: repeat-x;
+}
+.preview .runner-s-fields > * > * > .runner-bottomrow.style2 > .runner-cr 
+{
+
+background: none;
+background-image: url('imgfields/sprite1.png?23294443');
+background-position: -28px 0px;
+background-repeat: no-repeat;
+}
+.preview .runner-s-fields > * > * > .runner-toprow.style3 > .runner-cl ,
+.preview .runner-s-fields > * > * > .runner-toprow > .runner-cl.alt 
+{
+
+background: none;
+background-image: url('imgfields/sprite1.png?23294443');
+background-position: -32px 0px;
+background-repeat: no-repeat;
+}
+.preview .runner-s-fields > * > * > .runner-toprow.style3 > .runner-cc ,
+.preview .runner-s-fields > * > * > .runner-toprow > .runner-cc.alt 
+{
+
+background: none;
+background-color:#CFDBEA;
+background-image: url('imgfields/sprite2.png?23294443');
+background-position: 0px -808px;
+background-repeat: repeat-x;
+}
+.preview .runner-s-fields > * > * > .runner-toprow.style3 > .runner-cr ,
+.preview .runner-s-fields > * > * > .runner-toprow > .runner-cr.alt 
+{
+
+background: none;
+background-image: url('imgfields/sprite1.png?23294443');
+background-position: -36px 0px;
+background-repeat: no-repeat;
+}
+.preview .runner-s-fields > * > * > .runner-row.style3 > .runner-cl ,
+.preview .runner-s-fields > * > * > .runner-row > .runner-cl.alt 
+{
+
+background: none;
+background-color:#CFDBEA;
+background-image: url('imgfields/sprite5.png?23294443');
+background-position: -8px 0px;
+background-repeat: repeat-y;
+}
+.preview .runner-s-fields > * > * > .runner-row.style3 > .runner-cc ,
+.preview .runner-s-fields > * > * > .runner-row > .runner-cc.alt 
+{
+
+background: none;
+background-color:#CFDBEA;
+}
+.preview .runner-s-fields > * > * > .runner-row.style3 > .runner-cr ,
+.preview .runner-s-fields > * > * > .runner-row > .runner-cr.alt 
+{
+
+background: none;
+background-color:#CFDBEA;
+background-image: url('imgfields/sprite5.png?23294443');
+background-position: -12px 0px;
+background-repeat: repeat-y;
+}
+.preview .runner-s-fields > * > * > .runner-bottomrow.style3 > .runner-cl ,
+.preview .runner-s-fields > * > * > .runner-bottomrow > .runner-cl.alt 
+{
+
+background: none;
+background-image: url('imgfields/sprite1.png?23294443');
+background-position: -40px 0px;
+background-repeat: no-repeat;
+}
+.preview .runner-s-fields > * > * > .runner-bottomrow.style3 > .runner-cc ,
+.preview .runner-s-fields > * > * > .runner-bottomrow > .runner-cc.alt 
+{
+
+background: none;
+background-color:#CFDBEA;
+background-image: url('imgfields/sprite2.png?23294443');
+background-position: 0px -1208px;
+background-repeat: repeat-x;
+}
+.preview .runner-s-fields > * > * > .runner-bottomrow.style3 > .runner-cr ,
+.preview .runner-s-fields > * > * > .runner-bottomrow > .runner-cr.alt 
+{
+
+background: none;
+background-image: url('imgfields/sprite1.png?23294443');
+background-position: -44px 0px;
+background-repeat: no-repeat;
+}
+.preview .runner-s-fields > * > * > .runner-toprow > .runner-cc2 
+{
+background-image:none;
+}
+.preview .runner-s-fields > * > * > .runner-row > .runner-cc2 
+{
+background-image:none;
+}
+.preview .runner-s-fields > * > * > .runner-toprow.style1 > *.runner-cc
+{
+color: #404040
+}
+.preview .runner-s-fields > * > * > .runner-row.style1 > *.runner-cc
+{
+color: #404040
+}
+.preview .runner-s-fields > * > * > .runner-toprow.style1 > *.runner-cc
+{
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.preview .runner-s-fields > * > * > .runner-row.style1 > *.runner-cc
+{
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.preview .runner-s-fields .runner-row.style1 > * > .runner-hc > * > * > .runner-cc
+{
+padding: 1px 6px 1px 6px;
+}
+.preview .runner-s-fields > * > * > .runner-toprow.header.style1 > .runner-cc 
+{
+padding: 5px 6px;
+}
+.preview .runner-s-fields > * > * > .runner-row.style1 > .runner-cc 
+{
+padding: 5px 6px;
+}
+.preview .runner-s-fields > * > * > .runner-bottomrow.style1 > .runner-cc 
+{
+padding: 0px;
+}
+.preview .runner-s-fields > * > * > .runner-toprow.style2 > *.runner-cc
+{
+color: #404040
+}
+.preview .runner-s-fields > * > * > .runner-row.style2 > *.runner-cc
+{
+color: #404040
+}
+.preview .runner-s-fields > * > * > .runner-toprow.style2 > *.runner-cc
+{
+font-family: Tahoma, sans-serif; font-size: 13px; font-weight: bold; font-style: normal; text-decoration: none;
+}
+.preview .runner-s-fields > * > * > .runner-row.style2 > *.runner-cc
+{
+font-family: Tahoma, sans-serif; font-size: 13px; font-weight: bold; font-style: normal; text-decoration: none;
+}
+.preview .runner-s-fields .runner-row.style2 > * > .runner-hc > * > * > .runner-cc
+{
+padding: 4px 4px 4px 4px;
+}
+.preview .runner-s-fields > * > * > .runner-toprow.header.style2 > .runner-cc 
+{
+padding: 8px 4px;
+}
+.preview .runner-s-fields > * > * > .runner-row.style2 > .runner-cc 
+{
+padding: 8px 4px;
+}
+.preview .runner-s-fields > * > * > .runner-bottomrow.style2 > .runner-cc 
+{
+padding: 0px;
+}
+.preview .runner-s-fields > * > * > .runner-toprow.style3 > *.runner-cc,
+.preview .runner-s-fields > * > * > .runner-toprow > *.runner-cc.alt
+{
+color: #404040
+}
+.preview .runner-s-fields > * > * > .runner-row.style3 > *.runner-cc,
+.preview .runner-s-fields > * > * > .runner-row > *.runner-cc.alt
+{
+color: #404040
+}
+.preview .runner-s-fields > * > * > .runner-toprow.style3 > *.runner-cc,
+.preview .runner-s-fields > * > * > .runner-toprow > *.runner-cc.alt
+{
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.preview .runner-s-fields > * > * > .runner-row.style3 > *.runner-cc,
+.preview .runner-s-fields > * > * > .runner-row > *.runner-cc.alt
+{
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.preview .runner-s-fields .runner-row.style3 > * > .runner-hc > * > * > .runner-cc
+{
+padding: 1px 4px 1px 4px;
+}
+.preview .runner-s-fields > * > * > .runner-toprow.header.style3 > .runner-cc ,
+.preview .runner-s-fields > * > * > .runner-toprow.header > .runner-cc.alt 
+{
+padding: 5px 4px;
+}
+.preview .runner-s-fields > * > * > .runner-row.style3 > .runner-cc ,
+.preview .runner-s-fields > * > * > .runner-row > .runner-cc.alt 
+{
+padding: 5px 4px;
+}
+.preview .runner-s-fields > * > * > .runner-bottomrow.style3 > .runner-cc ,
+.preview .runner-s-fields > * > * > .runner-bottomrow > .runner-cc.alt 
+{
+padding: 0px;
+}
+.preview .runner-s-fields .runner-cc  .runner-btnframe > .runner-button-img img,
+.preview  .runner-wrapper .runner-s-fields .runner-cc  .runner-btnframe > .runner-button-img img
+{
+margin: 5px
+}
+.preview .runner-s-fields .runner-cc  a.runner-button,
+.preview  .runner-wrapper .runner-s-fields .runner-cc  a.runner-button
+{
+line-height:23px; padding: 0 10px;
+}
+.preview .runner-s-fields .runner-cc  span.runner-btnframe,
+.preview  .runner-wrapper .runner-s-fields .runner-cc  span.runner-btnframe
+{
+height:23px;
+}
+.preview .runner-s-fields .runner-cc  .runner-btnleft,
+.preview .runner-s-fields .runner-cc  .runner-btnright,
+.preview  .runner-wrapper .runner-s-fields .runner-cc  .runner-btnleft,
+.preview  .runner-wrapper .runner-s-fields .runner-cc  .runner-btnright
+{
+background-image: url('btnbutton1/sprite1.png?23294412')
+}
+.preview .runner-s-fields .runner-cc  .runner-btnleft,
+.preview .runner-s-fields .runner-cc  .runner-btnright,
+.preview  .runner-wrapper .runner-s-fields .runner-cc  .runner-btnleft,
+.preview  .runner-wrapper .runner-s-fields .runner-cc  .runner-btnright
+{
+background-position:0px 0px;
+}
+.preview .runner-s-fields .runner-cc  span.runner-btnframe.hover .runner-btnleft,
+.preview .runner-s-fields .runner-cc  span.runner-btnframe.hover .runner-btnright,
+.preview  .runner-wrapper .runner-s-fields .runner-cc  span.runner-btnframe.hover .runner-btnleft,
+.preview  .runner-wrapper .runner-s-fields .runner-cc  span.runner-btnframe.hover .runner-btnright
+{
+background-position:0px -23px;
+}
+.preview .runner-s-fields .runner-cc  span.runner-btnframe.press .runner-btnleft,
+.preview .runner-s-fields .runner-cc  span.runner-btnframe.press .runner-btnright,
+.preview  .runner-wrapper .runner-s-fields .runner-cc  span.runner-btnframe.press .runner-btnleft,
+.preview  .runner-wrapper .runner-s-fields .runner-cc  span.runner-btnframe.press .runner-btnright
+{
+background-position:0px -46px;
+}
+.preview .runner-s-fields .runner-cc  span.runner-btnframe.disabled .runner-btnleft,
+.preview .runner-s-fields .runner-cc  span.runner-btnframe.disabled .runner-btnright,
+.preview  .runner-wrapper .runner-s-fields .runner-cc  span.runner-btnframe.disabled .runner-btnleft,
+.preview  .runner-wrapper .runner-s-fields .runner-cc  span.runner-btnframe.disabled .runner-btnright
+{
+background-position:0px -69px;
+}
+.preview .runner-s-fields .runner-cc  .runner-btnleft,
+.preview  .runner-wrapper .runner-s-fields .runner-cc  .runner-btnleft
+{
+height:23px; top:0; left:0; right:2px;
+}
+.preview .runner-s-fields .runner-cc  .runner-btnright,
+.preview  .runner-wrapper .runner-s-fields .runner-cc  .runner-btnright
+{
+width:500px; right:0; clip:rect(auto, auto, auto, 498px); height:23px;
+}
+.preview .runner-s-fields .runner-cc  span.runner-btnframe a.runner-button,
+.preview  .runner-wrapper .runner-s-fields .runner-cc  span.runner-btnframe a.runner-button
+{
+color: #FFFFFF
+}
+.preview .runner-s-fields .runner-cc  span.runner-btnframe.hover a.runner-button,
+.preview  .runner-wrapper .runner-s-fields .runner-cc  span.runner-btnframe.hover a.runner-button
+{
+color: #FFFFFF
+}
+.preview .runner-s-fields .runner-cc  span.runner-btnframe.press a.runner-button,
+.preview  .runner-wrapper .runner-s-fields .runner-cc  span.runner-btnframe.press a.runner-button
+{
+color: #FFFFFF
+}
+.preview .runner-s-fields .runner-cc  span.runner-btnframe.disabled a.runner-button,
+.preview  .runner-wrapper .runner-s-fields .runner-cc  span.runner-btnframe.disabled a.runner-button
+{
+color: #696969
+}
+.preview .runner-s-fields .runner-cc  a.runner-button,
+.preview  .runner-wrapper .runner-s-fields .runner-cc  a.runner-button
+{
+font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-toprow > .runner-cl img
+{
+height: 4px
+}
+.preview .runner-s-disabled-fields > * > * > .runner-toprow > .runner-cr img
+{
+height: 4px
+}
+.preview .runner-s-disabled-fields > * > * > .runner-bottomrow > .runner-cl img
+{
+height: 4px
+}
+.preview .runner-s-disabled-fields > * > * > .runner-bottomrow > .runner-cr img
+{
+height: 4px
+}
+.preview .runner-s-disabled-fields > * > * > * > .runner-cl ,
+.preview .runner-s-disabled-fields > * > * > * > .runner-cl  > img,
+.preview .runner-s-disabled-fields > * > * > * > .runner-cr ,
+.preview .runner-s-disabled-fields > * > * > * > .runner-cr  > img
+{
+width: 4px
+}
+.preview .runner-s-disabled-fields > * > * > .runner-toprow.style1 > .runner-cl 
+{
+
+background: none;
+background-image: url('imgdisabled-fields/sprite1.png?23294443');
+background-position: 0px 0px;
+background-repeat: no-repeat;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-toprow.style1 > .runner-cc 
+{
+
+background: none;
+background-color:#E5E5E5;
+background-image: url('imgdisabled-fields/sprite2.png?23294443');
+background-position: 0px 0px;
+background-repeat: repeat-x;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-toprow.style1 > .runner-cr 
+{
+
+background: none;
+background-image: url('imgdisabled-fields/sprite1.png?23294443');
+background-position: -4px 0px;
+background-repeat: no-repeat;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-row.style1 > .runner-cl 
+{
+
+background: none;
+background-color:#E5E5E5;
+background-image: url('imgdisabled-fields/sprite3.png?23294443');
+background-position: 0px 0px;
+background-repeat: repeat-y;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-row.style1 > .runner-cc 
+{
+
+background: none;
+background-color:#E5E5E5;
+background-image: url('imgdisabled-fields/sprite4.png?23294443');
+background-position: left top;
+background-repeat: repeat-x;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-row.style1 > .runner-cr 
+{
+
+background: none;
+background-color:#E5E5E5;
+background-image: url('imgdisabled-fields/sprite3.png?23294443');
+background-position: -4px 0px;
+background-repeat: repeat-y;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-bottomrow.style1 > .runner-cl 
+{
+
+background: none;
+background-image: url('imgdisabled-fields/sprite1.png?23294443');
+background-position: -8px 0px;
+background-repeat: no-repeat;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-bottomrow.style1 > .runner-cc 
+{
+
+background: none;
+background-color:#E5E5E5;
+background-image: url('imgdisabled-fields/sprite2.png?23294443');
+background-position: 0px -400px;
+background-repeat: repeat-x;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-bottomrow.style1 > .runner-cr 
+{
+
+background: none;
+background-image: url('imgdisabled-fields/sprite1.png?23294443');
+background-position: -12px 0px;
+background-repeat: no-repeat;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-toprow.style2 > .runner-cl 
+{
+
+background: none;
+background-image: url('imgdisabled-fields/sprite1.png?23294443');
+background-position: -16px 0px;
+background-repeat: no-repeat;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-toprow.style2 > .runner-cc 
+{
+
+background: none;
+background-color:#EBEBEB;
+background-image: url('imgdisabled-fields/sprite2.png?23294443');
+background-position: 0px -404px;
+background-repeat: repeat-x;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-toprow.style2 > .runner-cr 
+{
+
+background: none;
+background-image: url('imgdisabled-fields/sprite1.png?23294443');
+background-position: -20px 0px;
+background-repeat: no-repeat;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-row.style2 > .runner-cl 
+{
+
+background: none;
+background-color:#EBEBEB;
+background-image: url('imgdisabled-fields/sprite5.png?23294443');
+background-position: 0px 0px;
+background-repeat: repeat-y;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-row.style2 > .runner-cc 
+{
+
+background: none;
+background-color:#EBEBEB;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-row.style2 > .runner-cr 
+{
+
+background: none;
+background-color:#EBEBEB;
+background-image: url('imgdisabled-fields/sprite5.png?23294443');
+background-position: -4px 0px;
+background-repeat: repeat-y;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-bottomrow.style2 > .runner-cl 
+{
+
+background: none;
+background-image: url('imgdisabled-fields/sprite1.png?23294443');
+background-position: -24px 0px;
+background-repeat: no-repeat;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-bottomrow.style2 > .runner-cc 
+{
+
+background: none;
+background-color:#EBEBEB;
+background-image: url('imgdisabled-fields/sprite2.png?23294443');
+background-position: 0px -804px;
+background-repeat: repeat-x;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-bottomrow.style2 > .runner-cr 
+{
+
+background: none;
+background-image: url('imgdisabled-fields/sprite1.png?23294443');
+background-position: -28px 0px;
+background-repeat: no-repeat;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-toprow.style3 > .runner-cl ,
+.preview .runner-s-disabled-fields > * > * > .runner-toprow > .runner-cl.alt 
+{
+
+background: none;
+background-image: url('imgdisabled-fields/sprite1.png?23294443');
+background-position: -32px 0px;
+background-repeat: no-repeat;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-toprow.style3 > .runner-cc ,
+.preview .runner-s-disabled-fields > * > * > .runner-toprow > .runner-cc.alt 
+{
+
+background: none;
+background-color:#E5E5E5;
+background-image: url('imgdisabled-fields/sprite2.png?23294443');
+background-position: 0px -808px;
+background-repeat: repeat-x;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-toprow.style3 > .runner-cr ,
+.preview .runner-s-disabled-fields > * > * > .runner-toprow > .runner-cr.alt 
+{
+
+background: none;
+background-image: url('imgdisabled-fields/sprite1.png?23294443');
+background-position: -36px 0px;
+background-repeat: no-repeat;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-row.style3 > .runner-cl ,
+.preview .runner-s-disabled-fields > * > * > .runner-row > .runner-cl.alt 
+{
+
+background: none;
+background-color:#E5E5E5;
+background-image: url('imgdisabled-fields/sprite5.png?23294443');
+background-position: -8px 0px;
+background-repeat: repeat-y;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-row.style3 > .runner-cc ,
+.preview .runner-s-disabled-fields > * > * > .runner-row > .runner-cc.alt 
+{
+
+background: none;
+background-color:#E5E5E5;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-row.style3 > .runner-cr ,
+.preview .runner-s-disabled-fields > * > * > .runner-row > .runner-cr.alt 
+{
+
+background: none;
+background-color:#E5E5E5;
+background-image: url('imgdisabled-fields/sprite5.png?23294443');
+background-position: -12px 0px;
+background-repeat: repeat-y;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-bottomrow.style3 > .runner-cl ,
+.preview .runner-s-disabled-fields > * > * > .runner-bottomrow > .runner-cl.alt 
+{
+
+background: none;
+background-image: url('imgdisabled-fields/sprite1.png?23294443');
+background-position: -40px 0px;
+background-repeat: no-repeat;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-bottomrow.style3 > .runner-cc ,
+.preview .runner-s-disabled-fields > * > * > .runner-bottomrow > .runner-cc.alt 
+{
+
+background: none;
+background-color:#E5E5E5;
+background-image: url('imgdisabled-fields/sprite2.png?23294443');
+background-position: 0px -1208px;
+background-repeat: repeat-x;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-bottomrow.style3 > .runner-cr ,
+.preview .runner-s-disabled-fields > * > * > .runner-bottomrow > .runner-cr.alt 
+{
+
+background: none;
+background-image: url('imgdisabled-fields/sprite1.png?23294443');
+background-position: -44px 0px;
+background-repeat: no-repeat;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-toprow > .runner-cc2 
+{
+background-image:none;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-row > .runner-cc2 
+{
+background-image:none;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-toprow.style1 > *.runner-cc
+{
+color: #B7B7B7
+}
+.preview .runner-s-disabled-fields > * > * > .runner-row.style1 > *.runner-cc
+{
+color: #B7B7B7
+}
+.preview .runner-s-disabled-fields > * > * > .runner-toprow.style1 > *.runner-cc
+{
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-row.style1 > *.runner-cc
+{
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.preview .runner-s-disabled-fields .runner-row.style1 > * > .runner-hc > * > * > .runner-cc
+{
+padding: 1px 6px 1px 6px;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-toprow.header.style1 > .runner-cc 
+{
+padding: 5px 6px;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-row.style1 > .runner-cc 
+{
+padding: 5px 6px;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-bottomrow.style1 > .runner-cc 
+{
+padding: 0px;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-toprow.style2 > *.runner-cc
+{
+color: #B7B7B7
+}
+.preview .runner-s-disabled-fields > * > * > .runner-row.style2 > *.runner-cc
+{
+color: #B7B7B7
+}
+.preview .runner-s-disabled-fields > * > * > .runner-toprow.style2 > *.runner-cc
+{
+font-family: Tahoma, sans-serif; font-size: 13px; font-weight: bold; font-style: normal; text-decoration: none;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-row.style2 > *.runner-cc
+{
+font-family: Tahoma, sans-serif; font-size: 13px; font-weight: bold; font-style: normal; text-decoration: none;
+}
+.preview .runner-s-disabled-fields .runner-row.style2 > * > .runner-hc > * > * > .runner-cc
+{
+padding: 4px 4px 4px 4px;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-toprow.header.style2 > .runner-cc 
+{
+padding: 8px 4px;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-row.style2 > .runner-cc 
+{
+padding: 8px 4px;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-bottomrow.style2 > .runner-cc 
+{
+padding: 0px;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-toprow.style3 > *.runner-cc,
+.preview .runner-s-disabled-fields > * > * > .runner-toprow > *.runner-cc.alt
+{
+color: #B7B7B7
+}
+.preview .runner-s-disabled-fields > * > * > .runner-row.style3 > *.runner-cc,
+.preview .runner-s-disabled-fields > * > * > .runner-row > *.runner-cc.alt
+{
+color: #B7B7B7
+}
+.preview .runner-s-disabled-fields > * > * > .runner-toprow.style3 > *.runner-cc,
+.preview .runner-s-disabled-fields > * > * > .runner-toprow > *.runner-cc.alt
+{
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-row.style3 > *.runner-cc,
+.preview .runner-s-disabled-fields > * > * > .runner-row > *.runner-cc.alt
+{
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.preview .runner-s-disabled-fields .runner-row.style3 > * > .runner-hc > * > * > .runner-cc
+{
+padding: 1px 4px 1px 4px;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-toprow.header.style3 > .runner-cc ,
+.preview .runner-s-disabled-fields > * > * > .runner-toprow.header > .runner-cc.alt 
+{
+padding: 5px 4px;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-row.style3 > .runner-cc ,
+.preview .runner-s-disabled-fields > * > * > .runner-row > .runner-cc.alt 
+{
+padding: 5px 4px;
+}
+.preview .runner-s-disabled-fields > * > * > .runner-bottomrow.style3 > .runner-cc ,
+.preview .runner-s-disabled-fields > * > * > .runner-bottomrow > .runner-cc.alt 
+{
+padding: 0px;
+}
+.preview .runner-s-disabled-fields .runner-cc  .runner-btnframe > .runner-button-img img,
+.preview  .runner-wrapper .runner-s-disabled-fields .runner-cc  .runner-btnframe > .runner-button-img img
+{
+margin: 5px
+}
+.preview .runner-s-disabled-fields .runner-cc  a.runner-button,
+.preview  .runner-wrapper .runner-s-disabled-fields .runner-cc  a.runner-button
+{
+line-height:23px; padding: 0 10px;
+}
+.preview .runner-s-disabled-fields .runner-cc  span.runner-btnframe,
+.preview  .runner-wrapper .runner-s-disabled-fields .runner-cc  span.runner-btnframe
+{
+height:23px;
+}
+.preview .runner-s-disabled-fields .runner-cc  .runner-btnleft,
+.preview .runner-s-disabled-fields .runner-cc  .runner-btnright,
+.preview  .runner-wrapper .runner-s-disabled-fields .runner-cc  .runner-btnleft,
+.preview  .runner-wrapper .runner-s-disabled-fields .runner-cc  .runner-btnright
+{
+background-image: url('btndisabledbutton1/sprite1.png?23294443')
+}
+.preview .runner-s-disabled-fields .runner-cc  .runner-btnleft,
+.preview .runner-s-disabled-fields .runner-cc  .runner-btnright,
+.preview  .runner-wrapper .runner-s-disabled-fields .runner-cc  .runner-btnleft,
+.preview  .runner-wrapper .runner-s-disabled-fields .runner-cc  .runner-btnright
+{
+background-position:0px 0px;
+}
+.preview .runner-s-disabled-fields .runner-cc  span.runner-btnframe.hover .runner-btnleft,
+.preview .runner-s-disabled-fields .runner-cc  span.runner-btnframe.hover .runner-btnright,
+.preview  .runner-wrapper .runner-s-disabled-fields .runner-cc  span.runner-btnframe.hover .runner-btnleft,
+.preview  .runner-wrapper .runner-s-disabled-fields .runner-cc  span.runner-btnframe.hover .runner-btnright
+{
+background-position:0px -23px;
+}
+.preview .runner-s-disabled-fields .runner-cc  span.runner-btnframe.press .runner-btnleft,
+.preview .runner-s-disabled-fields .runner-cc  span.runner-btnframe.press .runner-btnright,
+.preview  .runner-wrapper .runner-s-disabled-fields .runner-cc  span.runner-btnframe.press .runner-btnleft,
+.preview  .runner-wrapper .runner-s-disabled-fields .runner-cc  span.runner-btnframe.press .runner-btnright
+{
+background-position:0px -46px;
+}
+.preview .runner-s-disabled-fields .runner-cc  span.runner-btnframe.disabled .runner-btnleft,
+.preview .runner-s-disabled-fields .runner-cc  span.runner-btnframe.disabled .runner-btnright,
+.preview  .runner-wrapper .runner-s-disabled-fields .runner-cc  span.runner-btnframe.disabled .runner-btnleft,
+.preview  .runner-wrapper .runner-s-disabled-fields .runner-cc  span.runner-btnframe.disabled .runner-btnright
+{
+background-position:0px -69px;
+}
+.preview .runner-s-disabled-fields .runner-cc  .runner-btnleft,
+.preview  .runner-wrapper .runner-s-disabled-fields .runner-cc  .runner-btnleft
+{
+height:23px; top:0; left:0; right:2px;
+}
+.preview .runner-s-disabled-fields .runner-cc  .runner-btnright,
+.preview  .runner-wrapper .runner-s-disabled-fields .runner-cc  .runner-btnright
+{
+width:500px; right:0; clip:rect(auto, auto, auto, 498px); height:23px;
+}
+.preview .runner-s-disabled-fields .runner-cc  span.runner-btnframe a.runner-button,
+.preview  .runner-wrapper .runner-s-disabled-fields .runner-cc  span.runner-btnframe a.runner-button
+{
+color: #F1F1F1
+}
+.preview .runner-s-disabled-fields .runner-cc  span.runner-btnframe.hover a.runner-button,
+.preview  .runner-wrapper .runner-s-disabled-fields .runner-cc  span.runner-btnframe.hover a.runner-button
+{
+color: #F1F1F1
+}
+.preview .runner-s-disabled-fields .runner-cc  span.runner-btnframe.press a.runner-button,
+.preview  .runner-wrapper .runner-s-disabled-fields .runner-cc  span.runner-btnframe.press a.runner-button
+{
+color: #F1F1F1
+}
+.preview .runner-s-disabled-fields .runner-cc  span.runner-btnframe.disabled a.runner-button,
+.preview  .runner-wrapper .runner-s-disabled-fields .runner-cc  span.runner-btnframe.disabled a.runner-button
+{
+color: #C3C3C3
+}
+.preview .runner-s-disabled-fields .runner-cc  a.runner-button,
+.preview  .runner-wrapper .runner-s-disabled-fields .runner-cc  a.runner-button
+{
+font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}

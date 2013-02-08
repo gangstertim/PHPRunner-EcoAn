@@ -1,0 +1,78 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=7">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--%%pagestyle%%-->
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+			
+
+
+
+{BEGIN container_grid}
+
+
+
+{BEGIN pages}
+<h1>Components Report</h1>
+	<span {$pages_attrs}>
+		Page <b>{$pageno}</b> of <b>{$maxpages}</b>
+	</span>
+
+
+			<style>
+table.report {border-collapse: collapse} 
+table.report td {padding: 2px;border-width: 1px; border-style: solid; border-color: #cccccc;}
+div.page_block{clear:left;}
+td.noborder{padding-right:8px}
+td.data{padding-right:8px}
+td.pagesummary{background-color:#ffffbb;}
+td.globalsummary{background-color:#ffe0b0;}
+</style>
+{BEGIN grid_block}
+<div id="grid_block{$id}" class="runner-s-grid">
+<TABLE class="runner-c runner-c-grid" WIDTH="auto" CELLPADDING=1 CELLSPACING=0 BORDER=0 style="border: solid; border-width: 1px; border-color: black;">
+<tr class="runner-toprow style1">
+</tr>
+{BEGIN grid_row}
+<!-------------------------------------  data ----------------------------------------->
+{BEGIN row_data}
+<tr class="runner-row style1">
+</tr>
+{END row_data}
+{END grid_row}
+</table>
+</div>
+{END grid_block}
+{END pages}
+
+
+
+
+
+{END container_grid}
+
+
+	{END body}
+	</body>
+</html>

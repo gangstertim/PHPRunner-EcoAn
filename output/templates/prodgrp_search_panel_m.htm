@@ -1,0 +1,98 @@
+<div class="searchOptions bottomPanelBorder" {$srchOpt_attrs}>
+	<!-- Search panel content -->
+	<div class="srchCritTop" style="display: none;">
+		Criteria:&nbsp;
+		<input type="radio" name="srchType" class="runner-radio-button" {$all_checkbox}> {BEGIN all_checkbox_label}all{END all_checkbox_label}
+		&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="srchType" class="runner-radio-button" {$any_checkbox}> {BEGIN any_checkbox_label}any{END any_checkbox_label}
+	</div>
+	
+	<div class="addOption">
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideControlChooseMenu{$id}" class="runner-button" {$showHideCtrls_attrs}>Add field</a>
+		</span>
+		&nbsp;&nbsp;&nbsp;
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideSearchType{$id}" class="runner-button" {$showHideCtrlsOpt_attrs}>{$showHideOpt_mess}</a>
+		</span>
+	</div>
+	
+	<!-- choose controls div -->
+	<div class="runner-panel controlChooseMenu" {$controlChooseMenuDiv_attrs}>
+		{BEGIN addSearch_ProdGrpCode}
+			<a href="#" id="addSearchControl_ProdGrpCode" class="addSearchControl" {$addSearchControl_ProdGrpCode_attrs}>Prod Grp Code</a><br>
+		{END addSearch_ProdGrpCode}
+		{BEGIN addSearch_ThaiProductGroup}
+			<a href="#" id="addSearchControl_ThaiProductGroup" class="addSearchControl" {$addSearchControl_ThaiProductGroup_attrs}>Thai Product Group</a><br>
+		{END addSearch_ThaiProductGroup}
+		{BEGIN addSearch_EngProductGroup}
+			<a href="#" id="addSearchControl_EngProductGroup" class="addSearchControl" {$addSearchControl_EngProductGroup_attrs}>Eng Product Group</a><br>
+		{END addSearch_EngProductGroup}
+		{BEGIN addSearch_MarkDownWholesale}
+			<a href="#" id="addSearchControl_MarkDownWholesale" class="addSearchControl" {$addSearchControl_MarkDownWholesale_attrs}>Mark Down Wholesale</a><br>
+		{END addSearch_MarkDownWholesale}
+		{BEGIN addSearch_MarkDownRetail}
+			<a href="#" id="addSearchControl_MarkDownRetail" class="addSearchControl" {$addSearchControl_MarkDownRetail_attrs}>Mark Down Retail</a><br>
+		{END addSearch_MarkDownRetail}
+		{BEGIN addSearch_DaysWorked}
+			<a href="#" id="addSearchControl_DaysWorked" class="addSearchControl" {$addSearchControl_DaysWorked_attrs}>Days Worked</a><br>
+		{END addSearch_DaysWorked}
+		{BEGIN addSearch_NumberWorkers}
+			<a href="#" id="addSearchControl_NumberWorkers" class="addSearchControl" {$addSearchControl_NumberWorkers_attrs}>Number Workers</a><br>
+		{END addSearch_NumberWorkers}
+		{BEGIN addSearch_QtyMolds}
+			<a href="#" id="addSearchControl_QtyMolds" class="addSearchControl" {$addSearchControl_QtyMolds_attrs}>Qty Molds</a><br>
+		{END addSearch_QtyMolds}
+		{BEGIN addSearch_MouldsPerDay}
+			<a href="#" id="addSearchControl_MouldsPerDay" class="addSearchControl" {$addSearchControl_MouldsPerDay_attrs}>Moulds Per Day</a><br>
+		{END addSearch_MouldsPerDay}
+		{BEGIN addSearch_Interest}
+			<a href="#" id="addSearchControl_Interest" class="addSearchControl" {$addSearchControl_Interest_attrs}>Interest</a><br>
+		{END addSearch_Interest}
+		{BEGIN addSearch_Period}
+			<a href="#" id="addSearchControl_Period" class="addSearchControl" {$addSearchControl_Period_attrs}>Period</a><br>
+		{END addSearch_Period}
+		{BEGIN addSearch_DownPay}
+			<a href="#" id="addSearchControl_DownPay" class="addSearchControl" {$addSearchControl_DownPay_attrs}>Down Pay</a><br>
+		{END addSearch_DownPay}
+		{BEGIN addSearch_MonthsOfCap}
+			<a href="#" id="addSearchControl_MonthsOfCap" class="addSearchControl" {$addSearchControl_MonthsOfCap_attrs}>Months Of Cap</a><br>
+		{END addSearch_MonthsOfCap}
+		{BEGIN addSearch_Waste}
+			<a href="#" id="addSearchControl_Waste" class="addSearchControl" {$addSearchControl_Waste_attrs}>Waste</a><br>
+		{END addSearch_Waste}
+		{BEGIN addSearch_Maint}
+			<a href="#" id="addSearchControl_Maint" class="addSearchControl" {$addSearchControl_Maint_attrs}>Maint</a><br>
+		{END addSearch_Maint}
+		{BEGIN addSearch_ItemNotes}
+			<a href="#" id="addSearchControl_ItemNotes" class="addSearchControl" {$addSearchControl_ItemNotes_attrs}>Item Notes</a><br>
+		{END addSearch_ItemNotes}
+		{BEGIN addSearch_CuringTime}
+			<a href="#" id="addSearchControl_CuringTime" class="addSearchControl" {$addSearchControl_CuringTime_attrs}>Curing Time</a><br>
+		{END addSearch_CuringTime}
+		{BEGIN addSearch_GAP}
+			<a href="#" id="addSearchControl_GAP" class="addSearchControl" {$addSearchControl_GAP_attrs}>GAP</a><br>
+		{END addSearch_GAP}
+	</div>
+	
+	<div class="controlsBlock">
+		{BEGIN searchCtrlBlock}
+		<div class="srchPanelRow" {$filterRow_attrs}>
+			<div class="srchPanelCell">{$delCtrlButt}&nbsp;{$fLabel}:&nbsp;</div>
+			<div class="srchPanelCell srchPanelCell2">{$searchtype} {$searchcontrol} {$searchcontrol1}</div>
+		</div>
+		{END searchCtrlBlock}
+	</div>
+		
+	<div class="bottomSearchButt" align="left" {$bottomSearchButt_attrs}>
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" class="runner-button" {$searchbutton_attrs}>Search</a>
+		</span>
+	</div>
+</div>

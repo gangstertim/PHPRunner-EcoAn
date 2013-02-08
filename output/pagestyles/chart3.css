@@ -1,0 +1,358 @@
+.page-chart3,
+  .runner-pagewrapper .page-chart3,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3
+{
+padding-top:10px; padding-left:10px;
+}
+.page-chart3 .runner-c-message,
+  .runner-pagewrapper .page-chart3 .runner-c-message,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-c-message
+{
+margin-bottom:5px;
+}
+.page-chart3 .runner-c-message,
+  .runner-pagewrapper .page-chart3 .runner-c-message,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-c-message
+{
+width:100%;
+}
+.page-chart3 .runner-b-message, .page-chart3 .runner-b-message,
+.page-chart3 .runner-b-message, .page-chart3 .runner-b-message > *,
+  .runner-pagewrapper .page-chart3 .runner-b-message, .page-chart3 .runner-b-message,
+  .runner-pagewrapper .page-chart3 .runner-b-message, .page-chart3 .runner-b-message > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-message, .page-chart3 .runner-b-message,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-message, .page-chart3 .runner-b-message > *
+{
+white-space: nowrap;
+}
+.page-chart3 .runner-b-message, .page-chart3 .runner-b-message,
+.page-chart3 .runner-b-message, .page-chart3 .runner-b-message > *,
+  .runner-pagewrapper .page-chart3 .runner-b-message, .page-chart3 .runner-b-message,
+  .runner-pagewrapper .page-chart3 .runner-b-message, .page-chart3 .runner-b-message > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-message, .page-chart3 .runner-b-message,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-message, .page-chart3 .runner-b-message > *
+{
+text-align: center;
+}
+.page-chart3 .runner-c-form,
+  .runner-pagewrapper .page-chart3 .runner-c-form,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-c-form
+{
+margin-bottom:5px;
+}
+.page-chart3 .runner-b-chart, .page-chart3 .runner-b-chart,
+.page-chart3 .runner-b-chart, .page-chart3 .runner-b-chart > *,
+  .runner-pagewrapper .page-chart3 .runner-b-chart, .page-chart3 .runner-b-chart,
+  .runner-pagewrapper .page-chart3 .runner-b-chart, .page-chart3 .runner-b-chart > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-chart, .page-chart3 .runner-b-chart,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-chart, .page-chart3 .runner-b-chart > *
+{
+white-space: nowrap;
+}
+.page-chart3 .runner-b-chart, .page-chart3 .runner-b-chart,
+.page-chart3 .runner-b-chart, .page-chart3 .runner-b-chart > *,
+  .runner-pagewrapper .page-chart3 .runner-b-chart, .page-chart3 .runner-b-chart,
+  .runner-pagewrapper .page-chart3 .runner-b-chart, .page-chart3 .runner-b-chart > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-chart, .page-chart3 .runner-b-chart,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-chart, .page-chart3 .runner-b-chart > *
+{
+text-align: left;
+}
+body.page-chart3 .runner-center
+{
+padding-right: 5px;
+}
+.page-chart3 .runner-c-left,
+  .runner-pagewrapper .page-chart3 .runner-c-left,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-c-left
+{
+margin-bottom:5px;
+}
+.page-chart3 .runner-c-left,
+  .runner-pagewrapper .page-chart3 .runner-c-left,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-c-left
+{
+width:100%;
+}
+.page-chart3 .runner-b-vsearch1, .page-chart3 .runner-b-vsearch1,
+.page-chart3 .runner-b-vsearch1, .page-chart3 .runner-b-vsearch1 > *,
+  .runner-pagewrapper .page-chart3 .runner-b-vsearch1, .page-chart3 .runner-b-vsearch1,
+  .runner-pagewrapper .page-chart3 .runner-b-vsearch1, .page-chart3 .runner-b-vsearch1 > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-vsearch1, .page-chart3 .runner-b-vsearch1,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-vsearch1, .page-chart3 .runner-b-vsearch1 > *
+{
+white-space: nowrap;
+}
+.page-chart3 .runner-b-vsearch1, .page-chart3 .runner-b-vsearch1,
+.page-chart3 .runner-b-vsearch1, .page-chart3 .runner-b-vsearch1 > *,
+  .runner-pagewrapper .page-chart3 .runner-b-vsearch1, .page-chart3 .runner-b-vsearch1,
+  .runner-pagewrapper .page-chart3 .runner-b-vsearch1, .page-chart3 .runner-b-vsearch1 > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-vsearch1, .page-chart3 .runner-b-vsearch1,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-vsearch1, .page-chart3 .runner-b-vsearch1 > *
+{
+text-align: left;
+}
+.page-chart3 .runner-b-vsearch2, .page-chart3 .runner-b-vsearch2,
+.page-chart3 .runner-b-vsearch2, .page-chart3 .runner-b-vsearch2 > *,
+  .runner-pagewrapper .page-chart3 .runner-b-vsearch2, .page-chart3 .runner-b-vsearch2,
+  .runner-pagewrapper .page-chart3 .runner-b-vsearch2, .page-chart3 .runner-b-vsearch2 > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-vsearch2, .page-chart3 .runner-b-vsearch2,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-vsearch2, .page-chart3 .runner-b-vsearch2 > *
+{
+white-space: nowrap;
+}
+.page-chart3 .runner-b-vsearch2, .page-chart3 .runner-b-vsearch2,
+.page-chart3 .runner-b-vsearch2, .page-chart3 .runner-b-vsearch2 > *,
+  .runner-pagewrapper .page-chart3 .runner-b-vsearch2, .page-chart3 .runner-b-vsearch2,
+  .runner-pagewrapper .page-chart3 .runner-b-vsearch2, .page-chart3 .runner-b-vsearch2 > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-vsearch2, .page-chart3 .runner-b-vsearch2,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-vsearch2, .page-chart3 .runner-b-vsearch2 > *
+{
+text-align: left;
+}
+.page-chart3 .runner-b-searchpanel, .page-chart3 .runner-b-searchpanel,
+.page-chart3 .runner-b-searchpanel, .page-chart3 .runner-b-searchpanel > *,
+  .runner-pagewrapper .page-chart3 .runner-b-searchpanel, .page-chart3 .runner-b-searchpanel,
+  .runner-pagewrapper .page-chart3 .runner-b-searchpanel, .page-chart3 .runner-b-searchpanel > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-searchpanel, .page-chart3 .runner-b-searchpanel,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-searchpanel, .page-chart3 .runner-b-searchpanel > *
+{
+white-space: nowrap;
+}
+.page-chart3 .runner-b-searchpanel, .page-chart3 .runner-b-searchpanel,
+.page-chart3 .runner-b-searchpanel, .page-chart3 .runner-b-searchpanel > *,
+  .runner-pagewrapper .page-chart3 .runner-b-searchpanel, .page-chart3 .runner-b-searchpanel,
+  .runner-pagewrapper .page-chart3 .runner-b-searchpanel, .page-chart3 .runner-b-searchpanel > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-searchpanel, .page-chart3 .runner-b-searchpanel,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-searchpanel, .page-chart3 .runner-b-searchpanel > *
+{
+text-align: left;
+}
+.page-chart3 .runner-b-vdetails_found, .page-chart3 .runner-b-vdetails_found,
+.page-chart3 .runner-b-vdetails_found, .page-chart3 .runner-b-vdetails_found > *,
+  .runner-pagewrapper .page-chart3 .runner-b-vdetails_found, .page-chart3 .runner-b-vdetails_found,
+  .runner-pagewrapper .page-chart3 .runner-b-vdetails_found, .page-chart3 .runner-b-vdetails_found > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-vdetails_found, .page-chart3 .runner-b-vdetails_found,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-vdetails_found, .page-chart3 .runner-b-vdetails_found > *
+{
+white-space: nowrap;
+}
+.page-chart3 .runner-b-vdetails_found, .page-chart3 .runner-b-vdetails_found,
+.page-chart3 .runner-b-vdetails_found, .page-chart3 .runner-b-vdetails_found > *,
+  .runner-pagewrapper .page-chart3 .runner-b-vdetails_found, .page-chart3 .runner-b-vdetails_found,
+  .runner-pagewrapper .page-chart3 .runner-b-vdetails_found, .page-chart3 .runner-b-vdetails_found > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-vdetails_found, .page-chart3 .runner-b-vdetails_found,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-vdetails_found, .page-chart3 .runner-b-vdetails_found > *
+{
+text-align: left;
+}
+.page-chart3 .runner-b-vpage_of, .page-chart3 .runner-b-vpage_of,
+.page-chart3 .runner-b-vpage_of, .page-chart3 .runner-b-vpage_of > *,
+  .runner-pagewrapper .page-chart3 .runner-b-vpage_of, .page-chart3 .runner-b-vpage_of,
+  .runner-pagewrapper .page-chart3 .runner-b-vpage_of, .page-chart3 .runner-b-vpage_of > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-vpage_of, .page-chart3 .runner-b-vpage_of,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-vpage_of, .page-chart3 .runner-b-vpage_of > *
+{
+white-space: nowrap;
+}
+.page-chart3 .runner-b-vpage_of, .page-chart3 .runner-b-vpage_of,
+.page-chart3 .runner-b-vpage_of, .page-chart3 .runner-b-vpage_of > *,
+  .runner-pagewrapper .page-chart3 .runner-b-vpage_of, .page-chart3 .runner-b-vpage_of,
+  .runner-pagewrapper .page-chart3 .runner-b-vpage_of, .page-chart3 .runner-b-vpage_of > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-vpage_of, .page-chart3 .runner-b-vpage_of,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-vpage_of, .page-chart3 .runner-b-vpage_of > *
+{
+text-align: left;
+}
+.page-chart3 .runner-b-vrecsperpage, .page-chart3 .runner-b-vrecsperpage,
+.page-chart3 .runner-b-vrecsperpage, .page-chart3 .runner-b-vrecsperpage > *,
+  .runner-pagewrapper .page-chart3 .runner-b-vrecsperpage, .page-chart3 .runner-b-vrecsperpage,
+  .runner-pagewrapper .page-chart3 .runner-b-vrecsperpage, .page-chart3 .runner-b-vrecsperpage > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-vrecsperpage, .page-chart3 .runner-b-vrecsperpage,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-vrecsperpage, .page-chart3 .runner-b-vrecsperpage > *
+{
+white-space: nowrap;
+}
+.page-chart3 .runner-b-vrecsperpage, .page-chart3 .runner-b-vrecsperpage,
+.page-chart3 .runner-b-vrecsperpage, .page-chart3 .runner-b-vrecsperpage > *,
+  .runner-pagewrapper .page-chart3 .runner-b-vrecsperpage, .page-chart3 .runner-b-vrecsperpage,
+  .runner-pagewrapper .page-chart3 .runner-b-vrecsperpage, .page-chart3 .runner-b-vrecsperpage > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-vrecsperpage, .page-chart3 .runner-b-vrecsperpage,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-vrecsperpage, .page-chart3 .runner-b-vrecsperpage > *
+{
+text-align: left;
+}
+body.page-chart3 .runner-left
+{
+width:30%;
+}
+body.page-chart3 .runner-left
+{
+padding-right: 5px;
+}
+.page-chart3 .runner-c-toplinks,
+  .runner-pagewrapper .page-chart3 .runner-c-toplinks,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-c-toplinks
+{
+margin-bottom:5px;
+}
+.page-chart3 .runner-c-toplinks,
+  .runner-pagewrapper .page-chart3 .runner-c-toplinks,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-c-toplinks
+{
+width:100%;
+}
+.page-chart3 .runner-b-toplinks_print, .page-chart3 .runner-b-toplinks_print,
+.page-chart3 .runner-b-toplinks_print, .page-chart3 .runner-b-toplinks_print > *,
+  .runner-pagewrapper .page-chart3 .runner-b-toplinks_print, .page-chart3 .runner-b-toplinks_print,
+  .runner-pagewrapper .page-chart3 .runner-b-toplinks_print, .page-chart3 .runner-b-toplinks_print > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-toplinks_print, .page-chart3 .runner-b-toplinks_print,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-toplinks_print, .page-chart3 .runner-b-toplinks_print > *
+{
+white-space: nowrap;
+}
+.page-chart3 .runner-b-toplinks_print, .page-chart3 .runner-b-toplinks_print,
+.page-chart3 .runner-b-toplinks_print, .page-chart3 .runner-b-toplinks_print > *,
+  .runner-pagewrapper .page-chart3 .runner-b-toplinks_print, .page-chart3 .runner-b-toplinks_print,
+  .runner-pagewrapper .page-chart3 .runner-b-toplinks_print, .page-chart3 .runner-b-toplinks_print > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-toplinks_print, .page-chart3 .runner-b-toplinks_print,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-toplinks_print, .page-chart3 .runner-b-toplinks_print > *
+{
+text-align: left;
+}
+.page-chart3 .runner-b-toplinks_advsearch, .page-chart3 .runner-b-toplinks_advsearch,
+.page-chart3 .runner-b-toplinks_advsearch, .page-chart3 .runner-b-toplinks_advsearch > *,
+  .runner-pagewrapper .page-chart3 .runner-b-toplinks_advsearch, .page-chart3 .runner-b-toplinks_advsearch,
+  .runner-pagewrapper .page-chart3 .runner-b-toplinks_advsearch, .page-chart3 .runner-b-toplinks_advsearch > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-toplinks_advsearch, .page-chart3 .runner-b-toplinks_advsearch,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-toplinks_advsearch, .page-chart3 .runner-b-toplinks_advsearch > *
+{
+white-space: nowrap;
+}
+.page-chart3 .runner-b-toplinks_advsearch, .page-chart3 .runner-b-toplinks_advsearch,
+.page-chart3 .runner-b-toplinks_advsearch, .page-chart3 .runner-b-toplinks_advsearch > *,
+  .runner-pagewrapper .page-chart3 .runner-b-toplinks_advsearch, .page-chart3 .runner-b-toplinks_advsearch,
+  .runner-pagewrapper .page-chart3 .runner-b-toplinks_advsearch, .page-chart3 .runner-b-toplinks_advsearch > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-toplinks_advsearch, .page-chart3 .runner-b-toplinks_advsearch,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-toplinks_advsearch, .page-chart3 .runner-b-toplinks_advsearch > *
+{
+text-align: left;
+}
+.page-chart3 .runner-b-toplinks_import, .page-chart3 .runner-b-toplinks_import,
+.page-chart3 .runner-b-toplinks_import, .page-chart3 .runner-b-toplinks_import > *,
+  .runner-pagewrapper .page-chart3 .runner-b-toplinks_import, .page-chart3 .runner-b-toplinks_import,
+  .runner-pagewrapper .page-chart3 .runner-b-toplinks_import, .page-chart3 .runner-b-toplinks_import > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-toplinks_import, .page-chart3 .runner-b-toplinks_import,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-toplinks_import, .page-chart3 .runner-b-toplinks_import > *
+{
+white-space: nowrap;
+}
+.page-chart3 .runner-b-toplinks_import, .page-chart3 .runner-b-toplinks_import,
+.page-chart3 .runner-b-toplinks_import, .page-chart3 .runner-b-toplinks_import > *,
+  .runner-pagewrapper .page-chart3 .runner-b-toplinks_import, .page-chart3 .runner-b-toplinks_import,
+  .runner-pagewrapper .page-chart3 .runner-b-toplinks_import, .page-chart3 .runner-b-toplinks_import > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-toplinks_import, .page-chart3 .runner-b-toplinks_import,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-toplinks_import, .page-chart3 .runner-b-toplinks_import > *
+{
+text-align: left;
+}
+.page-chart3 .runner-b-toplinks_export, .page-chart3 .runner-b-toplinks_export,
+.page-chart3 .runner-b-toplinks_export, .page-chart3 .runner-b-toplinks_export > *,
+  .runner-pagewrapper .page-chart3 .runner-b-toplinks_export, .page-chart3 .runner-b-toplinks_export,
+  .runner-pagewrapper .page-chart3 .runner-b-toplinks_export, .page-chart3 .runner-b-toplinks_export > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-toplinks_export, .page-chart3 .runner-b-toplinks_export,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-toplinks_export, .page-chart3 .runner-b-toplinks_export > *
+{
+white-space: nowrap;
+}
+.page-chart3 .runner-b-toplinks_export, .page-chart3 .runner-b-toplinks_export,
+.page-chart3 .runner-b-toplinks_export, .page-chart3 .runner-b-toplinks_export > *,
+  .runner-pagewrapper .page-chart3 .runner-b-toplinks_export, .page-chart3 .runner-b-toplinks_export,
+  .runner-pagewrapper .page-chart3 .runner-b-toplinks_export, .page-chart3 .runner-b-toplinks_export > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-toplinks_export, .page-chart3 .runner-b-toplinks_export,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-toplinks_export, .page-chart3 .runner-b-toplinks_export > *
+{
+text-align: left;
+}
+.page-chart3 .runner-b-toplinks_export_links, .page-chart3 .runner-b-toplinks_export_links,
+.page-chart3 .runner-b-toplinks_export_links, .page-chart3 .runner-b-toplinks_export_links > *,
+  .runner-pagewrapper .page-chart3 .runner-b-toplinks_export_links, .page-chart3 .runner-b-toplinks_export_links,
+  .runner-pagewrapper .page-chart3 .runner-b-toplinks_export_links, .page-chart3 .runner-b-toplinks_export_links > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-toplinks_export_links, .page-chart3 .runner-b-toplinks_export_links,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-toplinks_export_links, .page-chart3 .runner-b-toplinks_export_links > *
+{
+white-space: nowrap;
+}
+.page-chart3 .runner-b-toplinks_export_links, .page-chart3 .runner-b-toplinks_export_links,
+.page-chart3 .runner-b-toplinks_export_links, .page-chart3 .runner-b-toplinks_export_links > *,
+  .runner-pagewrapper .page-chart3 .runner-b-toplinks_export_links, .page-chart3 .runner-b-toplinks_export_links,
+  .runner-pagewrapper .page-chart3 .runner-b-toplinks_export_links, .page-chart3 .runner-b-toplinks_export_links > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-toplinks_export_links, .page-chart3 .runner-b-toplinks_export_links,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-toplinks_export_links, .page-chart3 .runner-b-toplinks_export_links > *
+{
+text-align: left;
+}
+.page-chart3 .runner-b-loggedas, .page-chart3 .runner-b-loggedas,
+.page-chart3 .runner-b-loggedas, .page-chart3 .runner-b-loggedas > *,
+  .runner-pagewrapper .page-chart3 .runner-b-loggedas, .page-chart3 .runner-b-loggedas,
+  .runner-pagewrapper .page-chart3 .runner-b-loggedas, .page-chart3 .runner-b-loggedas > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-loggedas, .page-chart3 .runner-b-loggedas,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-loggedas, .page-chart3 .runner-b-loggedas > *
+{
+white-space: nowrap;
+}
+.page-chart3 .runner-b-loggedas, .page-chart3 .runner-b-loggedas,
+.page-chart3 .runner-b-loggedas, .page-chart3 .runner-b-loggedas > *,
+  .runner-pagewrapper .page-chart3 .runner-b-loggedas, .page-chart3 .runner-b-loggedas,
+  .runner-pagewrapper .page-chart3 .runner-b-loggedas, .page-chart3 .runner-b-loggedas > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-loggedas, .page-chart3 .runner-b-loggedas,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-loggedas, .page-chart3 .runner-b-loggedas > *
+{
+text-align: right;
+}
+.page-chart3 .runner-b-languages, .page-chart3 .runner-b-languages,
+.page-chart3 .runner-b-languages, .page-chart3 .runner-b-languages > *,
+  .runner-pagewrapper .page-chart3 .runner-b-languages, .page-chart3 .runner-b-languages,
+  .runner-pagewrapper .page-chart3 .runner-b-languages, .page-chart3 .runner-b-languages > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-languages, .page-chart3 .runner-b-languages,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-languages, .page-chart3 .runner-b-languages > *
+{
+white-space: nowrap;
+}
+.page-chart3 .runner-b-languages, .page-chart3 .runner-b-languages,
+.page-chart3 .runner-b-languages, .page-chart3 .runner-b-languages > *,
+  .runner-pagewrapper .page-chart3 .runner-b-languages, .page-chart3 .runner-b-languages,
+  .runner-pagewrapper .page-chart3 .runner-b-languages, .page-chart3 .runner-b-languages > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-languages, .page-chart3 .runner-b-languages,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-languages, .page-chart3 .runner-b-languages > *
+{
+text-align: right;
+}
+.page-chart3 .runner-c-hmenu,
+  .runner-pagewrapper .page-chart3 .runner-c-hmenu,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-c-hmenu
+{
+margin-bottom:0px;
+}
+.page-chart3 .runner-b-hmenu, .page-chart3 .runner-b-hmenu,
+.page-chart3 .runner-b-hmenu, .page-chart3 .runner-b-hmenu > *,
+  .runner-pagewrapper .page-chart3 .runner-b-hmenu, .page-chart3 .runner-b-hmenu,
+  .runner-pagewrapper .page-chart3 .runner-b-hmenu, .page-chart3 .runner-b-hmenu > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-hmenu, .page-chart3 .runner-b-hmenu,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-hmenu, .page-chart3 .runner-b-hmenu > *
+{
+white-space: nowrap;
+}
+.page-chart3 .runner-b-hmenu, .page-chart3 .runner-b-hmenu,
+.page-chart3 .runner-b-hmenu, .page-chart3 .runner-b-hmenu > *,
+  .runner-pagewrapper .page-chart3 .runner-b-hmenu, .page-chart3 .runner-b-hmenu,
+  .runner-pagewrapper .page-chart3 .runner-b-hmenu, .page-chart3 .runner-b-hmenu > *,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-hmenu, .page-chart3 .runner-b-hmenu,
+  .runner-pagewrapper .runner-pagewrapper .page-chart3 .runner-b-hmenu, .page-chart3 .runner-b-hmenu > *
+{
+text-align: left;
+}
+body.page-chart3 .runner-top
+{
+padding-right: 5px;
+}
